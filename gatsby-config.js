@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Lo OpenLab',
+    title: `L'OpenLab for Kids`,
+    description: 'Fun and creative workshops for babies & children aged from 0 to 11'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
