@@ -1,10 +1,12 @@
 const path = require('path');
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
-    const { createPage } = boundActionCreators;
+  const { createPage } = boundActionCreators;
 
-    const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
-    return graphql(`{
+  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
+  const pageTemplate = path.resolve(`src/templates/page.js`);
+
+  return graphql(`{
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
@@ -16,32 +18,32 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               date
               path
               title
+              layout
             }
           }
         }
       }
     }`)
-        .then(result => {
-            if (result.errors) {
-                return Promise.reject(result.errors)
-            }
+    .then(result => {
+      if (result.errors) {
+        return Promise.reject(result.errors)
+      }
 
-            const posts = result.data.allMarkdownRemark.edges;
+      const posts = result.data.allMarkdownRemark.edges;
 
-            // Create pages for each markdown file.
-            posts.forEach(({ node }, index) => {
-                const prev = index === 0 ? false : posts[index - 1].node;
-                const next = index === posts.length - 1 ? false : posts[index + 1].node;
-                createPage({
-                    path: node.frontmatter.path,
-                    component: blogPostTemplate,
-                    context: {
-                        prev,
-                        next
-                    }
-                });
-            });
+      // Create pages for each markdown file.
+      posts.forEach(({ node }, index) => {
+        const prev = index === 0 ? false : posts[index - 1].node;
+        const next = index === posts.length - 1 ? false : posts[index + 1].node;
+        createPage({
+          path: node.frontmatter.path,
+          component: node.frontmatter.layout === "page" ? pageTemplate : blogPostTemplate,
+          context: {
 
-            return posts;
-        })
+          }
+        });
+      });
+
+      return posts;
+    })
 };
