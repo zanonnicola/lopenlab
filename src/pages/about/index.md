@@ -1,6 +1,4 @@
 ---
-path: "/about"
-title: "About page"
+title: About page
 ---
-
-Hello this this the about page!
+Hello this this the about page from Netlify CMS!
