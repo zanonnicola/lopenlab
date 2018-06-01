@@ -5,6 +5,7 @@ module.exports = {
     title_fr: `Bienvenue à bord de l’Open Lab for Kids!`,
     description_fr: 'des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans - Nos différents ateliers'
   },
+  pathPrefix: `/`,
   plugins: [
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-react-next',
@@ -24,7 +25,13 @@ module.exports = {
         path: `${__dirname}/src/pages/`
       }
     },
-    'gatsby-plugin-netlify',
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        mergeSecurityHeaders: true, // boolean to turn off the default security headers
+        mergeLinkHeaders: true, // boolean to turn off the default gatsby js headers
+        mergeCachingHeaders: true, // boolean to turn off the default caching headers
+      },
+    },
   ],
-  pathPrefix: `/`,
 }
