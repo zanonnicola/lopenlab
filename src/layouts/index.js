@@ -1,9 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { withPrefix } from "gatsby-link";
 
-import Header from '../components/header'
-import './index.css'
+import Header from '../components/header';
+import './index.css';
 
 const Layout = ({ children, data, location }) => {
   let lng = 'fr';
@@ -22,7 +23,10 @@ const Layout = ({ children, data, location }) => {
         meta={[
           { name: 'description', content: `${description}` }
         ]}
-      />
+      >
+        <link rel="preload" href={withPrefix('/assets/merriweather-v19-latin-700.woff2')} as="font" type="font/woff2" crossOrigin />
+        <link rel="preload" href={withPrefix('/assets/muli-v11-latin-regular.woff2')} as="font" type="font/woff2" crossOrigin />
+      </Helmet>
       <Header siteTitle={title} lng={lng} />
       <div
         style={{
