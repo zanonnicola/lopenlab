@@ -5,41 +5,54 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import './index.css'
 
-const Layout = ({ children, data }) => (
-  <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: `${data.site.siteMetadata.description}` },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <Header siteTitle={data.site.siteMetadata.title} />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
+const Layout = ({ children, data, location }) => {
+  let lng = 'fr';
+  let title = data.site.siteMetadata.title_fr;
+  let description = data.site.siteMetadata.description_fr;
+  if (location.pathname === '/en') {
+    title = data.site.siteMetadata.title_en;
+    description = data.site.siteMetadata.description_en;
+    lng = 'en';
+  }
+
+  return (
+    <div>
+      <Helmet
+        title={title}
+        meta={[
+          { name: 'description', content: `${description}` }
+        ]}
+      />
+      <Header siteTitle={title} lng={lng} />
+      <div
+        style={{
+          margin: '0 auto',
+          maxWidth: 960,
+          padding: '0px 1.0875rem 1.45rem',
+          paddingTop: 0,
+        }}
+      >
+        {children()}
+      </div>
     </div>
-  </div>
-)
+  )
+}
 
 Layout.propTypes = {
   children: PropTypes.func,
+  data: PropTypes.any
 }
 
 export default Layout
 
 export const query = graphql`
-  query SiteTitleQuery {
+  query SiteTitleQueryFr {
     site {
       siteMetadata {
-        title
-        description
+        title_fr
+        description_fr
+        title_en
+        description_en
       }
     }
   }

@@ -47,3 +47,19 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       return posts;
     })
 };
+
+// use different layout for EN pages
+// exports.onCreatePage = async ({ page, boundActionCreators }) => {
+//   const { createPage } = boundActionCreators;
+
+//   return new Promise((resolve, reject) => {
+//     if (page.path.match(/^\/en/)) {
+//       page.layout = "index-en";
+
+//       // Update the page.
+//       createPage(page);
+//     }
+
+//     resolve();
+//   });
+// };
