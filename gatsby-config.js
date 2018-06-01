@@ -11,19 +11,20 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-remark',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `blog`,
-        path: `${__dirname}/src/pages/blog/`
+        name: 'blog',
+        path: '${__dirname}/src/pages/blog/'
       }
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `markdown-pages`,
-        path: `${__dirname}/src/pages/`
+        name: 'markdown-pages',
+        path: '${__dirname}/src/pages/'
       }
     },
+    'gatsby-plugin-netlify',
   ],
   pathPrefix: `/`,
 }
