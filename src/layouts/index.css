@@ -694,6 +694,9 @@ pre tt:after {
   .temp-page-content {
     padding-left: 0;
   }
+  .temp-page__contact {
+    font-size: 20px;
+  }
 }
 
 /*

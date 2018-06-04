@@ -1,5 +1,6 @@
 import React from 'react';
 import Heading from '../components/heading';
+import Banner from '../components/banner';
 
 const IndexPage = () => (
   <main role="main">
@@ -21,6 +22,7 @@ const IndexPage = () => (
         <p className="temp-page__contact"><strong>Tel:</strong> +33 6 86 02 22 50</p>
       </article>
     </div>
+    <Banner />
   </main>
 )
 
