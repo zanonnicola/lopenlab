@@ -4,6 +4,8 @@ import Helmet from 'react-helmet';
 import { withPrefix } from "gatsby-link";
 
 import Header from '../components/header';
+import Hero from '../components/hero';
+import Naviagtion from '../components/navigation';
 import './index.css';
 
 const Layout = ({ children, data, location }) => {
@@ -27,6 +29,12 @@ const Layout = ({ children, data, location }) => {
         <link rel="preload" href={withPrefix('/assets/merriweather-v19-latin-700.woff2')} as="font" type="font/woff2" crossOrigin />
         <link rel="preload" href={withPrefix('/assets/muli-v11-latin-regular.woff2')} as="font" type="font/woff2" crossOrigin />
       </Helmet>
+      <Hero 
+        title="Apprendre, créer, s’amuser… et en anglais !"
+        subtitle="A partir du 1 er septembre 2018 à Nantes : des ateliers en anglais, 
+        créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans."
+      />
+      <Naviagtion lng={lng} />
       <Header siteTitle={title} lng={lng} />
       <div
         style={{

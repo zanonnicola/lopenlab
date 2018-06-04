@@ -249,14 +249,7 @@ body {
 }
 img {
   max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
+  height: auto;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Merriweather', sans-serif;
@@ -654,10 +647,20 @@ pre tt:after {
   }
 }
 
-.g-menu a {
-  display: inline-block;
-  padding: 8px;
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
 }
-.g-menu a:first-of-type {
-  padding-left: 0;
+.wrapper--padded {
+  padding: 0 20px;
+}
+
+/*
+
+UTILITY CLASSES
+
+*/
+
+.u-relative {
+  position: relative;
 }
