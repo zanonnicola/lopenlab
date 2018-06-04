@@ -237,7 +237,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #323B45;
   font-family: 'Muli', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -646,13 +646,54 @@ pre tt:after {
     font-size: 100%;
   }
 }
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 15px;
+  }
+}
 
 .wrapper {
   max-width: 1024px;
   margin: 0 auto;
 }
+.wrapper__content {
+  max-width: 830px;
+  margin: 0 auto;
+}
 .wrapper--padded {
   padding: 0 20px;
+}
+.temp-page-content {
+  padding-left: 120px;
+  margin-bottom: 70px;
+}
+[role="main"] {
+  padding: 90px 0;
+}
+.temp-page__contact {
+  font-size: 26px;
+}
+.temp-page__contact a {
+  text-decoration: none;
+  transition: color 0.5s ease;
+  color: #323B45;
+}
+.temp-page__contact a:hover {
+  color: #FC6681;
+}
+@media screen and (max-width: 700px) {
+  [role="main"] {
+    padding: 45px 0;
+  }
+  .temp-page-content {
+    padding-left: 40px;
+    margin-bottom: 35px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .temp-page-content {
+    padding-left: 0;
+  }
 }
 
 /*
