@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './index.css';
+import style from './index.module.css';
 import logo from './LopenLabLOGO.png';
 
 const Navigation = ({ lng }) => (
-    <nav className="c-navigation">
+    <nav className={style.navigation}>
         <div className="wrapper wrapper--padded u-relative">
-            <div className="c-navigation__logo">
+            <div className={style.navigation__logo}>
                 <img src={logo} alt="L'Open Lab" />
             </div>
         </div>
-        <a className="c-navigation__lng" href={`/${lng}`}>{lng}</a>
+        <a className={style.navigation__lng} href={`/${lng}`}>{lng}</a>
     </nav>
 );
 
