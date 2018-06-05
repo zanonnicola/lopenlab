@@ -17,6 +17,17 @@ const Layout = ({ children, data, location }) => {
     lng = 'en';
   }
 
+  const contentMap = {
+    fr: {
+      title: "Apprendre, créer, s’amuser… et en anglais !",
+      subtitle: "A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans."
+    },
+    en: {
+      title: "Learning, creating, having fun!",
+      subtitle: "From the start of the new school year in September 2018: fun and creative workshops for babies & children aged from 1 to 11."
+    }
+  }
+
   return (
     <div>
       <Helmet
@@ -28,12 +39,11 @@ const Layout = ({ children, data, location }) => {
         <link rel="preload" href={withPrefix('/assets/merriweather-v19-latin-700.woff2')} as="font" type="font/woff2" crossOrigin />
         <link rel="preload" href={withPrefix('/assets/muli-v11-latin-regular.woff2')} as="font" type="font/woff2" crossOrigin />
       </Helmet>
-      <Hero 
-        title="Apprendre, créer, s’amuser… et en anglais !"
-        subtitle="A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, 
-        créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans."
+      <Hero
+        title={contentMap[lng].title}
+        subtitle={contentMap[lng].subtitle}
       />
-      <Naviagtion lng={lng} />
+      <Naviagtion lng={lng === 'fr' ? 'en' : 'fr'} />
       {children()}
     </div>
   )

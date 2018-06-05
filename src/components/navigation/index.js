@@ -10,7 +10,7 @@ const Navigation = ({ lng }) => (
                 <img src={logo} alt="L'Open Lab" />
             </div>
         </div>
-        <a className={style.navigation__lng} href={`/${lng}`}>{lng}</a>
+        <a className={style.navigation__lng} href={lng === 'fr' ? '/' : `/en`}>{lng}</a>
     </nav>
 );
 
