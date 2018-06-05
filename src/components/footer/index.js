@@ -1,15 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import style from './index.module.css';
 import fb from './facebook.svg';
 
-const Footer = () => (
+const Footer = ({ lng }) => (
     <footer className={style.footer}>
         <div className="wrapper wrapper--padded">
             <div className={style.flex}>
                 <div className={style.info}>
-                    <h5>Où nous trouver</h5>
+                    <h5>{lng === 'fr' ? 'Où nous trouver' : 'Where to find us'}</h5>
                     <p>
-                        <strong>Mail :</strong> <a href="mailto:hello@kids.lopenlab.com">hello@kids.lopenlab.com</a><br />
+                        <strong>Mail :</strong> <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a><br />
                         <strong>Tel :</strong> +33 6 86 02 22 50
                     </p>
                     <p>Paris<br />France</p>
@@ -25,5 +26,9 @@ const Footer = () => (
         </div>
     </footer>
 );
+
+Footer.PropTypes = {
+    lng: PropTypes.string.isRequired
+}
 
 export default Footer;
