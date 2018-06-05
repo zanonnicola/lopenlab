@@ -11,7 +11,7 @@ const Layout = ({ children, data, location }) => {
   let lng = 'fr';
   let title = data.site.siteMetadata.title_fr;
   let description = data.site.siteMetadata.description_fr;
-  if (location.pathname === '/en') {
+  if (location.pathname.includes('en')) {
     title = data.site.siteMetadata.title_en;
     description = data.site.siteMetadata.description_en;
     lng = 'en';

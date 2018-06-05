@@ -10,13 +10,13 @@ const Footer = ({ lng }) => (
                 <div className={style.info}>
                     <h5>{lng === 'fr' ? 'Où nous trouver' : 'Where to find us'}</h5>
                     <p>
-                        <strong>Mail :</strong> <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a><br />
+                        <strong>E-mail :</strong> <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a><br />
                         <strong>Tel :</strong> +33 6 86 02 22 50
                     </p>
-                    <p>Paris<br />France</p>
+                    <p>Nantes<br />France</p>
                 </div>
                 <div className={[style.info, style.mLeft].join(' ')}>
-                    <h5>Social</h5>
+                    <h5>{lng === 'fr' ? 'Réseaux sociaux' : 'Social'}</h5>
                     <a href="https://www.facebook.com/LOpenLabforKids/">
                         <img src={fb} className={style.icon} />
                     </a>
@@ -27,7 +27,7 @@ const Footer = ({ lng }) => (
     </footer>
 );
 
-Footer.PropTypes = {
+Footer.propTypes = {
     lng: PropTypes.string.isRequired
 }
 
