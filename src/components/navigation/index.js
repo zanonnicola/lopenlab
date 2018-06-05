@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Link from 'gatsby-link';
 import style from './index.module.css';
 import logo from './LopenLabLOGO.png';
 
@@ -10,7 +11,7 @@ const Navigation = ({ lng }) => (
                 <img src={logo} alt="L'Open Lab" />
             </div>
         </div>
-        <a className={style.navigation__lng} href={lng === 'fr' ? '/' : `/en`}>{lng}</a>
+        <Link className={style.navigation__lng} to={lng === 'fr' ? '/' : `/en`}>{lng}</Link>
     </nav>
 );
 
