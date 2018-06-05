@@ -26,7 +26,7 @@ const IndexPage = () => (
                 <p className="temp-page__contact"><strong>Facebook:</strong> <a href="https://www.facebook.com/LOpenLabforKids/">L'Open Lab for Kids</a></p>
             </article>
         </div>
-        <Banner />
+        <Banner lng="en" />
         <Footer />
     </main>
 )
