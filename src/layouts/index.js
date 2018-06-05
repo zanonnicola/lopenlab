@@ -30,7 +30,7 @@ const Layout = ({ children, data, location }) => {
       </Helmet>
       <Hero 
         title="Apprendre, créer, s’amuser… et en anglais !"
-        subtitle="A partir du 1 er septembre 2018 à Nantes : des ateliers en anglais, 
+        subtitle="A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, 
         créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans."
       />
       <Naviagtion lng={lng} />

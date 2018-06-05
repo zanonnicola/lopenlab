@@ -4,13 +4,11 @@ import style from './index.module.css';
 
 const Heading = ({
     rank = 2,
-    children
+    text
 }) => {
     const Tag = rank > 6 ? 'h6' : `h${rank}`;
     return (
-        <Tag className={style[`h${rank}`]}>
-            {children}
-        </Tag>
+        <Tag className={style[`h${rank}`]}>{text}</Tag>
     );
 };
 Heading.propTypes = {
@@ -22,7 +20,7 @@ Heading.propTypes = {
         5,
         6
     ]).isRequired,
-    children: PropTypes.func.isRequired,
+    text: PropTypes.string.isRequired,
 };
 
 export default Heading;

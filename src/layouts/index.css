@@ -668,7 +668,7 @@ pre tt:after {
   margin-bottom: 70px;
 }
 [role="main"] {
-  padding: 90px 0;
+  padding: 90px 0 0 0;
 }
 .temp-page__contact {
   font-size: 26px;
@@ -683,7 +683,7 @@ pre tt:after {
 }
 @media screen and (max-width: 700px) {
   [role="main"] {
-    padding: 45px 0;
+    padding: 45px 0 0 0;
   }
   .temp-page-content {
     padding-left: 40px;

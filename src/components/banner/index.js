@@ -7,7 +7,7 @@ const Banner = () => (
         <div className={style.wrapper}>
             <p>Retrouvez-nous également le samedi 23 juin chez Happy Place by Vacouva (Gare Sud, 43 quai de Malakoff), de 15h à 18h pour une après-midi découverte, en famille. Les places sont limitées, pensez bien à vous inscrire par mail. </p>
             <p><strong>Nous espérons vous y voir nombreux !</strong></p>
-            <Cta text="Discover" url="#0" margin="35px 0 0 0" />
+            <Cta text="S'inscrire" url="https://www.facebook.com/LOpenLabforKids/" margin="35px 0 0 0" />
         </div>
     </section>
 );
