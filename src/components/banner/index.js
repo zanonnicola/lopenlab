@@ -24,7 +24,7 @@ const Banner = ({ lng }) => (
     </section>
 );
 
-Banner.PropTypes = {
+Banner.propTypes = {
     lng: PropTypes.string.isRequired
 }
 
