@@ -15,8 +15,7 @@ const Navigation = ({ lng }) => (
 );
 
 Navigation.propTypes = {
-    title: PropTypes.string,
-    subtitle: PropTypes.string
+    lng: PropTypes.string.isRequired
 }
 
 export default Navigation;
