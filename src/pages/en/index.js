@@ -27,7 +27,7 @@ const IndexPage = () => (
             </article>
         </div>
         <Banner lng="en" />
-        <Footer lng="fr" />
+        <Footer lng="en" />
     </main>
 )
 
