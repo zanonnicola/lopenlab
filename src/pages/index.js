@@ -18,7 +18,7 @@ const IndexPage = () => (
       </article>
       <Heading
         rank={3}
-        text="Où nous trouver"
+        text="Nous contacter"
       />
       <article className="temp-page-content">
         <p className="temp-page__contact"><strong>Mail :</strong> <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a></p>

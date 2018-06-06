@@ -8,7 +8,7 @@ const Footer = ({ lng }) => (
         <div className="wrapper wrapper--padded">
             <div className={style.flex}>
                 <div className={style.info}>
-                    <h5>{lng === 'fr' ? 'Où nous trouver' : 'Contact details'}</h5>
+                    <h5>{lng === 'fr' ? 'Contact' : 'Contact details'}</h5>
                     <p>
                         <strong>E-mail :</strong> <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a><br />
                         <strong>Tel :</strong> +33 6 86 02 22 50
