@@ -24,7 +24,7 @@ const Layout = ({ children, data, location }) => {
     },
     en: {
       title: "Learning, creating, having fun!",
-      subtitle: "From the start of the new school year in September 2018: fun and creative workshops for babies & children aged from 1 to 11."
+      subtitle: "From the start of the new school year in September 2018: fun and creative workshops for toddlers & children aged from 1 to 11."
     }
   }
 

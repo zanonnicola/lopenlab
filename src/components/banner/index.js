@@ -17,7 +17,7 @@ const Banner = ({ lng }) => (
                     <React.Fragment>
                         <p>We’ll be at Happy Place by Vacouva (Gare Sud, 43 quai de Malakoff) on Saturday, 23rd June for an afternoon of discoveries for the whole family. We can only accomodate a certain number of people, so please make sure you register for the event.</p>
                         <p><strong>We look forward to meeting you there!</strong></p>
-                        <Cta text="Discover" url="https://www.facebook.com/LOpenLabforKids/" margin="35px 0 0 0" />
+                        <Cta text="Sign up" url="https://www.facebook.com/LOpenLabforKids/" margin="35px 0 0 0" />
                     </React.Fragment>
                 )}
         </div>
