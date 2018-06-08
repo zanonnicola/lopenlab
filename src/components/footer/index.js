@@ -13,7 +13,7 @@ const Footer = ({ lng }) => (
                         <strong>E-mail :</strong> <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a><br />
                         <strong>Tel :</strong> <a href="tel:+33686022250">+33 6 86 02 22 50</a>
                     </p>
-                    <p>43 quai de Malakoff<br />Nantes - France</p>
+                    <p>Nantes<br />France</p>
                 </div>
                 <div className={[style.info, style.mLeft].join(' ')}>
                     <h5>{lng === 'fr' ? 'Réseaux sociaux' : 'Social'}</h5>
