@@ -23,7 +23,7 @@ const IndexPage = () => (
             <article className="temp-page-content">
                 <p className="temp-page__contact"><strong>Mail:</strong> <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a></p>
                 <p className="temp-page__contact"><strong>Tel:</strong> <a href="tel:+33686022250">+33 6 86 02 22 50</a></p>
-                <p className="temp-page__contact"><strong>Facebook:</strong> <a href="https://www.facebook.com/LOpenLabforKids/">L'Open Lab for Kids</a></p>
+                <p className="temp-page__contact"><strong>Follow us on Facebook:</strong> <a href="https://www.facebook.com/LOpenLabforKids/">L'Open Lab for Kids</a></p>
             </article>
         </div>
         <Banner lng="en" />
