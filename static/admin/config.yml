@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: zanonnicola/lopenlab
-  branch: production
+  branch: dev
 
 media_folder: static/assets
 
@@ -19,9 +19,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
-  - name: "pages"
-    label: "Pages"
-    folder: "src/pages"
+  - label: "Pages"
+    name: "pages"
     files:
       - file: "src/pages/en/workshop/index.md"
         label: "Workshop"
@@ -29,7 +28,6 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "workshop-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/workshop/index.md"
         label: "Atelier"
@@ -37,7 +35,6 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "workshop-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/contact/index.md"
         label: "Contact Page"

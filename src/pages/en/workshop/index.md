@@ -1,7 +1,6 @@
 ---
 path: "/en/workshop"
 layout: "page"
-date: "2018-04-27"
 title: "Workshop"
 metaDescription: "For children to get familiar with English via enriching activities from their youngest age"
 ---
