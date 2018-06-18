@@ -17,6 +17,14 @@ const Layout = ({ children, data, location }) => {
     lng = 'en';
   }
 
+  const sectionColors = {
+    workshop: '#60BDC1',
+    pedagogy: '#FCC817',
+    team: '#0E4658',
+    holidays: '#FC6681',
+    contact: '#BDE6F6'
+  };
+
   const contentMap = {
     fr: {
       title: "Apprendre, créer, s’amuser… et en anglais !",
@@ -49,7 +57,7 @@ const Layout = ({ children, data, location }) => {
         title={contentMap[lng].title}
         subtitle={contentMap[lng].subtitle}
       />
-      <Naviagtion lng={lng === 'fr' ? 'en' : 'fr'} />
+      <Naviagtion lng={lng} colors={sectionColors} />
       {children()}
     </div>
   )

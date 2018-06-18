@@ -1,6 +1,5 @@
 .navigation {
     border-bottom: 1px solid #E6E6E6;
-    text-align: right;
     background-color: #fff;
 }
 .navigation__logo {
@@ -23,6 +22,28 @@
 }
 .navigation__lng:hover {
     color: #FF3F5D;
+}
+.navigation__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navigation__list > * {
+    display: inline-block;
+}
+.navigation__listItem {
+    margin-right: 16px;
+    color: #9B9B9B;
+    text-decoration: none;
+}
+.navigation__listItem:last-of-type {
+    margin-right: 32px;
+}
+.navigation__plus {
+    font-weight: bold;
+}
+.active60BDC1 {
+    color: #60BDC1;
 }
 @media screen and (max-width: 700px) {
     .navigation__lng {
