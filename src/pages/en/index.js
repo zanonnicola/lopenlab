@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from '../../components/heading';
 import Banner from '../../components/banner';
+import CallOut from '../../components/callOut';
 import Footer from '../../components/footer';
 
 const IndexPage = () => (
@@ -10,12 +11,20 @@ const IndexPage = () => (
                 rank={3}
                 text="Welcome to L’Open Lab for Kids"
             />
-            <article className="temp-page-content">
-                <p>We think learning by doing makes more sense. We want kids to develop their creativity and have fun, while learning English… naturally. We want to provide kids with content of high quality that can help them grow and develop.</p>
-                <p>Our workshops are adapted to babies, toddlers and children aged between 1 and 11. They take place in the morning, after school, on Wednesday, on Saturday and during school holiday.</p>
-                <p>Our workshops are carried out entirely in English. They are open to English speaking kids as well as to those who don’t yet speak English.</p>
-                <p>For more information on the new school year timetable and find out more about L’Open Lab for Kids, don’t hesitate to contact us directly. All the information will soon be available online.</p>
+            <article className="hero-content">
+                <div className="flex">
+                    <div className="flex-50">
+                        <p><b className="bold-it">What if</b> our children could acquire English in the same way they learn their first language?</p>
+                        <p><b className="bold-it">What if</b> they could explore the language, absorb it on their own terms in a safe and engaging environment, while taking part in creative and interactive activities?</p>
+                    </div>
+                    <div className="flex-50">
+                        <p>That is the idea behind <strong>L’Open Lab for Kids</strong>: fun and creative workshops where kids get to discover, create and experiment, all in English, in a nurturing environment.</p>
+                    </div>
+                </div>
             </article>
+        </div>
+        <CallOut lng="en" />
+        <div className="wrapper__content wrapper--padded">
             <Heading
                 rank={3}
                 text="Our contact details"

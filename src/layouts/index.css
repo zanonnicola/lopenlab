@@ -663,9 +663,12 @@ pre tt:after {
 .wrapper--padded {
   padding: 0 20px;
 }
-.temp-page-content {
-  padding-left: 120px;
-  margin-bottom: 70px;
+.hero-content {
+  margin-bottom: 90px;
+}
+.hero-content p {
+  font-size: 24px;
+  line-height: 1.4;
 }
 [role="main"] {
   padding: 90px 0 0 0;
@@ -689,6 +692,9 @@ pre tt:after {
     padding-left: 40px;
     margin-bottom: 35px;
   }
+  .hero-content {
+    margin-bottom: 45px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .temp-page-content {
@@ -697,6 +703,10 @@ pre tt:after {
   .temp-page__contact {
     font-size: 20px;
   }
+}
+.bold-it {
+  color: #FC6681;
+  font-weight: bold;
 }
 
 /*
@@ -707,4 +717,24 @@ UTILITY CLASSES
 
 .u-relative {
   position: relative;
+}
+.flex {
+  display: flex;
+  overflow: hidden;
+  margin-left: -45px;
+}
+.flex-50 {
+  padding-left: 45px;
+  width: 50%;
+}
+@media only screen and (max-width: 480px) {
+  .flex {
+    display: block;
+    overflow: unset;
+    margin-left: 0;
+  }
+  .flex-50 {
+    padding-left: 0;
+    width: 100%;
+  }
 }

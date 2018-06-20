@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from '../components/heading';
 import Banner from '../components/banner';
+import CallOut from '../components/callOut';
 import Footer from '../components/footer';
 
 const IndexPage = () => (
@@ -10,12 +11,20 @@ const IndexPage = () => (
         rank={3}
         text="Bienvenue à bord de L’Open Lab for Kids"
       />
-      <article className="temp-page-content">
-        <p>Notre objectif est de donner du sens à l’apprentissage à travers des activités créatives et ludiques, de favoriser la pratique naturelle d’une langue étrangère et plus globalement de proposer un contenu éducatif riche qui contribue au développement des enfants.</p>
-        <p>Nos ateliers sont adaptés aux bébés, petits et enfants âgés entre 1 et 11 ans. Ils ont lieu en matinée, après l’école, le mercredi, le samedi et pendant les vacances scolaires.</p>
-        <p>Entièrement en anglais, nos ateliers s’adressent aussi bien aux enfants bilingues qu’aux enfants et parents n’ayant aucune ou peu de connaissance de l’anglais.</p>
-        <p>Pour plus d’infos sur le planning de la rentrée prochaine et en savoir plus sur L’Open Lab for Kids, n’hésitez pas à nous contacter directement. Toutes les infos seront prochainement disponibles en ligne.</p>
+      <article className="hero-content">
+        <div className="flex">
+          <div className="flex-50">
+            <p><b className="bold-it">Et si</b> nos enfants découvraient l’anglais de manière naturelle et sans contrainte ?</p>
+            <p style={{ marginBottom: 0 }}><b className="bold-it">S’ils pouvaient</b> prendre goût à la pratique d’une langue étrangère, en toute confiance et sans complexe, tout en développant leur créativité et en s’amusant ?</p>
+          </div>
+          <div className="flex-50">
+            <p>C’est l’idée derrière <strong>L’Open Lab for Kids</strong> : des ateliers créatifs et ludiques où les enfants découvrent, créent et expérimentent en anglais dans une ambiance chaleureuse et familiale.</p>
+          </div>
+        </div>
       </article>
+    </div>
+    <CallOut lng="fr" />
+    <div className="wrapper__content wrapper--padded">
       <Heading
         rank={3}
         text="Nous contacter"

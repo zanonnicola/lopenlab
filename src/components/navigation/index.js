@@ -113,7 +113,8 @@ const Navigation = ({ lng, colors }) => (
 );
 
 Navigation.propTypes = {
-    lng: PropTypes.string.isRequired
+    lng: PropTypes.string.isRequired,
+    colors: PropTypes.object
 }
 
 export default Navigation;

@@ -2,7 +2,8 @@
     font-size: 36px;
     line-height: 1.4;
     margin: 0 0 63px 0;
-    color: #FC6681;
+    color: #0E4658;
+    text-align: center;
 }
 @media screen and (max-width: 700px) {
     .h3 {
