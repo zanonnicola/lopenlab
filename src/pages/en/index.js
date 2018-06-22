@@ -1,7 +1,9 @@
 import React from 'react';
+import { withPrefix } from "gatsby-link";
 import Heading from '../../components/heading';
 import Banner from '../../components/banner';
 import Footer from '../../components/footer';
+import Cta from '../../components/cta';
 
 const IndexPage = () => (
     <main role="main">
@@ -14,7 +16,10 @@ const IndexPage = () => (
                 <p>We think learning by doing makes more sense. We want kids to develop their creativity and have fun, while learning English… naturally. We want to provide kids with content of high quality that can help them grow and develop.</p>
                 <p>Our workshops are adapted to babies, toddlers and children aged between 1 and 11. They take place in the morning, after school, on Wednesday, on Saturday and during school holiday.</p>
                 <p>Our workshops are carried out entirely in English. They are open to English speaking kids as well as to those who don’t yet speak English.</p>
-                <p>For more information on the new school year timetable and find out more about L’Open Lab for Kids, don’t hesitate to contact us directly. All the information will soon be available online.</p>
+                <p>The new school year timetable is now available. You can download it by clicking the below link. More information will soon be available online. In the meantime, please don’t hesitate to contact us for more information, we’d love to hear from you!</p>
+                <p>
+                    <Cta text="Our timetable" url={withPrefix('/assets/lOpen_Lab_for_Kids_Programme.pdf')} margin="35px 0 0 0" />
+                </p>
             </article>
             <Heading
                 rank={3}

@@ -35,3 +35,15 @@
     margin-left: 10px;
     transition: all 0.3s ease;
 }
+@media screen and (max-width: 600px) {
+    .cta {
+        text-align: center;
+        width: 100%;
+        padding: 13px 18px;
+        font-size: 16px;
+    }
+    .cta > svg {
+        width: 22px;
+        height: 14px;
+    }
+}
