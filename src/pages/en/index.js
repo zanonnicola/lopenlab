@@ -2,7 +2,7 @@ import React from 'react';
 import Heading from '../../components/heading';
 import Banner from '../../components/banner';
 import CallOut from '../../components/callOut';
-import Card from '../../components/Card';
+import Card from '../../components/card';
 import Footer from '../../components/footer';
 
 const IndexPage = () => (
@@ -31,12 +31,48 @@ const IndexPage = () => (
                     rank={3}
                     text="Take a look around!"
                 />
-                <Card
-                    title="Workshop"
-                    color="#60BDC1"
-                    pagePath="en/workshop"
-                    text="For children to get familiar with English through taking part in enriching activities from their youngest age"
-                />
+                <div className="row center-xs">
+                    <div className="col-xs-12 col-sm-6 col-md-4">
+                        <Card
+                            title="Workshop"
+                            color="#60BDC1"
+                            pagePath="en/workshop"
+                            text="For children to get familiar with English through taking part in enriching activities from their youngest age"
+                        />
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-4">
+                        <Card
+                            title="Workshop"
+                            color="#60BDC1"
+                            pagePath="en/workshop"
+                            text="For children to get familiar with English through taking part in enriching activities from their youngest age"
+                        />
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-4">
+                        <Card
+                            title="Workshop"
+                            color="#60BDC1"
+                            pagePath="en/workshop"
+                            text="For children to get familiar with English through taking part in enriching activities from their youngest age"
+                        />
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-4">
+                        <Card
+                            title="Workshop"
+                            color="#60BDC1"
+                            pagePath="en/workshop"
+                            text="For children to get familiar with English through taking part in enriching activities from their youngest age"
+                        />
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-4">
+                        <Card
+                            title="Workshop"
+                            color="#60BDC1"
+                            pagePath="en/workshop"
+                            text="For children to get familiar with English through taking part in enriching activities from their youngest age"
+                        />
+                    </div>
+                </div>
             </div>
         </section>
         <div className="wrapper__content wrapper--padded">

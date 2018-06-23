@@ -3,7 +3,7 @@ import Heading from '../components/heading';
 import Banner from '../components/banner';
 import CallOut from '../components/callOut';
 import Footer from '../components/footer';
-import Card from '../components/Card';
+import Card from '../components/card';
 
 const IndexPage = () => (
   <main role="main">

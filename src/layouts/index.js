@@ -5,6 +5,7 @@ import { withPrefix } from "gatsby-link";
 
 import Hero from '../components/hero';
 import Naviagtion from '../components/navigation';
+import './flexboxgrid.css';
 import './index.css';
 
 const Layout = ({ children, data, location }) => {

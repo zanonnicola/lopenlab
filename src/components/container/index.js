@@ -2,15 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import style from './index.module.css';
 
-const Container = ({ children }) => {
+const FlexView = ({ children }) => {
     return (
-        <article className={style.article}>
+        <div className={style.flex}>
             {children}
-        </article>
+        </div>
     );
 };
-Container.propTypes = {
+FlexView.propTypes = {
     children: PropTypes.func.isRequired,
 };
 
-export default Container;
+export { FlexView };

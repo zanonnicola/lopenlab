@@ -1,16 +1,25 @@
 .card {
     box-shadow: 0 10px 35px 0 rgba(0,0,0,.10);
     border-radius: 5px;
-    max-width: 392px;
+    background-clip: padding-box;
     display: block;
     background-color: #fff;
     text-decoration: none;
+    margin-bottom: 40px;
+    max-width: 392px;
 }
 .card__content {
     padding: 40px;
+    text-align: left;
 }
 .card__content p { 
     font-size: 14px;
     color: #C6C8CB;
     font-weight: 600;
+    margin: 0;
+}
+@media screen and (max-width: 700px) {
+    .card__content {
+        padding: 20px;
+    }
 }
