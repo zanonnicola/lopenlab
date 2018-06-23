@@ -1,0 +1,16 @@
+.card {
+    box-shadow: 0 10px 35px 0 rgba(0,0,0,.10);
+    border-radius: 5px;
+    max-width: 392px;
+    display: block;
+    background-color: #fff;
+    text-decoration: none;
+}
+.card__content {
+    padding: 40px;
+}
+.card__content p { 
+    font-size: 14px;
+    color: #C6C8CB;
+    font-weight: 600;
+}

@@ -663,6 +663,9 @@ pre tt:after {
 .wrapper--padded {
   padding: 0 20px;
 }
+.section {
+  padding: 90px 0;
+}
 .hero-content {
   margin-bottom: 90px;
 }
@@ -694,6 +697,9 @@ pre tt:after {
   }
   .hero-content {
     margin-bottom: 45px;
+  }
+  .section {
+    padding: 45px 0;
   }
 }
 @media only screen and (max-width: 480px) {

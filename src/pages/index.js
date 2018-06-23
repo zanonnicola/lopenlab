@@ -3,6 +3,7 @@ import Heading from '../components/heading';
 import Banner from '../components/banner';
 import CallOut from '../components/callOut';
 import Footer from '../components/footer';
+import Card from '../components/Card';
 
 const IndexPage = () => (
   <main role="main">
@@ -24,6 +25,20 @@ const IndexPage = () => (
       </article>
     </div>
     <CallOut lng="fr" />
+    <section className="section">
+      <div className="wrapper wrapper--padded">
+        <Heading
+          rank={3}
+          text="Take a look around!"
+        />
+        <Card
+          title="Workshop"
+          color="#60BDC1"
+          pagePath="en/workshop"
+          text="For children to get familiar with English through taking part in enriching activities from their youngest age"
+        />
+      </div>
+    </section>
     <div className="wrapper__content wrapper--padded">
       <Heading
         rank={3}

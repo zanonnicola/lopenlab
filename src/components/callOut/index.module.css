@@ -38,6 +38,9 @@
         width: 26px;
         height: 18px;
     }
+    .CallOut {
+        padding: 40px 0;
+    }
 }
 .cta:hover {
     background-color: #FC6681;
