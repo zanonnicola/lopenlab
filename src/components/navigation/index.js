@@ -54,9 +54,9 @@ const lngMap = {
 const Navigation = ({ lng, colors }) => (
     <nav className={style.navigation}>
         <div className="wrapper wrapper--padded u-relative">
-            <div className={style.navigation__logo}>
+            <Link to={lng === 'fr' ? '/' : '/en'} className={style.navigation__logo}>
                 <img src={logo} alt="L'Open Lab" />
-            </div>
+            </Link>
         </div>
         <div className={style.navigation__list}>
             <Link

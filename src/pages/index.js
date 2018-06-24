@@ -32,7 +32,7 @@ const IndexPage = () => (
           text="Take a look around!"
         />
         <div className="row center-xs">
-          {Object.keys(site.fr).map((section, i) =>
+          {Object.keys(site.fr).filter(key => key !== 'homepage').map((section, i) =>
             <div key={`${section}-${i}`} className="col-xs-12 col-sm-6 col-md-4" style={{ marginBottom: '40px' }}>
               <Card
                 title={site['fr'][section].title}
