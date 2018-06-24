@@ -1,6 +1,8 @@
 .navigation {
     border-bottom: 1px solid #E6E6E6;
     background-color: #fff;
+    position: relative;
+    z-index: 2;
 }
 .navigation__logo {
     position: relative;

@@ -58,9 +58,9 @@ const Layout = ({ children, data, location }) => {
       <Hero
         title={contentMap[lng].title}
         subtitle={contentMap[lng].subtitle}
+        image={withPrefix('/assets/openlab.jpg')}
       />
       <Naviagtion lng={lng} colors={sectionColors} />
-
       {children()}
     </div>
   )
