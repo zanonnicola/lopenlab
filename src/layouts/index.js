@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { withPrefix } from "gatsby-link";
-
+import { getSectionColor, getPathData } from '../helpers';
 import Hero from '../components/hero';
 import Naviagtion from '../components/navigation';
+import siteData from '../data/site';
 import './flexboxgrid.css';
 import './index.css';
 
@@ -18,24 +19,22 @@ const Layout = ({ children, data, location }) => {
     lng = 'en';
   }
 
+  let isHomePage = false;
+  if (location.pathname === '/' || location.pathname === '/en' || location.pathname === '/en/') {
+    isHomePage = true;
+  }
+
   const sectionColors = {
     workshop: '#60BDC1',
     pedagogy: '#FCC817',
     team: '#0E4658',
     holidays: '#FC6681',
-    contact: '#BDE6F6'
+    contact: '#BDE6F6',
+    atelier: '#60BDC1',
+    pedagogie: '#FCC817',
+    equipe: '#0E4658',
+    vacances: '#FC6681',
   };
-
-  const contentMap = {
-    fr: {
-      title: "Apprendre, créer, s’amuser… et en anglais !",
-      subtitle: "A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans."
-    },
-    en: {
-      title: "Learning, creating, having fun!",
-      subtitle: "From the start of the new school year in September 2018: fun and creative workshops for toddlers & children aged from 1 to 11."
-    }
-  }
 
   return (
     <div>
@@ -57,9 +56,11 @@ const Layout = ({ children, data, location }) => {
         <meta name="theme-color" content="#ffffff" />
       </Helmet>
       <Hero
-        title={contentMap[lng].title}
-        subtitle={contentMap[lng].subtitle}
+        title={getPathData(siteData, lng, location.pathname, isHomePage)['title']}
+        subtitle={getPathData(siteData, lng, location.pathname, isHomePage)['heroSubtitle']}
         image={withPrefix('/assets/openlab.jpg')}
+        color={getSectionColor(sectionColors, location.pathname)}
+        isHomePage={isHomePage}
       />
       <Naviagtion lng={lng} colors={sectionColors} />
       {children()}
