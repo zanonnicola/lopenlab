@@ -4,6 +4,7 @@ import Banner from '../components/banner';
 import CallOut from '../components/callOut';
 import Footer from '../components/footer';
 import Card from '../components/card';
+import site from '../data/site';
 
 const IndexPage = () => (
   <main role="main">
@@ -31,12 +32,18 @@ const IndexPage = () => (
           rank={3}
           text="Take a look around!"
         />
-        <Card
-          title="Workshop"
-          color="#60BDC1"
-          pagePath="en/workshop"
-          text="For children to get familiar with English through taking part in enriching activities from their youngest age"
-        />
+        <div className="row center-xs">
+          {Object.keys(site.fr).map((section, i) =>
+            <div key={`${section}-${i}`} className="col-xs-12 col-sm-6 col-md-4" style={{ marginBottom: '40px' }}>
+              <Card
+                title={site['fr'][section].title}
+                color={site['fr'][section].color}
+                pagePath={section}
+                text={site['fr'][section].intro}
+              />
+            </div>
+          )}
+        </div>
       </div>
     </section>
     <div className="wrapper__content wrapper--padded">

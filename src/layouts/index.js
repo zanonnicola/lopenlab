@@ -60,6 +60,7 @@ const Layout = ({ children, data, location }) => {
         subtitle={contentMap[lng].subtitle}
       />
       <Naviagtion lng={lng} colors={sectionColors} />
+
       {children()}
     </div>
   )

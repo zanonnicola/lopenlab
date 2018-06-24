@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Heading from '../heading';
 import style from './index.module.css';
-import clip from './workshop_path.svg';
 
 const Card = ({ pagePath, text, title, color }) => (
     <Link className={style.card} to={`${pagePath}`}>
-        <img src={clip} className={style.clip} />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 219">
+            <path d="M-3.516.398h410.524c19.379 59.172-17.664 111.532-111.127 157.079-93.464 45.546-193.263 65.44-299.397 59.68V.397z" fill={color} fillRule="evenodd" />
+        </svg>
         <div className={style.card__content}>
             <Heading
                 rank={4}

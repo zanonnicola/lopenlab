@@ -5,8 +5,8 @@
     display: block;
     background-color: #fff;
     text-decoration: none;
-    margin-bottom: 40px;
     max-width: 392px;
+    height: 100%;
 }
 .card__content {
     padding: 40px;

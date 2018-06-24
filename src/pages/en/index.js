@@ -4,6 +4,7 @@ import Banner from '../../components/banner';
 import CallOut from '../../components/callOut';
 import Card from '../../components/card';
 import Footer from '../../components/footer';
+import site from '../../data/site';
 
 const IndexPage = () => (
     <main role="main">
@@ -32,46 +33,16 @@ const IndexPage = () => (
                     text="Take a look around!"
                 />
                 <div className="row center-xs">
-                    <div className="col-xs-12 col-sm-6 col-md-4">
-                        <Card
-                            title="Workshop"
-                            color="#60BDC1"
-                            pagePath="en/workshop"
-                            text="For children to get familiar with English through taking part in enriching activities from their youngest age"
-                        />
-                    </div>
-                    <div className="col-xs-12 col-sm-6 col-md-4">
-                        <Card
-                            title="Workshop"
-                            color="#60BDC1"
-                            pagePath="en/workshop"
-                            text="For children to get familiar with English through taking part in enriching activities from their youngest age"
-                        />
-                    </div>
-                    <div className="col-xs-12 col-sm-6 col-md-4">
-                        <Card
-                            title="Workshop"
-                            color="#60BDC1"
-                            pagePath="en/workshop"
-                            text="For children to get familiar with English through taking part in enriching activities from their youngest age"
-                        />
-                    </div>
-                    <div className="col-xs-12 col-sm-6 col-md-4">
-                        <Card
-                            title="Workshop"
-                            color="#60BDC1"
-                            pagePath="en/workshop"
-                            text="For children to get familiar with English through taking part in enriching activities from their youngest age"
-                        />
-                    </div>
-                    <div className="col-xs-12 col-sm-6 col-md-4">
-                        <Card
-                            title="Workshop"
-                            color="#60BDC1"
-                            pagePath="en/workshop"
-                            text="For children to get familiar with English through taking part in enriching activities from their youngest age"
-                        />
-                    </div>
+                    {Object.keys(site.en).map((section, i) =>
+                        <div key={`${section}-${i}`} className="col-xs-12 col-sm-6 col-md-4" style={{ marginBottom: '40px' }}>
+                            <Card
+                                title={site['en'][section].title}
+                                color={site['en'][section].color}
+                                pagePath={section}
+                                text={site['en'][section].intro}
+                            />
+                        </div>
+                    )}
                 </div>
             </div>
         </section>

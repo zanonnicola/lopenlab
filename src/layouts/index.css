@@ -85,6 +85,9 @@ sup {
 img {
   border-style: none;
 }
+svg {
+  max-width: 100%;
+}
 svg:not(:root) {
   overflow: hidden;
 }
