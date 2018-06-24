@@ -1,7 +1,7 @@
 import React from 'react';
 import { withPrefix } from "gatsby-link";
 import Heading from '../components/heading';
-import Banner from '../components/banner';
+// import Banner from '../components/banner';
 import Footer from '../components/footer';
 import Cta from '../components/cta';
 
@@ -31,7 +31,7 @@ const IndexPage = () => (
         <p className="temp-page__contact"><strong>Nous suivre sur Facebook :</strong> <a href="https://www.facebook.com/LOpenLabforKids/">L'Open Lab for Kids</a></p>
       </article>
     </div>
-    <Banner lng="fr" />
+    {/* <Banner lng="fr" /> */}
     <Footer lng="fr" />
   </main>
 )
