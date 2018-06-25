@@ -14,7 +14,6 @@
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
     "netlify-cms": "^1.9.2",
-    "react-flexview": "^3.0.2",
     "react-helmet": "^5.2.0"
   },
   "keywords": [

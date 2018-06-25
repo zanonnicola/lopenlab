@@ -46,7 +46,7 @@ const lngMap = {
         },
         contact: {
             title: 'Contact',
-            url: '/en/contact'
+            url: '/en/contact-us'
         }
     }
 }

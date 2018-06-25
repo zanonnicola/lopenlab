@@ -24,6 +24,79 @@ const Layout = ({ children, data, location }) => {
     isHomePage = true;
   }
 
+  let heroTitle;
+  let heroSubtitle;
+  let color;
+
+  const key = location.pathname.split('/');
+  const section = key[key.length - 1];
+
+  switch (section) {
+    case 'en':
+      heroTitle = 'Learning, creating, having fun!';
+      heroSubtitle = 'From the start of the new school year in September 2018: fun and creative workshops for toddlers & children aged from 1 to 11.';
+      color = '#fff';
+      break;
+    case '':
+      heroTitle = 'Apprendre, créer, s’amuser… et en anglais !';
+      heroSubtitle = 'A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans.';
+      color = '#fff';
+      break;
+    case 'workshop':
+      heroTitle = 'Workshop';
+      heroSubtitle = 'For children to get familiar with English via enriching activities from their youngest age';
+      color = '#60BDC1';
+      break;
+    case 'atelier':
+      heroTitle = 'Atelier';
+      heroSubtitle = 'A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans.';
+      color = '#60BDC1';
+      break;
+    case 'pedagogy':
+      heroTitle = 'Pedagogy';
+      heroSubtitle = 'Absorb and acquire English through fun and enriching activities from their youngest age.';
+      color = '#FCC817';
+      break;
+    case 'pedagogie':
+      heroTitle = 'Pédagogie';
+      heroSubtitle = 'Dès leur plus jeune âge, à travers des activités épanouissantes et ludiques';
+      color = '#FCC817';
+      break;
+    case 'team':
+      heroTitle = 'Team';
+      heroSubtitle = 'International and multicultural: English, Irish, American, French and Brazilian';
+      color = '#0E4658';
+      break;
+    case 'equipe':
+      heroTitle = `L' Equipe`;
+      heroSubtitle = 'A l’image de l’Open Lab for Kids, l’équipe est internationale et multiculturelle : anglaise, irlandaise, américaine, française et brésilienne.';
+      color = '#0E4658';
+      break;
+    case 'holidays':
+      heroTitle = 'Holidays';
+      heroSubtitle = 'Fun and creative things to do for kids to spend their break';
+      color = '#FC6681';
+      break;
+    case 'vacances':
+      heroTitle = 'Vacances';
+      heroSubtitle = 'Nous organisons des ateliers-vacances pour les enfants âgés entre 3 et 11 ans pendant les petites et grandes vacances.';
+      color = '#FC6681';
+      break;
+    case 'contact-us':
+      heroTitle = 'Contact';
+      heroSubtitle = 'Enrolment for the next school year has started!';
+      color = '#BDE6F6';
+      break;
+    case 'contact':
+      heroTitle = 'Contact';
+      heroSubtitle = 'N’hésitez pas à nous contacter directement pour échanger sur votre projet ou en savoir plus sur nos méthodes.';
+      color = '#BDE6F6';
+      break;
+
+    default:
+      break;
+  }
+
   const sectionColors = {
     workshop: '#60BDC1',
     pedagogy: '#FCC817',
@@ -56,10 +129,10 @@ const Layout = ({ children, data, location }) => {
         <meta name="theme-color" content="#ffffff" />
       </Helmet>
       <Hero
-        title={getPathData(siteData, lng, location.pathname, isHomePage)['title']}
-        subtitle={getPathData(siteData, lng, location.pathname, isHomePage)['heroSubtitle']}
+        title={heroTitle}
+        subtitle={heroSubtitle}
         image={withPrefix('/assets/openlab.jpg')}
-        color={getSectionColor(sectionColors, location.pathname)}
+        color={color}
         isHomePage={isHomePage}
       />
       <Naviagtion lng={lng} colors={sectionColors} />
