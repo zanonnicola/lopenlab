@@ -94,6 +94,9 @@ const Layout = ({ children, data, location }) => {
       break;
 
     default:
+      heroTitle = '';
+      heroSubtitle = '';
+      color = '#FFFFFF';
       break;
   }
 
