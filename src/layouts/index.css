@@ -673,9 +673,11 @@ pre tt:after {
 }
 .temp-page-content ul {
   padding: 0 0 0 20px;
-  list-style: none;
   border-left: 5px solid #fc6681;
   margin-left: 0;
+}
+.temp-page-content ul li {
+  margin-left: 20px;
 }
 [role="main"] {
   padding: 90px 0 0 0;
