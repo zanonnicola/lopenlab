@@ -17,14 +17,12 @@ const IndexPage = () => (
                 <p>Our workshops are tailored to babies, toddlers and children aged between 1 and 11. They are carried out in small groups and with children of similar ages. Entirely in English, they are open to English-speaking kids as well as to those who don’t speak English yet.</p>
                 <p>Our workshops take place in the morning, after school, on Wednesdays, on Saturdays and during the school holidays in two friendly and welcoming places:</p>
                 <ul>
-                    <li>Happy Place by <a href="https://www.facebook.com/vacouva">Vacouva</a>, a place dedicated to creativity and fun, located right behind the station on <a href="https://www.google.fr/maps?q=43+quai+de+malakoff+nantes&rlz=1C1JZAP_enFR710FR711&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjhsaSG1_TbAhUIthQKHazfDtgQ_AUICigB">43 quai de Malakoff</a></li>
+                    <li>Happy Place by <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/vacouva">Vacouva</a>, a place dedicated to creativity and fun, located right behind the station on <a target="_blank" rel="noopener noreferrer" href="https://www.google.fr/maps?q=43+quai+de+malakoff+nantes&rlz=1C1JZAP_enFR710FR711&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjhsaSG1_TbAhUIthQKHazfDtgQ_AUICigB">43 quai de Malakoff</a></li>
                     <li><strong>L’Open Lab for Kids’</strong> own very Lab, a place entirely designed for children, located in the middle of a garden. A perfect environment for kids to feel comfortable and express themselves with ease in English</li>
                 </ul>
                 <p>The new school year timetable is available to download. Don’t hesitate to get in touch with us if you’re interested in enrolling your child(dren) but can’t find a suitable slot. We really want to put together a timetable that can work with you and your family.</p>
                 <p>
                     <Cta text="Our timetable" url={withPrefix('/assets/lOpen_Lab_for_Kids_Programme.pdf')} margin="35px 0 0 0" />
-                    <br />
-                    <a href="mailto:hello@lopenlab.com" className="text-link">Contact Us</a>
                 </p>
             </article>
         </div>
