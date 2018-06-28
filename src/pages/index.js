@@ -32,7 +32,7 @@ const IndexPage = () => (
     <div className="wrapper__content wrapper--padded">
       <Heading
         rank={3}
-        text="Nous contacter"
+        text="L'Open Lab for Kids"
       />
       <article className="temp-page-content">
         <p className="temp-page__contact"><strong>Mail :</strong> <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a></p>
