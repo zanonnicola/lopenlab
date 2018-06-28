@@ -19,8 +19,8 @@ const Layout = ({ children, data, location }) => {
 
   const contentMap = {
     fr: {
-      title: "Apprendre, créer, s’amuser… et en anglais !",
-      subtitle: "A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans."
+      title: "Apprendre, créer, s’amuser, tout en anglais !",
+      subtitle: "A partir du 1er septembre 2018 en plein cœur de Nantes : des ateliers en anglais, créatifs et ludiques, conçus pour les enfants de 1 à 11 ans."
     },
     en: {
       title: "Learning, creating, having fun!",

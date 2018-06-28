@@ -667,6 +667,16 @@ pre tt:after {
   padding-left: 120px;
   margin-bottom: 70px;
 }
+.temp-page-content a {
+  color: #fc6681;
+  font-weight: bold;
+}
+.temp-page-content ul {
+  padding: 0 0 0 20px;
+  list-style: none;
+  border-left: 5px solid #fc6681;
+  margin-left: 0;
+}
 [role="main"] {
   padding: 90px 0 0 0;
 }
@@ -679,6 +689,17 @@ pre tt:after {
   color: #323B45;
 }
 .temp-page__contact a:hover {
+  color: #FC6681;
+}
+a.text-link {
+  margin: 15px 0 0 0; 
+  display: inline-block; 
+  font-size: 20px;
+  font-family: 'Merriweather', sans-serif; 
+  color: #323B45;
+  transition: 0.3s ease color;
+}
+.text-link:hover {
   color: #FC6681;
 }
 @media screen and (max-width: 700px) {

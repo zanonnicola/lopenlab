@@ -1,7 +1,7 @@
 import React from 'react';
 import { withPrefix } from "gatsby-link";
 import Heading from '../../components/heading';
-// import Banner from '../../components/banner';
+import Banner from '../../components/banner';
 import Footer from '../../components/footer';
 import Cta from '../../components/cta';
 
@@ -13,14 +13,25 @@ const IndexPage = () => (
                 text="Welcome to L’Open Lab for Kids"
             />
             <article className="temp-page-content">
-                <p>We think learning by doing makes more sense. We want kids to develop their creativity and have fun, while learning English… naturally. We want to provide kids with content of high quality that can help them grow and develop.</p>
-                <p>Our workshops are adapted to babies, toddlers and children aged between 1 and 11. They take place in the morning, after school, on Wednesday, on Saturday and during school holiday.</p>
-                <p>Our workshops are carried out entirely in English. They are open to English speaking kids as well as to those who don’t yet speak English.</p>
-                <p>The new school year timetable is now available. You can download it by clicking the below link. More information will soon be available online. In the meantime, please don’t hesitate to contact us for more information, we’d love to hear from you!</p>
+                <p>We believe that learning by doing makes more sense. We want kids to develop their creativity and have fun, while learning English… naturally. We want to provide children with content of high quality that can help them grow and develop.</p>
+                <p>Our workshops are tailored to babies, toddlers and children aged between 1 and 11. They are carried out in small groups and with children of similar ages. Entirely in English, they are open to English-speaking kids as well as to those who don’t speak English yet.</p>
+                <p>Our workshops take place in the morning, after school, on Wednesdays, on Saturdays and during the school holidays in two friendly and welcoming places:</p>
+                <ul>
+                    <li>Happy Place by <a href="https://www.facebook.com/vacouva">Vacouva</a>, a place dedicated to creativity and fun, located right behind the station on <a href="https://www.google.fr/maps?q=43+quai+de+malakoff+nantes&rlz=1C1JZAP_enFR710FR711&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjhsaSG1_TbAhUIthQKHazfDtgQ_AUICigB">43 quai de Malakoff</a></li>
+                    <li><strong>L’Open Lab for Kids’</strong> own very Lab, a place entirely designed for children, located in the middle of a garden. A perfect environment for kids to feel comfortable and express themselves with ease in English</li>
+                </ul>
+                <p>The new school year timetable is available to download. Don’t hesitate to get in touch with us if you’re interested in enrolling your child(dren) but can’t find a suitable slot. We really want to put together a timetable that can work with you and your family.</p>
                 <p>
                     <Cta text="Our timetable" url={withPrefix('/assets/lOpen_Lab_for_Kids_Programme.pdf')} margin="35px 0 0 0" />
+                    <br />
+                    <a href="mailto:hello@lopenlab.com" className="text-link">Contact Us</a>
                 </p>
             </article>
+        </div>
+
+        <Banner lng="en" />
+
+        <div className="wrapper__content wrapper--padded">
             <Heading
                 rank={3}
                 text="Our contact details"
@@ -31,7 +42,6 @@ const IndexPage = () => (
                 <p className="temp-page__contact"><strong>Follow us on Facebook:</strong> <a href="https://www.facebook.com/LOpenLabforKids/">L'Open Lab for Kids</a></p>
             </article>
         </div>
-        {/* <Banner lng="en" /> */}
         <Footer lng="en" />
     </main>
 )
