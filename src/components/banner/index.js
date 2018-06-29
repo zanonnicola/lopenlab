@@ -9,12 +9,12 @@ const Banner = ({ lng }) => (
             {lng === 'fr' ?
                 (
                     <React.Fragment>
-                        <p>Les inscriptions pour la rentrée scolaire 2018-2019 ont commencé. Contactez-nous dès maintenant pour inscrire vos enfants à un atelier. Nous ne pouvons accueillir qu’un nombre limité d’enfants par <strong>atelier</strong>.</p>
+                        <p>Les inscriptions pour la rentrée scolaire 2018-2019 ont commencé. Contactez-nous dès maintenant pour inscrire vos enfants à un atelier. Nous ne pouvons accueillir qu’un nombre limité d’enfants par atelier.</p>
                         <Cta text="S'inscrire" url="mailto:hello@lopenlab.com?subject=S'inscrire à un atelier" margin="35px 0 0 0" />
                     </React.Fragment>
                 ) : (
                     <React.Fragment>
-                        <p>Enrollment for the next school year has started. Please get in touch with us ASAP if you want to sign up your child(dren) for one of our <strong>workshops</strong>. We only have a limited number of spaces available.</p>
+                        <p>Enrollment for the next school year has started. Please get in touch with us ASAP if you want to sign up your child(dren) for one of our workshops. We only have a limited number of spaces available.</p>
                         <Cta text="Sign up" url="mailto:hello@lopenlab.com?subject=Sign up to a workshop" margin="35px 0 0 0" />
                     </React.Fragment>
                 )}
