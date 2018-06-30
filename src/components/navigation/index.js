@@ -56,14 +56,13 @@ const lngMap = {
 class Navigation extends Component {
     state = { show: false };
 
-    showOverlay = (evt) => {
+    toggleOverlay = (evt) => {
         evt.preventDefault();
-        this.setState({ show: true });
+        this.setState(() => ({
+            show: !this.state.show
+        }));
     };
 
-    hideOverlay = () => {
-        this.setState({ show: false });
-    };
     render() {
         const { lng, colors } = this.props;
         return (
@@ -123,11 +122,11 @@ class Navigation extends Component {
                         <span className={style.navigation__plus} style={{ color: colors.contact }}>+</span> {lngMap[lng].contact.title}
                     </Link>
                     <Link className={style.navigation__lng} to={lng === 'fr' ? '/en' : '/'}>{lng === 'fr' ? 'en' : `fr`}</Link>
-                    <a thref="#0" className={style.mobileMenu} onClick={this.showOverlay}>
+                    <a thref="#0" className={style.mobileMenu} onClick={this.toggleOverlay}>
                         <img src={menu} alt="Menu" style={{ verticalAlign: 'middle', maxWidth: '30px' }} />
                     </a>
                 </div>
-                <Overlay lng={lng} show={this.state.show} />
+                <Overlay lng={lng} show={this.state.show} toggleOverlay={this.toggleOverlay} />
             </nav>
         );
     }
