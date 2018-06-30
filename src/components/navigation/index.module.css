@@ -48,9 +48,24 @@
 .active60BDC1 {
     color: #60BDC1;
 }
-@media screen and (max-width: 700px) {
-    .navigation__lng {
-        padding: 25px;
+.mobileMenu {
+    padding: 25px;
+    border-left: 1px solid #E6E6E6;
+    text-transform: uppercase;
+    color: #9B9B9B;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: none;
+    -webkit-appearance: none;
+}
+@media screen and (max-width: 866px) {
+    .navigation__lng, .navigation__listItem {
+        display: none;
+    }
+    .mobileMenu {
+        display: inline-block;
     }
     .navigation__logo {
         top: -70px;

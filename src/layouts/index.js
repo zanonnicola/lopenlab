@@ -38,7 +38,7 @@ const Layout = ({ children, data, location }) => {
       color = '#fff';
       break;
     case '':
-      heroTitle = 'Apprendre, créer, s’amuser… et en anglais !';
+      heroTitle = 'Apprendre, créer, s’amuser, tout en anglais !';
       heroSubtitle = 'A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans.';
       color = '#fff';
       break;

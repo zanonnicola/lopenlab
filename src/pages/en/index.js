@@ -29,7 +29,7 @@ const IndexPage = () => (
             <div className="wrapper wrapper--padded">
                 <Heading
                     rank={3}
-                    text="Take a look around!"
+                    text="Get to know us"
                 />
                 <div className="row center-xs">
                     {Object.keys(site.en).filter(key => key !== 'homepage').map((section, i) =>
