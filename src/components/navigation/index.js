@@ -73,60 +73,27 @@ class Navigation extends Component {
                     </Link>
                 </div>
                 <div className={style.navigation__list}>
-                    <Link
-                        className={style.navigation__listItem}
-                        activeStyle={{
-                            color: colors.workshop
-                        }}
-                        to={lngMap[lng].workshop.url}
-                    >
-                        <span className={style.navigation__plus} style={{ color: colors.workshop }}>+</span> {lngMap[lng].workshop.title}
-                    </Link>
-                    <Link
-                        className={style.navigation__listItem}
-                        activeStyle={{
-                            color: colors.pedagogy
-                        }}
-                        to={lngMap[lng].pedagogy.url}
-                    >
-                        <span className={style.navigation__plus} style={{ color: colors.pedagogy }}>+</span> {lngMap[lng].pedagogy.title}
-                    </Link>
-                    <Link
-                        className={style.navigation__listItem}
-                        activeStyle={{
-                            color: colors.team
-                        }}
-                        activeClassName={style.active}
-                        to={lngMap[lng].team.url}
-                    >
-                        <span className={style.navigation__plus} style={{ color: colors.team }}>+</span> {lngMap[lng].team.title}
-                    </Link>
-                    <Link
-                        className={style.navigation__listItem}
-                        activeStyle={{
-                            color: colors.holidays
-                        }}
-                        activeClassName={style.active}
-                        to={lngMap[lng].holidays.url}
-                    >
-                        <span className={style.navigation__plus} style={{ color: colors.holidays }}>+</span> {lngMap[lng].holidays.title}
-                    </Link>
-                    <Link
-                        className={style.navigation__listItem}
-                        activeStyle={{
-                            color: colors.contact
-                        }}
-                        activeClassName={style.active}
-                        to={lngMap[lng].contact.url}
-                    >
-                        <span className={style.navigation__plus} style={{ color: colors.contact }}>+</span> {lngMap[lng].contact.title}
-                    </Link>
+                    {Object.keys(lngMap[lng]).map((section, i) => {
+                        return (
+                            <Link
+                                key={`nav-${i}`}
+                                className={style.navigation__listItem}
+                                activeStyle={{
+                                    color: colors[section]
+                                }}
+                                to={lngMap[lng][section].url}
+                            >
+                                <span className={style.navigation__plus} style={{ color: colors[section] }}>+</span> {lngMap[lng][section].title}
+                            </Link>
+                        )
+                    }
+                    )}
                     <Link className={style.navigation__lng} to={lng === 'fr' ? '/en' : '/'}>{lng === 'fr' ? 'en' : `fr`}</Link>
                     <a thref="#0" className={style.mobileMenu} onClick={this.toggleOverlay}>
                         <img src={menu} alt="Menu" style={{ verticalAlign: 'middle', maxWidth: '30px' }} />
                     </a>
                 </div>
-                <Overlay lng={lng} show={this.state.show} toggleOverlay={this.toggleOverlay} />
+                <Overlay lng={lng} menu={lngMap} colors={colors} show={this.state.show} toggleOverlay={this.toggleOverlay} />
             </nav>
         );
     }
