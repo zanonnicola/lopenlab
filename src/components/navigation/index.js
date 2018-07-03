@@ -89,7 +89,7 @@ class Navigation extends Component {
                     }
                     )}
                     <Link className={style.navigation__lng} to={lng === 'fr' ? '/en' : '/'}>{lng === 'fr' ? 'en' : `fr`}</Link>
-                    <a thref="#0" className={style.mobileMenu} onClick={this.toggleOverlay}>
+                    <a href="#0" className={style.mobileMenu} onClick={this.toggleOverlay}>
                         <img src={menu} alt="Menu" style={{ verticalAlign: 'middle', maxWidth: '30px' }} />
                     </a>
                 </div>
