@@ -39,6 +39,9 @@
     color: #9B9B9B;
     text-decoration: none;
 }
+.navigation__listItem:hover {
+    color: #FC6681;
+}
 .navigation__listItem:last-of-type {
     margin-right: 32px;
 }
