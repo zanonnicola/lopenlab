@@ -556,15 +556,6 @@ li > ul {
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
 }
-blockquote *:last-child {
-  margin-bottom: 0;
-}
-li *:last-child {
-  margin-bottom: 0;
-}
-p *:last-child {
-  margin-bottom: 0;
-}
 li > p {
   margin-bottom: calc(1.45rem / 2);
 }
@@ -692,6 +683,9 @@ pre tt:after {
 .temp-page__contact a:hover {
   color: #FC6681;
 }
+.padding-bottom {
+  padding-bottom: 45px
+}
 @media screen and (max-width: 700px) {
   [role="main"] {
     padding: 45px 0 0 0;
@@ -741,7 +735,7 @@ UTILITY CLASSES
   padding-left: 45px;
   width: 50%;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   .flex {
     display: block;
     overflow: unset;

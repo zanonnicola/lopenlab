@@ -1,6 +1,6 @@
 ---
 path: "/atelier"
-layout: "page"
+layout: "page-workshop"
 date: "2018-04-27"
 title: "Atelier"
 metaDescription: "Pour se familiariser avec l’anglais dès le plus jeune âge à travers des activités épanouissantes"

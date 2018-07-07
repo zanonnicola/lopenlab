@@ -11,6 +11,13 @@
     margin: 0 0 20px 0;
     color: #323B45;
 }
+.h5 {
+    font-size: 25px;
+    line-height: 1.4;
+    margin: 0 0 20px 0;
+    color: #323B45;
+    font-weight: normal;
+}
 @media screen and (max-width: 700px) {
     .h3 {
         font-size: 26px;
@@ -18,5 +25,8 @@
     }
     .h4 {
         font-size: 22px;
+    }
+    .h5 {
+        font-size: 20px;
     }
 }

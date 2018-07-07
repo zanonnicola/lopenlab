@@ -1,0 +1,38 @@
+.yellow-box {
+  background-color: #FEF9E7;
+  padding: 45px 40px;
+}
+.ul_general {
+  list-style-type: none;
+  margin: 40px 0 0 0;
+  padding: 0;
+}
+.ul_general li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.ul_general li:last-of-type {
+  margin-bottom: 0;
+}
+.ul_general li >  a {
+  color: #9B9B9B;
+  text-decoration: none;
+}
+.ul_general li >  a:hover {
+  color: #fc6681;
+}
+.ul_general li strong {
+  display: block;
+}
+blockquote {
+  border-left: 15px solid #BDE6F6;
+  padding: 0 0 0 25px;
+  margin: 50px 0 0 0;
+  color: #9B9B9B;
+}
+blockquote strong {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Merriweather', sans-serif;
+  color: #323B45;
+}
