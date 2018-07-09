@@ -2,8 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import Heading from '../components/heading';
 import Footer from '../components/footer';
-
-// import '../css/page.css'; // make it pretty!
+import './css/team.css'; // make it pretty!
 
 export default function Template({
     data
@@ -18,29 +17,28 @@ export default function Template({
                         { name: 'description', content: `${post.frontmatter.metaDescription}` }
                     ]}
                 />
-                <Heading
-                    rank={3}
-                    text={post.frontmatter.title}
-                />
-                <div className="flex">
-                    <div className="flex-50" dangerouslySetInnerHTML={{ __html: post.html }}></div>
-                    <div className="flex-50">
-                        <aside className="yellow-box">
-                            <Heading
-                                rank={4}
-                                text={post.frontmatter.contactTitle}
-                            />
-                        </aside>
+                <article className="small-content padding-bottom">
+                    <Heading
+                        rank={3}
+                        text={post.frontmatter.title}
+                        extraStyle={{ textAlign: 'left' }}
+                    />
+                    <div dangerouslySetInnerHTML={{ __html: post.html }}>
                     </div>
-                </div>
+                </article>
             </div>
+            <section className="team-cards">
+                <div className="wrapper wrapper--padded">
+                    asddasdasdds
+                </div>
+            </section>
             <Footer lng={post.frontmatter.lng} />
         </main>
     );
 }
 
 export const pageQuery = graphql`
-    query PageWorkshop($path: String!) {
+    query PageTeam($path: String!) {
         markdownRemark(frontmatter: { path: { eq: $path } }) {
             html
             frontmatter {

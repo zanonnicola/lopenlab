@@ -11,7 +11,12 @@ export default function Template({
     console.log(pathContext);
     return (
         <div className="blog-post-container">
-            <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
+            <Helmet
+                title={`Page - ${post.frontmatter.title}`}
+                meta={[
+                    { name: 'description', content: `${post.frontmatter.metaDescription}` }
+                ]}
+            />
             <div className="blog-post">
                 <h1>{post.frontmatter.title}</h1>
                 <div

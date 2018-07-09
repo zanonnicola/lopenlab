@@ -657,6 +657,10 @@ pre tt:after {
 .wrapper--padded {
   padding: 0 20px;
 }
+.small-content {
+  max-width: 670px;
+  margin: 0 auto;
+}
 .section {
   padding: 90px 0;
 }

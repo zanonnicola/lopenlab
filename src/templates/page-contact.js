@@ -11,7 +11,12 @@ export default function Template({
     return (
         <main role="main">
             <div className="wrapper wrapper--padded">
-                <Helmet title={`Page - ${post.frontmatter.title}`} />
+                <Helmet
+                    title={`Page - ${post.frontmatter.title}`}
+                    meta={[
+                        { name: 'description', content: `${post.frontmatter.metaDescription}` }
+                    ]}
+                />
                 <Heading
                     rank={3}
                     text={post.frontmatter.title}
