@@ -63,8 +63,16 @@ class Navigation extends Component {
         }));
     };
 
+    componentWillReceiveProps(nextProp) {
+        if (this.props.location.pathname !== nextProp.location.pathname) {
+            this.setState(() => ({
+                show: false
+            }));
+        }
+    }
+
     render() {
-        const { lng, colors } = this.props;
+        const { lng, colors, location } = this.props;
         return (
             <nav className={style.navigation}>
                 <div className="wrapper wrapper--padded u-relative">
@@ -102,7 +110,8 @@ class Navigation extends Component {
 
 Navigation.propTypes = {
     lng: PropTypes.string.isRequired,
-    colors: PropTypes.object
+    colors: PropTypes.object,
+    location: PropTypes.any
 }
 
 export default Navigation;

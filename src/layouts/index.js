@@ -138,7 +138,7 @@ const Layout = ({ children, data, location }) => {
         color={color}
         isHomePage={isHomePage}
       />
-      <Naviagtion lng={lng} colors={sectionColors} />
+      <Naviagtion lng={lng} colors={sectionColors} location={location} />
       {children()}
     </div>
   )
