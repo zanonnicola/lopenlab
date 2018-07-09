@@ -2,12 +2,18 @@ import React from "react";
 import Helmet from "react-helmet";
 import Heading from '../components/heading';
 import Footer from '../components/footer';
+import MemberCard from '../components/member';
 import './css/team.css'; // make it pretty!
 
 export default function Template({
     data
 }) {
-    const { markdownRemark: post } = data;
+    const { markdownRemark: post, allDataYaml: team } = data;
+    const memberCards = team.edges.map(({ node }, i) => {
+        if (node.person.lng === post.frontmatter.lng) {
+            return <MemberCard key={`mem-${i}`} data={node.person} />;
+        }
+    });
     return (
         <main role="main">
             <div className="wrapper wrapper--padded">
@@ -29,7 +35,7 @@ export default function Template({
             </div>
             <section className="team-cards">
                 <div className="wrapper wrapper--padded">
-                    asddasdasdds
+                    {memberCards}
                 </div>
             </section>
             <Footer lng={post.frontmatter.lng} />
@@ -48,6 +54,18 @@ export const pageQuery = graphql`
                 metaDescription
                 subTitle
                 lng
+            }
+        }
+        allDataYaml {
+            edges {
+                node {
+                    person {
+                        name
+                        title
+                        lng
+                        description
+                    }
+                }
             }
         }
     }

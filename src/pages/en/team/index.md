@@ -1,5 +1,5 @@
 ---
-path: "/team"
+path: "/en/team"
 layout: "page-team"
 date: "2018-04-27"
 title: "Our Team"
