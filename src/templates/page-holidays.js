@@ -32,6 +32,7 @@ export default function Template({
                     <form role="form" name="contact" method="POST" action="#" netlify-honeypot="bot-field" data-netlify="true">
                         <div className="from-flex">
                             <div className="hidden">
+                                <input type="hidden" name="form-name" value="contact" />
                                 <input type="hidden" name="bot-field" />
                             </div>
                             <div className="input-wrapper">
