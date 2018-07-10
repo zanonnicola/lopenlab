@@ -35,7 +35,9 @@ export default function Template({
             </div>
             <section className="team-cards">
                 <div className="wrapper wrapper--padded">
-                    {memberCards}
+                    <div className={team.edges > 1 ? 'team-columns' : ''}>
+                        {memberCards}
+                    </div>
                 </div>
             </section>
             <Footer lng={post.frontmatter.lng} />
@@ -64,6 +66,7 @@ export const pageQuery = graphql`
                         title
                         lng
                         description
+                        diploma
                     }
                 }
             }
