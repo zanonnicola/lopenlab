@@ -37,24 +37,24 @@ export default function Template({
                             </div>
                             <div className="input-wrapper">
                                 <label htmlFor="inpName">Name</label>
-                                <input type="test" id="inpName" required />
+                                <input type="test" name="name" id="inpName" required />
                             </div>
                             <div className="input-wrapper">
                                 <label htmlFor="inpEmail">Email</label>
-                                <input type="email" id="inpEmail" required />
+                                <input type="email" name="email" id="inpEmail" required />
                             </div>
                             <div className="input-wrapper">
                                 <label htmlFor="inpName2">Name(s) of your child(ren):</label>
-                                <input type="test" id="inpName2" />
+                                <input type="test" name="childName" id="inpName2" />
                             </div>
                             <div className="input-wrapper">
                                 <label htmlFor="inpName3">Age(s) of your child(ren):</label>
-                                <input type="test" id="inpName3" />
+                                <input type="test" name="childAge" id="inpName3" />
                             </div>
                         </div>
                         <div className="input-block">
                             <label htmlFor="inpArea">Your short message *:</label>
-                            <textarea id="inpArea" cols="30" rows="10" required></textarea>
+                            <textarea name="message" id="inpArea" cols="30" rows="10" required></textarea>
                         </div>
                         <input type="submit" value="Submit" />
                     </form>
