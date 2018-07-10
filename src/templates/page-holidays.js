@@ -29,7 +29,7 @@ export default function Template({
             </div>
             <section className="holidays-form">
                 <div className="wrapper wrapper--padded">
-                    <form role="form" name="contact" method="POST" netlify-honeypot="bot-field" netlify>
+                    <form role="form" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                         <div className="from-flex">
                             <div className="hidden">
                                 <label>Don’t fill this out if you are human: <input name="bot-field" /></label>
