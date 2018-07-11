@@ -55,22 +55,22 @@ const Layout = ({ children, data, location }) => {
     case 'pedagogy':
       heroTitle = 'Pedagogy';
       heroSubtitle = 'Absorb and acquire English through fun and enriching activities from their youngest age.';
-      color = '#FCC817';
+      color = '#0E4658';
       break;
     case 'pedagogie':
       heroTitle = 'Pédagogie';
       heroSubtitle = 'Dès leur plus jeune âge, à travers des activités épanouissantes et ludiques';
-      color = '#FCC817';
+      color = '#0E4658';
       break;
     case 'team':
       heroTitle = 'Team';
       heroSubtitle = 'International and multicultural: English, Irish, American, French and Brazilian';
-      color = '#0E4658';
+      color = '#FCC817';
       break;
     case 'equipe':
       heroTitle = `L' Equipe`;
       heroSubtitle = 'A l’image de l’Open Lab for Kids, l’équipe est internationale et multiculturelle : anglaise, irlandaise, américaine, française et brésilienne.';
-      color = '#0E4658';
+      color = '#FCC817';
       break;
     case 'holidays':
       heroTitle = 'Holidays';
@@ -102,13 +102,13 @@ const Layout = ({ children, data, location }) => {
 
   const sectionColors = {
     workshop: '#60BDC1',
-    pedagogy: '#FCC817',
-    team: '#0E4658',
+    pedagogy: '#0E4658',
+    team: '#FCC817',
     holidays: '#FC6681',
     contact: '#BDE6F6',
     atelier: '#60BDC1',
-    pedagogie: '#FCC817',
-    equipe: '#0E4658',
+    pedagogie: '#0E4658',
+    equipe: '#FCC817',
     vacances: '#FC6681',
   };
 

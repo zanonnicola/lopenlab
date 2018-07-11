@@ -17,7 +17,7 @@ const lngMap = {
             url: '/pedagogie'
         },
         team: {
-            title: `L' Equipe`,
+            title: `L’équipe`,
             url: '/equipe'
         },
         holidays: {

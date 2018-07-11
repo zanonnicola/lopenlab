@@ -11,13 +11,13 @@ const section = {
             heroSubtitle: "For children to get familiar with English via enriching activities from their youngest age"
         },
         pedagogy: {
-            color: '#FCC817',
+            color: '#0E4658',
             title: 'Pedagogy',
             intro: "Our know-how and what’s important to us: children get to absorb and acquire English through fun and enriching activities from their youngest age.",
             heroSubtitle: "Absorb and acquire English through fun and enriching activities from their youngest age."
         },
         team: {
-            color: '#0E4658',
+            color: '#FCC817',
             title: 'Team',
             intro: "We have a team of native English-speaking teachers and bilingual professionals qualified in their area of expertise.",
             heroSubtitle: "International and multicultural: English, Irish, American, French and Brazilian"
@@ -41,20 +41,20 @@ const section = {
             heroSubtitle: 'A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans.'
         },
         atelier: {
-            color: '#60BDC1',
+            color: '#FCC817',
             title: 'Nos ateliers',
             intro: "Pour se familiariser avec l’anglais dès le plus jeune âge à travers des activités épanouissantes",
             heroSubtitle: "A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans."
         },
         pedagogie: {
-            color: '#FCC817',
+            color: '#60BDC1',
             title: 'Pédagogie',
             intro: "Notre savoir-faire et ce qui nous tient à cœur : que les enfants s’approprient l’anglais spontanément, dès leur plus jeune âge, à travers des activités épanouissantes et ludiques.",
             heroSubtitle: "Dès leur plus jeune âge, à travers des activités épanouissantes et ludiques"
         },
         equipe: {
             color: '#0E4658',
-            title: `L' Equipe`,
+            title: `L’équipe`,
             intro: "L’équipe de l’Open Lab for Kids est composée de professeurs d’anglais natifs ou parfaitement bilingues et d’intervenants spécialisés dans leur discipline.",
             heroSubtitle: "A l’image de l’Open Lab for Kids, l’équipe est internationale et multiculturelle : anglaise, irlandaise, américaine, française et brésilienne."
         },
