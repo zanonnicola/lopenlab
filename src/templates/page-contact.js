@@ -2,7 +2,8 @@ import React from "react";
 import Helmet from "react-helmet";
 import Heading from '../components/heading';
 import Footer from '../components/footer';
-import './css/contact.css'; // make it pretty!
+import './css/contact.css';
+import pin from './assets/map-pin.svg';
 
 export default function Template({
     data
@@ -37,6 +38,18 @@ export default function Template({
                                     <li><strong>{phone}</strong><a href="tel:+33686022250">+33 6 86 02 22 50</a></li>
                                     <li><strong>{email}</strong><a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a></li>
                                 </ul>
+                            </aside>
+                            <aside className="contact-loc">
+                                <a href="https://www.google.fr/maps/place/Vacouva/@47.2147032,-1.5433222,17z/data=!4m13!1m7!3m6!1s0x4805eeb84753995d:0xb3771b6433584ec0!2s43+Quai+de+Malakoff,+44000+Nantes!3b1!8m2!3d47.2147032!4d-1.5411335!3m4!1s0x4805eeb8399276c5:0xe54ac076a5ce2080!8m2!3d47.2146419!4d-1.5411651">
+                                    <h6><img src={pin} alt="Location" />Happy Place by Vacouva</h6>
+                                    43 quai de Malakoff<br />
+                                    44 000 Nantes</a>
+                            </aside>
+                            <aside className="contact-loc">
+                                <a href="https://www.google.fr/maps/place/77+Rue+de+la+Tullaye,+44300+Nantes/data=!4m2!3m1!1s0x4805eef2f55178b9:0xb8d682b0e8e29b0e?sa=X&ved=0ahUKEwiK7KG7rZfcAhXJthQKHcenAV4Q8gEIJzAA">
+                                    <h6><img src={pin} alt="Location" />Le Lab, notre Atelier au coeur d’un jardin</h6>
+                                    77 rue de la Tullaye<br />
+                                    44300 Nantes</a>
                             </aside>
                         </div>
                     </div>
