@@ -6,7 +6,7 @@ const section = {
         },
         workshop: {
             color: '#60BDC1',
-            title: 'Workshop',
+            title: 'Our Workshops',
             intro: "For children to get familiar with English through taking part in enriching activities from their youngest age",
             heroSubtitle: "For children to get familiar with English via enriching activities from their youngest age"
         },
@@ -42,7 +42,7 @@ const section = {
         },
         atelier: {
             color: '#60BDC1',
-            title: 'Atelier',
+            title: 'Nos ateliers',
             intro: "Pour se familiariser avec l’anglais dès le plus jeune âge à travers des activités épanouissantes",
             heroSubtitle: "A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans."
         },

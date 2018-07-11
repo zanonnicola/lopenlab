@@ -2,13 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import style from './index.module.css';
 import fb from './facebook.svg';
+import ig from './instagram.svg';
 
 const Footer = ({ lng }) => (
     <footer className={style.footer}>
         <div className="wrapper wrapper--padded">
             <div className={style.flex}>
                 <div className={style.info}>
-                    <h5>{lng === 'fr' ? 'Contact' : 'Contact details'}</h5>
+                    <h5>{lng === 'fr' ? 'Nous contacter' : 'Contact details'}</h5>
                     <p>
                         <strong>E-mail :</strong> <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a><br />
                         <strong>Tel :</strong> <a href="tel:+33686022250">+33 6 86 02 22 50</a>
@@ -19,6 +20,9 @@ const Footer = ({ lng }) => (
                     <h5>{lng === 'fr' ? 'Réseaux sociaux' : 'Social'}</h5>
                     <a href="https://www.facebook.com/LOpenLabforKids/">
                         <img src={fb} className={style.icon} />
+                    </a>
+                    <a href="https://www.instagram.com/lopenlabforkids/">
+                        <img src={ig} className={style.icon} />
                     </a>
                 </div>
             </div>

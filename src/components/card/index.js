@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 import Heading from '../heading';
 import style from './index.module.css';
 
-const Card = ({ pagePath, text, title, color }) => (
+const Card = ({ pagePath, text, title, color, cta }) => (
     <Link className={style.card} to={`${pagePath}`}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 219">
             <path d="M-3.516.398h410.524c19.379 59.172-17.664 111.532-111.127 157.079-93.464 45.546-193.263 65.44-299.397 59.68V.397z" fill={color} fillRule="evenodd" />
@@ -19,6 +19,7 @@ const Card = ({ pagePath, text, title, color }) => (
                 }}
             />
             <p>{text}</p>
+            <span className={style.readMore}>{cta}</span>
         </div>
     </Link>
 );

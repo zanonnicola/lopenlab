@@ -9,9 +9,9 @@ const CallOut = ({ lng }) => (
             {lng === 'fr' ?
                 (
                     <React.Fragment>
-                        <p className={style.text}>A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, <b style={{ color: "#60BDC1" }}>créatifs</b> et <b style={{ color: "#FDC60D" }}>ludiques</b>, parfaitement adaptés aux enfants de 1 à 11 ans.</p>
+                        <p className={style.text}><strong>Au programme</strong> : découverte des arts plastiques, du théâtre, premières expériences scientifiques et technologiques, bricolage, cuisine, jardinage, activités sensorielles. Nos objectifs : <b style={{ color: "#FDC60D" }}>apprendre, créer, s’amuser, tout en anglais !</b></p>
                         <Link className={style.cta} to="/atelier">
-                            Découvrez
+                            Nos ateliers
                             <svg xmlns="http://www.w3.org/2000/svg">
                                 <path d="M27.714 2L10.036 19.679 2 11.643" stroke="#FC6681" strokeWidth="4" fill="none" fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
@@ -19,9 +19,9 @@ const CallOut = ({ lng }) => (
                     </React.Fragment>
                 ) : (
                     <React.Fragment>
-                        <p className={style.text}>From the start of the new school year in September 2018: <b style={{ color: "#60BDC1" }}>fun</b> and <b style={{ color: "#FDC60D" }}>creative</b> workshops for babies & children aged from 0 to 11.</p>
+                        <p className={style.text}><strong>Our programme</strong> includes fine arts, theatre, STEM experiences, DIY, cooking, gardening, sensory ad playful activities… all in English of course! Our objectives: <b style={{ color: "#FDC60D" }}>learning, creating, having fun !</b></p>
                         <Link className={style.cta} to="/en/workshop">
-                            Discover Now
+                            Our workshops
                             <svg xmlns="http://www.w3.org/2000/svg">
                                 <path d="M27.714 2L10.036 19.679 2 11.643" stroke="#FC6681" strokeWidth="4" fill="none" fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>

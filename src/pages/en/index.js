@@ -15,11 +15,11 @@ const IndexPage = () => (
             <article className="hero-content">
                 <div className="flex">
                     <div className="flex-50">
-                        <p><b className="bold-it">What if</b> our children could acquire English in the same way they learn their first language?</p>
-                        <p style={{ marginBottom: 0 }}><b className="bold-it">What if</b> they could explore the language, absorb it on their own terms in a safe and engaging environment, while taking part in creative and interactive activities?</p>
+                        <p><b className="bold-it">What if our children</b> could learn English in the same way they pick up their first language?</p>
+                        <p style={{ marginBottom: 0 }}><b className="bold-it">And for native English speakers</b> what if they could have the opportunity to practice English more, surrounded by friends and kids of the same age, in a safe and engaging environment, while taking part in creative and interactive activities?</p>
                     </div>
                     <div className="flex-50">
-                        <p>That is the idea behind <strong>L’Open Lab for Kids</strong>: fun and creative workshops where kids get to discover, create and experiment, all in English, in a nurturing environment.</p>
+                        <p>That is the idea behind <strong>L’Open Lab for Kids</strong>: fun and creative workshops where children get to discover, create and experiment, all in English, in a nurturing environment.</p>
                     </div>
                 </div>
             </article>
@@ -39,6 +39,7 @@ const IndexPage = () => (
                                 color={site['en'][section].color}
                                 pagePath={section}
                                 text={site['en'][section].intro}
+                                cta="Read more"
                             />
                         </div>
                     )}

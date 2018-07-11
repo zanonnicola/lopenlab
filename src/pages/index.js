@@ -15,8 +15,8 @@ const IndexPage = () => (
       <article className="hero-content">
         <div className="flex">
           <div className="flex-50">
-            <p><b className="bold-it">Et si</b> nos enfants découvraient l’anglais de manière naturelle et sans contrainte ?</p>
-            <p style={{ marginBottom: 0 }}><b className="bold-it">S’ils pouvaient</b> prendre goût à la pratique d’une langue étrangère, en toute confiance et sans complexe, tout en développant leur créativité et en s’amusant ?</p>
+            <p><b className="bold-it">Et si nos enfants</b> découvraient l’anglais de manière naturelle et sans contrainte ?</p>
+            <p style={{ marginBottom: 0 }}><b className="bold-it">S’ils pouvaient prendre goût</b> à la pratique d’une langue étrangère, en toute confiance et sans complexe, tout en développant leur créativité et en s’amusant ?</p>
           </div>
           <div className="flex-50">
             <p>C’est l’idée derrière <strong>L’Open Lab for Kids</strong> : des ateliers créatifs et ludiques où les enfants découvrent, créent et expérimentent en anglais dans une ambiance chaleureuse et familiale.</p>
@@ -39,6 +39,7 @@ const IndexPage = () => (
                 color={site['fr'][section].color}
                 pagePath={section}
                 text={site['fr'][section].intro}
+                cta="En savoir plus"
               />
             </div>
           )}
