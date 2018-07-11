@@ -2,9 +2,9 @@
 path: "/en/holidays"
 layout: "page-holidays"
 date: "2018-04-27"
-title: "Get in touch"
-metaDescription: "Fun and creative things to do for kids to spend their break"
-subTitle: "Fun and creative things to do for kids to spend their break"
+title: "Holidays"
+metaDescription: "A dedicated holiday programme full of fun and creative things to do for kids to spend their break."
+subTitle: "A dedicated holiday programme full of fun and creative things to do for kids to spend their break."
 lng: "en"
 ---
 

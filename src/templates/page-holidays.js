@@ -36,7 +36,7 @@ export default function Template({
                                 <input type="hidden" name="bot-field" />
                             </div>
                             <div className="input-wrapper">
-                                <label htmlFor="inpName">Name</label>
+                                <label htmlFor="inpName">Your name</label>
                                 <input type="test" name="name" id="inpName" required />
                             </div>
                             <div className="input-wrapper">
@@ -53,10 +53,10 @@ export default function Template({
                             </div>
                         </div>
                         <div className="input-block">
-                            <label htmlFor="inpArea">Your short message *:</label>
+                            <label htmlFor="inpArea">Your message *:</label>
                             <textarea name="message" id="inpArea" cols="30" rows="10" required></textarea>
                         </div>
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value={data.frontmatter.lng === 'fr' ? 'Envoyer' : 'Submit'} />
                     </form>
                     <p className="form-tec">* This is just a way for us to understand what you’re looking for, the dates and times that would be convenient for you and the name and age of your kid(s) to come. For example, 1st week of the school holiday period in the morning only. Thank you!</p>
                 </div>
