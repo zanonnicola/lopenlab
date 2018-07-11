@@ -41,19 +41,19 @@ const section = {
             heroSubtitle: 'A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans.'
         },
         atelier: {
-            color: '#FCC817',
+            color: '#60BDC1',
             title: 'Nos ateliers',
             intro: "Pour se familiariser avec l’anglais dès le plus jeune âge à travers des activités épanouissantes",
             heroSubtitle: "A partir du 1er septembre 2018 à Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans."
         },
         pedagogie: {
-            color: '#60BDC1',
+            color: '#0E4658',
             title: 'Pédagogie',
             intro: "Notre savoir-faire et ce qui nous tient à cœur : que les enfants s’approprient l’anglais spontanément, dès leur plus jeune âge, à travers des activités épanouissantes et ludiques.",
             heroSubtitle: "Dès leur plus jeune âge, à travers des activités épanouissantes et ludiques"
         },
         equipe: {
-            color: '#0E4658',
+            color: '#FCC817',
             title: `L’équipe`,
             intro: "L’équipe de l’Open Lab for Kids est composée de professeurs d’anglais natifs ou parfaitement bilingues et d’intervenants spécialisés dans leur discipline.",
             heroSubtitle: "A l’image de l’Open Lab for Kids, l’équipe est internationale et multiculturelle : anglaise, irlandaise, américaine, française et brésilienne."
