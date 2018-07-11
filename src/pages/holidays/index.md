@@ -5,7 +5,7 @@ date: "2018-04-27"
 title: "Pendant les vacances"
 metaDescription: "Nous organisons des ateliers-vacances pour les enfants âgés entre 3 et 11 ans pendant les petites et grandes vacances"
 subTitle: "Un programme d’activités variées pendant les petites et grandes vacances"
-lng: "en"
+lng: "fr"
 ---
 
 Nous organisons des ateliers-vacances pour les enfants âgés entre 3 et 11 ans pendant les petites et grandes vacances.

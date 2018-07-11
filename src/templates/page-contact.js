@@ -8,6 +8,8 @@ export default function Template({
     data
 }) {
     const { markdownRemark: post } = data;
+    const phone = post.frontmatter.lng === 'fr' ? 'Numéro de téléphone :' : 'Phone:';
+    const email = post.frontmatter.lng === 'fr' ? 'Adresse e-mail :' : 'Email:';
     return (
         <main role="main">
             <div className="wrapper wrapper--padded">
@@ -32,9 +34,8 @@ export default function Template({
                                     text={post.frontmatter.contactBoxTitle}
                                 />
                                 <ul className="ul_general">
-                                    <li><strong>Phone</strong><a href="tel:+33686022250">+33 6 86 02 22 50</a></li>
-                                    <li><strong>Email</strong><a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a></li>
-                                    <li><strong>Facebook</strong><a href="https://www.facebook.com/LOpenLabforKids/">L’Open Lab For Kids</a></li>
+                                    <li><strong>{phone}</strong><a href="tel:+33686022250">+33 6 86 02 22 50</a></li>
+                                    <li><strong>{email}</strong><a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a></li>
                                 </ul>
                             </aside>
                         </div>
