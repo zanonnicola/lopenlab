@@ -1,11 +1,11 @@
 ---
-title: Our Team!
-metaDescription: >-
-  International and multicultural: English, Irish, American, French and
-  Brazilian.
-subTitle: >-
-  International and multicultural: English, Irish, American, French and
-  Brazilian.
+path: "/en/team"
+layout: "page-team"
+date: "2018-04-27"
+title: "Our Team"
+metaDescription: "International and multicultural: English, Irish, American, French and Brazilian."
+subTitle: "International and multicultural: English, Irish, American, French and Brazilian."
+lng: "en"
 ---
 
 We have a team of native English-speaking teachers and bilingual professionals qualified in their area of expertise. 
