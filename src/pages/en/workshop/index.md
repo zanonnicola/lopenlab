@@ -1,8 +1,5 @@
 ---
-path: "/en/workshop"
-layout: "page-workshop"
-title: "Workshop"
-metaDescription: "For children to get familiar with English via enriching activities from their youngest age"
+title: Workshop!
 ---
 
 # Learning, creating, having fun!
