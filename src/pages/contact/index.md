@@ -1,12 +1,13 @@
 ---
-path: "/contact"
-layout: "page-contact"
-date: "2018-04-27"
-title: "Nous contacter"
-metaDescription: "L’Open Lab for Kids, c’est une méthode d’apprentissage de l’anglais innovante basée sur la découverte et la pratique de la langue anglaise à travers des activités épanouissantes, créatives et ludiques."
-subTitle: "Les inscriptions pour l’année scolaire 2018-2019 sont en cours ; n’hésitez pas à nous contacter pour toute question."
-contactBoxTitle: "Nous contacter"
-lng: "fr"
+title: Nous contacter hello
+metaDescription: >-
+  L’Open Lab for Kids, c’est une méthode d’apprentissage de l’anglais innovante
+  basée sur la découverte et la pratique de la langue anglaise à travers des
+  activités épanouissantes, créatives et ludiques.
+subTitle: >-
+  Les inscriptions pour l’année scolaire 2018-2019 sont en cours ; n’hésitez pas
+  à nous contacter pour toute question.
+contactBoxTitle: Nous contacter
 ---
 
 L’Open Lab for Kids, c’est une méthode d’apprentissage de l’anglais innovante basée sur la découverte et la pratique de la langue anglaise à travers des activités épanouissantes, créatives et ludiques.
