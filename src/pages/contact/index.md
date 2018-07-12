@@ -1,5 +1,5 @@
 ---
-title: Nous contacter hello
+title: Nous contacter!
 metaDescription: >-
   L’Open Lab for Kids, c’est une méthode d’apprentissage de l’anglais innovante
   basée sur la découverte et la pratique de la langue anglaise à travers des
