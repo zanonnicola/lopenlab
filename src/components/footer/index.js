@@ -18,10 +18,10 @@ const Footer = ({ lng }) => (
                 </div>
                 <div className={[style.info, style.mLeft].join(' ')}>
                     <h5>{lng === 'fr' ? 'Réseaux sociaux' : 'Social'}</h5>
-                    <a href="https://www.facebook.com/LOpenLabforKids/">
+                    <a href="https://www.facebook.com/LOpenLabforKids/" target="_blank" rel="noopener noreferrer">
                         <img src={fb} className={style.icon} />
                     </a>
-                    <a href="https://www.instagram.com/lopenlabforkids/">
+                    <a href="https://www.instagram.com/lopenlabforkids/" target="_blank" rel="noopener noreferrer">
                         <img src={ig} className={style.icon} />
                     </a>
                 </div>

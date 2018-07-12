@@ -39,6 +39,10 @@ blockquote strong {
 .contact-loc {
   margin-top: 40px;
 }
+.address {
+  padding-top: 35px;
+  border-top: 1px solid #eee;
+}
 .contact-loc a {
   color: #323b45;
   text-decoration: none;

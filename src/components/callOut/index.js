@@ -9,7 +9,7 @@ const CallOut = ({ lng }) => (
             {lng === 'fr' ?
                 (
                     <React.Fragment>
-                        <p className={style.text}><strong>Au programme</strong> : découverte des arts plastiques, du théâtre, premières expériences scientifiques et technologiques, bricolage, cuisine, jardinage, activités sensorielles. Nos objectifs : <b style={{ color: "#FDC60D" }}>apprendre, créer, s’amuser, tout en anglais !</b></p>
+                        <p className={style.text}><strong>Au programme</strong> : découverte des arts plastiques, théâtre, premières expériences scientifiques et technologiques, bricolage, cuisine, jardinage, activités sensorielles. <br />Nos objectifs : <b style={{ color: "#FDC60D" }}>apprendre, créer, s’amuser, tout en anglais !</b></p>
                         <Link className={style.cta} to="/atelier">
                             Nos ateliers
                             <svg xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +19,7 @@ const CallOut = ({ lng }) => (
                     </React.Fragment>
                 ) : (
                     <React.Fragment>
-                        <p className={style.text}><strong>Our programme</strong> includes fine arts, theatre, STEM experiences, DIY, cooking, gardening, sensory ad playful activities… all in English of course! Our objectives: <b style={{ color: "#FDC60D" }}>learning, creating, having fun !</b></p>
+                        <p className={style.text}><strong>Our programme</strong> includes fine arts, theatre, STEM experiences, DIY, cooking, gardening, sensory and playful activities… all in English of course! Our objectives: <b style={{ color: "#FDC60D" }}>learning, creating, having fun !</b></p>
                         <Link className={style.cta} to="/en/workshop">
                             Our workshops
                             <svg xmlns="http://www.w3.org/2000/svg">
