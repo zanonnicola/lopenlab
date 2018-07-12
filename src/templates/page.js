@@ -10,7 +10,11 @@ export default function Template({
     const { markdownRemark: post } = data;
     return (
         <div className="page-container">
-            <Helmet title={`Page - ${post.frontmatter.title}`} />
+            <Helmet
+                title={`Page - ${post.frontmatter.title}`}
+            >
+                <meta name="robots" content="noindex" />
+            </Helmet>
             <div className="page">
                 <h1>{post.frontmatter.title}</h1>
                 <div
