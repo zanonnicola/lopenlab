@@ -28,21 +28,30 @@ collections:
         label: "Workshop [EN]"
         name: "en-workshop"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-workshop"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/en/workshop"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop"}
+          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
+          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/workshop/index.md"
         label: "Atelier [FR]"
         name: "fr-workshop"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-workshop"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/workshop"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop"}
+          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
+          - {label: "Language", name: "lng", widget: "hidden", default: "fr"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/contact/index.md"
         label: "Contact Page [FR]"
         name: "fr-contact"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-contact"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/contact"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page-contact"}
+          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
+          - {label: "Language", name: "lng", widget: "hidden", default: "fr"}
           - {label: Title, name: title, widget: string}
           - {label: Meta Description, name: metaDescription, widget: string}
           - {label: Sub Title, name: subTitle, widget: string}
@@ -52,7 +61,10 @@ collections:
         label: "Contact Page [EN]"
         name: "en-contact"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-contact"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/en/contact-us"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page-contact"}
+          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
+          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
           - {label: Title, name: title, widget: string}
           - {label: Meta Description, name: metaDescription, widget: string}
           - {label: Sub Title, name: subTitle, widget: string}
@@ -62,7 +74,10 @@ collections:
         label: "Holidays Page [EN]"
         name: "en-holidays"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-holiday"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/en/holidays"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page-holiday"}
+          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
+          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
           - {label: Title, name: title, widget: string}
           - {label: Meta Description, name: metaDescription, widget: string}
           - {label: Sub Title, name: subTitle, widget: string}
@@ -71,7 +86,10 @@ collections:
         label: "Vacances Page [FR]"
         name: "en-holidays"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-holiday"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/vacances"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page-holiday"}
+          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
+          - {label: "Language", name: "lng", widget: "hidden", default: "fr"}
           - {label: Title, name: title, widget: string}
           - {label: Meta Description, name: metaDescription, widget: string}
           - {label: Sub Title, name: subTitle, widget: string}
@@ -80,7 +98,10 @@ collections:
         label: "L’équipe Page [FR]"
         name: "fr-team"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-team"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/equipe"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page-team"}
+          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
+          - {label: "Language", name: "lng", widget: "hidden", default: "fr"}
           - {label: Title, name: title, widget: string}
           - {label: Meta Description, name: metaDescription, widget: string}
           - {label: Sub Title, name: subTitle, widget: string}
@@ -89,7 +110,10 @@ collections:
         label: "Team Page [EN]"
         name: "en-team"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-team"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/en/team"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page-team"}
+          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
+          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
           - {label: Title, name: title, widget: string}
           - {label: Meta Description, name: metaDescription, widget: string}
           - {label: Sub Title, name: subTitle, widget: string}
