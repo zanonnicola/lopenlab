@@ -22,7 +22,7 @@ const IndexPage = () => (
                 </ul>
                 <p>The new school year timetable is available to download. Don’t hesitate to get in touch with us if you’re interested in enrolling your child(dren) but can’t find a suitable slot. We really want to put together a timetable that can work with you and your family.</p>
                 <p>
-                    <Cta text="Our timetable" url={withPrefix('/assets/lOpen_Lab_for_Kids_Programme.pdf')} margin="35px 0 0 0" />
+                    <Cta text="Our timetable" url="#0" margin="35px 0 0 0" />
                 </p>
             </article>
         </div>

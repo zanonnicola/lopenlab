@@ -22,7 +22,7 @@ const IndexPage = () => (
         </ul>
         <p>Le planning de la rentrée prochaine est disponible en téléchargement ci-dessous. N’hésitez pas à nous faire part de vos remarques sur les horaires et formats des ateliers ; nous souhaitons vraiment proposer un planning qui colle au plus près des réalités des familles !</p>
         <p>
-          <Cta text="Télécharger le programme" url={withPrefix('/assets/lOpen_Lab_for_Kids_Programme.pdf')} margin="35px 0 0 0" />
+          <Cta text="Télécharger le programme" url="#0" margin="35px 0 0 0" />
         </p>
       </article>
     </div>
