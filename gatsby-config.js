@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://llfk.netlify.com`,
+    siteUrl: `https://kids.lopenlab.com`,
     title_en: `Welcome to L’Open Lab for Kids!`,
     description_en: 'Fun and creative workshops for babies & children aged from 0 to 11 - Take a look at our different workshops',
     title_fr: `Bienvenue à bord de L’Open Lab for Kids !`,
