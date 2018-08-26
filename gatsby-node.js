@@ -3,7 +3,7 @@ const path = require('path');
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
-  const pageTemplate = path.resolve(`src/templates/page.js`);
+  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
 
   return graphql(`{
       allMarkdownRemark(
@@ -36,7 +36,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         const next = index === posts.length - 1 ? false : posts[index + 1].node;
         createPage({
           path: node.frontmatter.path,
-          component: pageTemplate,
+          component: node.frontmatter.layout.includes("page") ? path.resolve(`src/templates/${node.frontmatter.layout}.js`) : blogPostTemplate,
           context: {
 
           }

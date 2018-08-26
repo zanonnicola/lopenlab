@@ -1,45 +1,58 @@
 import React from 'react';
-import { withPrefix } from "gatsby-link";
 import Heading from '../../components/heading';
-import Banner from '../../components/banner';
+import CallOut from '../../components/callOut';
+import Card from '../../components/card';
 import Footer from '../../components/footer';
-import Cta from '../../components/cta';
+import site from '../../data/site';
 
 const IndexPage = () => (
     <main role="main">
         <div className="wrapper__content wrapper--padded">
             <Heading
                 rank={3}
-                text="Welcome to L’Open Lab for Kids"
+                text="Welcome to L’Open LAB for Kids"
             />
-            <article className="temp-page-content">
-                <p>We believe that learning by doing makes more sense. We want kids to develop their creativity and have fun, while learning English… naturally. We want to provide children with content of high quality that can help them grow and develop.</p>
-                <p>Our workshops are tailored to babies, toddlers and children aged between 1 and 11. They are carried out in small groups and with children of similar ages. Entirely in English, they are open to English-speaking kids as well as to those who don’t speak English yet.</p>
-                <p>Our workshops take place in the morning, after school, on Wednesdays, on Saturdays and during the school holidays in two friendly and welcoming places:</p>
-                <ul>
-                    <li>Happy Place by <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/vacouva">Vacouva</a>, a place dedicated to creativity and fun, located right behind the station on <a target="_blank" rel="noopener noreferrer" href="https://www.google.fr/maps?q=43+quai+de+malakoff+nantes&rlz=1C1JZAP_enFR710FR711&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjhsaSG1_TbAhUIthQKHazfDtgQ_AUICigB">43 quai de Malakoff</a></li>
-                    <li><strong>L’Open Lab for Kids’</strong> own very Lab, a place entirely designed for children, located in the middle of a garden. A perfect environment for kids to feel comfortable and express themselves with ease in English</li>
-                </ul>
-                <p>The new school year timetable is available to download. Don’t hesitate to get in touch with us if you’re interested in enrolling your child(dren) but can’t find a suitable slot. We really want to put together a timetable that can work with you and your family.</p>
-                <p>
-                    <Cta text="Our timetable" url="#0" margin="35px 0 0 0" />
-                </p>
+            <article className="hero-content">
+                <div className="flex">
+                    <div className="flex-50">
+                        <p><b className="bold-it">What if our children</b> could learn English in the same way they pick up their first language?</p>
+                        <p style={{ marginBottom: 0 }}><b className="bold-it">And for native English speakers</b> what if they could have the opportunity to practice English more, surrounded by friends and kids of the same age, in a safe and engaging environment, while taking part in creative and interactive activities?</p>
+                    </div>
+                    <div className="flex-50">
+                        <p>That is the idea behind <strong>L’Open LAB for Kids</strong>: fun and creative workshops where children get to discover, create and experiment, all in English, in a nurturing environment.</p>
+                    </div>
+                </div>
             </article>
         </div>
-
-        <Banner lng="en" />
-
-        <div className="wrapper__content wrapper--padded">
-            <Heading
-                rank={3}
-                text="Our contact details"
-            />
-            <article className="temp-page-content">
-                <p className="temp-page__contact"><strong>Mail:</strong> <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a></p>
-                <p className="temp-page__contact"><strong>Tel:</strong> <a href="tel:+33686022250">+33 6 86 02 22 50</a></p>
-                <p className="temp-page__contact"><strong>Follow us on Facebook:</strong> <a href="https://www.facebook.com/LOpenLabforKids/">L'Open Lab for Kids</a></p>
-            </article>
-        </div>
+        <CallOut lng="en" />
+        <section className="section">
+            <div className="wrapper wrapper--padded">
+                <Heading
+                    rank={3}
+                    text="Get to know us"
+                />
+                <div className="row center-xs">
+                    {Object.keys(site.en).filter(key => key !== 'homepage').map((section, i) =>
+                        <div key={`${section}-${i}`} className="col-xs-12 col-sm-6 col-md-4" style={{ marginBottom: '40px' }}>
+                            <Card
+                                title={site['en'][section].title}
+                                color={site['en'][section].color}
+                                pagePath={`/en${site['en'][section].path}`}
+                                text={site['en'][section].intro}
+                                cta="Read more"
+                            />
+                        </div>
+                    )}
+                </div>
+            </div>
+        </section>
+        <section className="section" style={{ paddingTop: 0 }}>
+            <div className="wrapper__content wrapper--padded">
+                <div className="intrinsic-container intrinsic-container-16x9">
+                    <iframe src="https://www.youtube.com/embed/Bbmnfk8ER6M" allow="autoplay; encrypted-media" frameBorder="0" allowFullScreen></iframe>
+                </div>
+            </div>
+        </section>
         <Footer lng="en" />
     </main>
 )

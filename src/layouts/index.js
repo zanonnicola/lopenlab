@@ -2,31 +2,84 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { withPrefix } from "gatsby-link";
-
 import Hero from '../components/hero';
 import Naviagtion from '../components/navigation';
+import { lightenDarkenColor } from '../helpers';
+import './flexboxgrid.css';
 import './index.css';
 
 const Layout = ({ children, data, location }) => {
   let lng = 'fr';
   let title = data.site.siteMetadata.title_fr;
   let description = data.site.siteMetadata.description_fr;
-  if (location.pathname.includes('en')) {
+  if (location.pathname.startsWith('/en')) {
     title = data.site.siteMetadata.title_en;
     description = data.site.siteMetadata.description_en;
     lng = 'en';
   }
 
-  const contentMap = {
-    fr: {
-      title: "Apprendre, créer, s’amuser, tout en anglais !",
-      subtitle: "A partir du 1er septembre 2018 en plein cœur de Nantes : des ateliers en anglais, créatifs et ludiques, conçus pour les enfants de 1 à 11 ans."
-    },
-    en: {
-      title: "Learning, creating, having fun!",
-      subtitle: "From the start of the new school year in the heart of Nantes: fun and creative workshops for toddlers & children aged from 1 to 11."
+  let isHomePage = false;
+  let tag = null;
+
+  if (location.pathname === '/' || location.pathname === '/en' || location.pathname === '/en/') {
+    isHomePage = true;
+  }
+  //const reg = new RegExp("/workshops|nosateliers/[a-z]", 'g');
+
+  for (let index = 0; index < data.allMarkdownRemark.edges.length; index++) {
+    const { node } = data.allMarkdownRemark.edges[index];
+    if (node.frontmatter.path === location.pathname) {
+      tag = node.frontmatter.age;
+      break;
     }
   }
+
+  let heroTitle;
+  let heroSubtitle;
+  let color;
+  let secondaryColor;
+
+
+  for (let index = 0; index < data.allMarkdownRemark.edges.length; index++) {
+    const { node } = data.allMarkdownRemark.edges[index];
+    // Always remove trailing slashes
+    if (node.frontmatter.path === location.pathname.replace(/\/$/, '')) {
+      heroTitle = node.frontmatter.title;
+      heroSubtitle = node.frontmatter.subTitle;
+      color = node.frontmatter.color;
+      secondaryColor = node.frontmatter.secondaryColor || lightenDarkenColor(node.frontmatter.color, 44);
+      break;
+    } else if (location.pathname === '/en') {
+      heroTitle = 'Learning, creating, having fun!';
+      heroSubtitle = 'From the start of the new school year in the heart of Nantes:<br />fun and creative workshops for babies & children aged from 1 to 11.';
+      color = '#fff';
+      secondaryColor = '#fff';
+      break;
+    } else if (location.pathname === '/') {
+      heroTitle = 'Apprendre, créer, s’amuser, tout en anglais !';
+      heroSubtitle = 'A partir de la rentrée, en plein coeur de Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans.';
+      color = '#fff';
+      secondaryColor = '#fff';
+      break;
+    } else {
+      heroTitle = '';
+      heroSubtitle = '';
+      color = '#60BDC1';
+      secondaryColor = '#95CEC7';
+    }
+  }
+
+  const sectionColors = {
+    workshops: '#60BDC1',
+    pedagogy: '#0E4658',
+    team: '#FCC817',
+    holidays: '#FC6681',
+    contact: '#BDE6F6',
+    nosateliers: '#60BDC1',
+    pedagogie: '#0E4658',
+    lequipe: '#FCC817',
+    vacances: '#FC6681',
+  };
 
   return (
     <div>
@@ -37,6 +90,7 @@ const Layout = ({ children, data, location }) => {
         ]}
       >
         <meta name="google-site-verification" content="uVknAbcTUdiYPuPcXjt00iSmnv-YDRH2H-Rqdz6xy4g" />
+        <meta name="robots" content="noindex" />
         <link rel="preload" href={withPrefix('/assets/merriweather-v19-latin-700.woff2')} as="font" type="font/woff2" crossOrigin />
         <link rel="preload" href={withPrefix('/assets/muli-v11-latin-regular.woff2')} as="font" type="font/woff2" crossOrigin />
         <link rel="apple-touch-icon" sizes="180x180" href={withPrefix('/assets/apple-touch-icon.png')} />
@@ -47,10 +101,15 @@ const Layout = ({ children, data, location }) => {
         <meta name="theme-color" content="#ffffff" />
       </Helmet>
       <Hero
-        title={contentMap[lng].title}
-        subtitle={contentMap[lng].subtitle}
+        title={heroTitle}
+        subtitle={heroSubtitle}
+        image={withPrefix('/assets/openlab.jpg')}
+        color={color}
+        secondaryColor={secondaryColor}
+        isHomePage={isHomePage}
+        tag={tag}
       />
-      <Naviagtion lng={lng === 'fr' ? 'en' : 'fr'} />
+      <Naviagtion lng={lng} colors={sectionColors} location={location} />
       {children()}
     </div>
   )
@@ -58,7 +117,8 @@ const Layout = ({ children, data, location }) => {
 
 Layout.propTypes = {
   children: PropTypes.func,
-  data: PropTypes.any
+  data: PropTypes.any,
+  location: PropTypes.any
 }
 
 export default Layout
@@ -71,6 +131,20 @@ export const query = graphql`
         description_fr
         title_en
         description_en
+      }
+    }
+    allMarkdownRemark(limit: 100, filter: {frontmatter: {path: {regex: "/^(?!/blog/)/"}}}) {
+      edges {
+        node {
+          frontmatter {
+            path
+            title
+            subTitle
+            color
+            secondaryColor
+            age
+          }
+        }
       }
     }
   }
