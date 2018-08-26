@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-  repo: zanonnicola/llfk
-  branch: production
+  repo: zanonnicola/lopenlab
+  branch: live
 
 media_folder: static/assets
 
