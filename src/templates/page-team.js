@@ -9,7 +9,7 @@ export default function Template({
     data
 }) {
     const { markdownRemark: post, allDataYaml: team } = data;
-    const memberCards = team.edges.sort((a, b) => {
+    const memberCards = [...team.edges].sort((a, b) => {
         return a.node.person.order - b.node.person.order;
     }).map(({ node }, i) => {
         if (node.person.lng === post.frontmatter.lng) {
