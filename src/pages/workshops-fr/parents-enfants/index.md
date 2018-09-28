@@ -13,7 +13,7 @@ contentTitle: Atelier parents-enfants
 gallery: a
 age: 1-3
 when: >-
-  Le vendredi de 10,h à 10h45<br />Le samedi, de 9h30 à 10h15 (12-24 mois) et de
+  Le vendredi de 10h à 10h45<br />Le samedi, de 9h30 à 10h15 (12-24 mois) et de
   10h30 à 11h15 (24-36 mois) 
 where: 'Happy Place by Vacouva<br />43 quai de Malakoff, 44000 Nantes'
 price: >-
