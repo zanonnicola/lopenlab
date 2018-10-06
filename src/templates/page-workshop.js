@@ -52,8 +52,8 @@ export default function Template({
                         extraStyle={{ marginBottom: '50px' }}
                     />
                     <div className="workshops-gallery-photos">
-                        <img src={img1} alt="Open Lab for Kids" />
-                        <img src={imgLab1} alt="Open Lab for Kids" />
+                        {/* <img src={img1} alt="Open Lab for Kids" />
+                        <img src={imgLab1} alt="Open Lab for Kids" /> */}
                         <img src={imgLab2} alt="Open Lab for Kids" />
                         <img src={imgLab3} alt="Open Lab for Kids" />
                     </div>
