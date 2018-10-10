@@ -102,7 +102,7 @@ const Layout = ({ children, data, location }) => {
       <Hero
         title={heroTitle}
         subtitle={heroSubtitle}
-        image={withPrefix('/assets/openlab.jpg')}
+        image={withPrefix('/assets/website_banner.jpg')}
         color={color}
         secondaryColor={secondaryColor}
         isHomePage={isHomePage}
