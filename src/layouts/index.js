@@ -34,12 +34,12 @@ const Layout = ({ children, data, location }) => {
   switch (section) {
     case 'en':
       heroTitle = 'Learning, creating, having fun!';
-      heroSubtitle = 'From the start of the new school year in the heart of Nantes: fun and creative workshops for babies & children aged from 1 to 11.';
+      heroSubtitle = 'Fun and enriching activities adapted to children from 1 to 11 years old.';
       color = '#fff';
       break;
     case '':
       heroTitle = 'Apprendre, créer, s’amuser, tout en anglais !';
-      heroSubtitle = 'A partir de la rentrée, en plein coeur de Nantes : des ateliers en anglais, créatifs et ludiques, parfaitement adaptés aux enfants de 1 à 11 ans.';
+      heroSubtitle = 'Des activités épanouissantes et adaptées pour les enfants de 1 à 11 ans.';
       color = '#fff';
       break;
     case 'workshop':
