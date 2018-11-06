@@ -51,13 +51,13 @@ const Layout = ({ children, data, location }) => {
       break;
     } else if (location.pathname === '/en') {
       heroTitle = 'Learning, creating, having fun!';
-      heroSubtitle = 'The next autumn school holiday workshop will be from October, 22nd to October, 26th. For more information and to enrol your child(ren), please contact us on <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a>.';
+      heroSubtitle = 'Fun and enriching activities adapted to children from 1 to 11 years old.';
       color = '#fff';
       secondaryColor = '#fff';
       break;
     } else if (location.pathname === '/') {
       heroTitle = 'Apprendre, créer, s’amuser, tout en anglais !';
-      heroSubtitle = 'Le prochain atelier-vacances a lieu du 22 au 26 octobre.<br />Informations & réservations à <a href="mailto:hello@lopenlab.com">hello@lopenlab.com</a>.';
+      heroSubtitle = 'Des activités épanouissantes et adaptées pour les enfants de 1 à 11 ans.';
       color = '#fff';
       secondaryColor = '#fff';
       break;
@@ -102,7 +102,7 @@ const Layout = ({ children, data, location }) => {
       <Hero
         title={heroTitle}
         subtitle={heroSubtitle}
-        image={withPrefix('/assets/website_banner.jpg')}
+        image={withPrefix('/assets/openlab.jpg')}
         color={color}
         secondaryColor={secondaryColor}
         isHomePage={isHomePage}
