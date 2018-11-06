@@ -17,7 +17,7 @@ when: Wednesdays from 9.30am to 11.30am or from 2pm to 3.30pm
 where: 77 rue de la Tullaye<br />44300 Nantes
 price: >-
   225€ per trimester for a two-hour workshop every week<br />180€ per trimester
-  for an hour and a half of workshop
+  for an hour and a half of activities
 ---
 The Fun Wednesday workshops are first and foremost the opportunity for children to take a break from the week in a warm and welcoming environment, our Lab, located in the heart of a garden and designed specifically for kids. Every Wednesday morning, from 9.30am to 11.30am, we give children the opportunity to practice English, while experiencing a great deal of creative activities: STEM (Science, Technology, Engineering and Mathematics), fine arts, gardening, cooking and much more! Workshops are organized in small groups, with kids of similar ages and are carried out in English only. The topics and projects are set on a quarterly basis, in accordance with the interests and level of development of the children. 
 
