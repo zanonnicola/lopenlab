@@ -4,6 +4,9 @@ layout: page-holidays
 date: '2018-04-27'
 lng: en
 color: '#FC6681'
+pageGallery:
+  - /assets/screen-shot-2018-10-22-at-22.55.07.png
+  - /assets/screen-shot-2018-10-22-at-22.55.07.png
 title: Holidays
 metaDescription: >-
   Every school holiday, we run a holiday programme for children from 3 to 11
