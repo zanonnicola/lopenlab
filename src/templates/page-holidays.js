@@ -6,6 +6,7 @@ import './css/holidays.css' // make it pretty!
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data
+  console.log(post)
   const name =
     post.frontmatter.lng === 'fr' ? 'Votre prénom et nom :' : 'Your name:'
   const email = post.frontmatter.lng === 'fr' ? 'Adresse mail :' : 'Email:'
@@ -104,7 +105,14 @@ export default function Template({ data }) {
             text={post.frontmatter.lng === 'fr' ? 'Notre Lab' : 'Our Lab'}
             extraStyle={{ marginBottom: '50px' }}
           />
-          <div className="global-gallery-photos">asds</div>
+          <div className="global-gallery-photos">
+            <img
+              src={
+                post.frontmatter.pageGallery[0].image.childImageSharp.resize.src
+              }
+              alt={post.frontmatter.pageGallery[0].description}
+            />
+          </div>
         </div>
       </section>
       <Footer lng={post.frontmatter.lng} />
@@ -124,6 +132,16 @@ export const pageQuery = graphql`
         metaDescription
         subTitle
         lng
+        pageGallery {
+          description
+          image {
+            childImageSharp {
+              resize(width: 500, height: 500) {
+                src
+              }
+            }
+          }
+        }
       }
     }
   }

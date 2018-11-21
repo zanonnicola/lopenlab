@@ -81,6 +81,8 @@ module.exports = {
         exclude: ['/admin/**'],
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-sitemap`,
     },
