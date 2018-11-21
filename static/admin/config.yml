@@ -1000,12 +1000,6 @@ collections:
               widget: 'hidden',
               default: '#fff',
             }
-          - {
-              label: Page Gallery,
-              name: 'pageGallery',
-              widget: 'list',
-              field: { label: Image, name: image, widget: image },
-            }
           - { label: Title, name: title, widget: string }
           - { label: Meta Description, name: metaDescription, widget: string }
           - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
@@ -1041,6 +1035,12 @@ collections:
               widget: 'hidden',
               default: '#fff',
             }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { label: Description, name: description, widget: string }
           - { label: Title, name: title, widget: string }
           - { label: Meta Description, name: metaDescription, widget: string }
           - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
