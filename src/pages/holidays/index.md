@@ -1,4 +1,9 @@
 ---
+pageGallery:
+  - description: Test!
+    image: /assets/screen-shot-2018-10-22-at-22.55.07.png
+  - description: Test 2
+    image: /assets/screen-shot-2018-10-22-at-22.55.07.png
 path: /ateliers-vacances-nantes
 layout: page-holidays
 date: '2018-04-27'
