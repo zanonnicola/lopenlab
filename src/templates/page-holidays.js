@@ -102,16 +102,28 @@ export default function Template({ data }) {
         <div className="wrapper wrapper--padded">
           <Heading
             rank={1}
-            text={post.frontmatter.lng === 'fr' ? 'Notre Lab' : 'Our Lab'}
+            text="Gallery"
             extraStyle={{ marginBottom: '50px' }}
           />
           <div className="global-gallery-photos">
-            <img
-              src={
-                post.frontmatter.pageGallery[0].image.childImageSharp.resize.src
-              }
-              alt={post.frontmatter.pageGallery[0].description}
-            />
+            {post.frontmatter.pageGallery.map((galleryImage, i) => (
+              <div
+                key={`${galleryImage.image.childImageSharp.id.substring(
+                  0,
+                  4
+                )}-${i}`}
+              >
+                <img
+                  src={galleryImage.image.childImageSharp.sizes.src}
+                  alt={galleryImage.description}
+                />
+                {galleryImage.description ? (
+                  <p className="workshops-gallery__copy">
+                    {galleryImage.description}
+                  </p>
+                ) : null}
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -136,7 +148,8 @@ export const pageQuery = graphql`
           description
           image {
             childImageSharp {
-              resize(width: 500, height: 500) {
+              id
+              sizes(maxWidth: 800) {
                 src
               }
             }
