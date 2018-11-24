@@ -1040,7 +1040,6 @@ collections:
             widget: 'list'
             fields:
               - { label: Image, name: image, widget: image }
-              - { label: Description, name: description, widget: string }
           - { label: Title, name: title, widget: string }
           - { label: Meta Description, name: metaDescription, widget: string }
           - { label: 'Content Title', name: 'contentTitle', widget: 'string' }

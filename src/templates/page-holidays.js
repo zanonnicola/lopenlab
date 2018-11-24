@@ -98,35 +98,32 @@ export default function Template({ data }) {
           ) : null}
         </div>
       </section>
-      <section className="workshops-gallery" id="holiday-gallery">
-        <div className="wrapper wrapper--padded">
-          <Heading
-            rank={1}
-            text="Gallery"
-            extraStyle={{ marginBottom: '50px' }}
-          />
-          <div className="global-gallery-photos">
-            {post.frontmatter.pageGallery.map((galleryImage, i) => (
-              <div
-                key={`${galleryImage.image.childImageSharp.id.substring(
-                  0,
-                  4
-                )}-${i}`}
-              >
-                <img
-                  src={galleryImage.image.childImageSharp.sizes.src}
-                  alt={galleryImage.description}
-                />
-                {galleryImage.description ? (
-                  <p className="workshops-gallery__copy">
-                    {galleryImage.description}
-                  </p>
-                ) : null}
-              </div>
-            ))}
+      {post.frontmatter.pageGallery && (
+        <section className="workshops-gallery" id="holiday-gallery">
+          <div className="wrapper wrapper--padded">
+            <Heading
+              rank={1}
+              text="Gallery"
+              extraStyle={{ marginBottom: '50px' }}
+            />
+            <div className="global-gallery-photos">
+              {post.frontmatter.pageGallery.map((galleryImage, i) => (
+                <div
+                  key={`${galleryImage.image.childImageSharp.id.substring(
+                    0,
+                    4
+                  )}-${i}`}
+                >
+                  <img
+                    src={galleryImage.image.childImageSharp.sizes.src}
+                    alt="Gallery"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
       <Footer lng={post.frontmatter.lng} />
     </main>
   )
@@ -145,7 +142,6 @@ export const pageQuery = graphql`
         subTitle
         lng
         pageGallery {
-          description
           image {
             childImageSharp {
               id
