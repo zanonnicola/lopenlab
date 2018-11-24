@@ -1,14 +1,14 @@
 ---
-pageGallery:
-  - description: Test!
-    image: /assets/screen-shot-2018-10-22-at-22.55.07.png
-  - description: Test 2
-    image: /assets/screen-shot-2018-10-22-at-22.55.07.png
 path: /ateliers-vacances-nantes
 layout: page-holidays
 date: '2018-04-27'
 lng: fr
 color: '#FC6681'
+pageGallery:
+  - image: /assets/ateliers-vacances-by-l-open-lab-for-kids.jpg
+  - image: /assets/fall-fun-week_playdough-by-l-open-lab-for-kids.jpg
+  - image: /assets/l-open-lab-for-kids_halloween.jpg
+  - image: /assets/origami-ateliers-vacances-l-open-lab-for-kids.jpg
 title: Vacances
 metaDescription: >-
   A chaque période de vacances scolaires, nous organisons une semaine de stage
