@@ -10,7 +10,9 @@ metaDescription: >-
   drawing and other crafty activities, they develop their senses and have a lot
   of fun with other kids of similar age. 
 contentTitle: Arts & Crafts workshop
-gallery: a
+pageGallery:
+  - image: /assets/ateliers-vacances-by-l-open-lab-for-kids.jpg
+  - image: /assets/fall-fun-week_playdough-by-l-open-lab-for-kids.jpg
 age: 3-6
 when: 'Saturdays, from 9.30am to 10.30 am'
 where: 'Happy Place by Vacouva<br />43 quai de Malakoff, 44000 Nantes'
