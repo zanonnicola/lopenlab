@@ -1,12 +1,12 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Heading from '../components/heading'
+import Gallery from '../components/gallery'
 import Footer from '../components/footer'
 import './css/holidays.css' // make it pretty!
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data
-  console.log(post)
   const name =
     post.frontmatter.lng === 'fr' ? 'Votre prénom et nom :' : 'Your name:'
   const email = post.frontmatter.lng === 'fr' ? 'Adresse mail :' : 'Email:'
@@ -98,32 +98,10 @@ export default function Template({ data }) {
           ) : null}
         </div>
       </section>
-      {post.frontmatter.pageGallery && (
-        <section className="workshops-gallery" id="holiday-gallery">
-          <div className="wrapper wrapper--padded">
-            <Heading
-              rank={1}
-              text="Gallery"
-              extraStyle={{ marginBottom: '50px' }}
-            />
-            <div className="global-gallery-photos">
-              {post.frontmatter.pageGallery.map((galleryImage, i) => (
-                <div
-                  key={`${galleryImage.image.childImageSharp.id.substring(
-                    0,
-                    4
-                  )}-${i}`}
-                >
-                  <img
-                    src={galleryImage.image.childImageSharp.sizes.src}
-                    alt="Gallery"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      <Gallery
+        galleryData={post.frontmatter.pageGallery}
+        lng={post.frontmatter.lng}
+      />
       <Footer lng={post.frontmatter.lng} />
     </main>
   )
