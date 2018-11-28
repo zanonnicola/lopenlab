@@ -1,11 +1,12 @@
-const path = require('path');
+const path = require('path')
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+  const { createPage } = boundActionCreators
 
-  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
+  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
 
-  return graphql(`{
+  return graphql(`
+    {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
@@ -22,30 +23,30 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           }
         }
       }
-    }`)
-    .then(result => {
-      if (result.errors) {
-        return Promise.reject(result.errors)
-      }
+    }
+  `).then(result => {
+    if (result.errors) {
+      return Promise.reject(result.errors)
+    }
 
-      const posts = result.data.allMarkdownRemark.edges;
+    const posts = result.data.allMarkdownRemark.edges
 
-      // Create pages for each markdown file.
-      posts.forEach(({ node }, index) => {
-        const prev = index === 0 ? false : posts[index - 1].node;
-        const next = index === posts.length - 1 ? false : posts[index + 1].node;
-        createPage({
-          path: node.frontmatter.path,
-          component: node.frontmatter.layout.includes("page") ? path.resolve(`src/templates/${node.frontmatter.layout}.js`) : blogPostTemplate,
-          context: {
-
-          }
-        });
-      });
-
-      return posts;
+    // Create pages for each markdown file.
+    posts.forEach(({ node }, index) => {
+      const prev = index === 0 ? false : posts[index - 1].node
+      const next = index === posts.length - 1 ? false : posts[index + 1].node
+      createPage({
+        path: node.frontmatter.path,
+        component: node.frontmatter.layout.includes('page')
+          ? path.resolve(`src/templates/${node.frontmatter.layout}.js`)
+          : blogPostTemplate,
+        context: {},
+      })
     })
-};
+
+    return posts
+  })
+}
 
 // use different layout for EN pages
 // exports.onCreatePage = async ({ page, boundActionCreators }) => {

@@ -4,501 +4,1253 @@ backend:
   branch: live
 
 media_folder: static/assets
+public_folder: /assets
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'src/pages/blog'
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Meta Description", name: "metaDescription", widget: "string"}
-      - {label: "Content Title", name: "contentTitle", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
-  
-  - name: "workshops"
-    label: "Workshops"
-    files:
-      - file: "src/pages/workshops-en/parent-child/index.md"
-        label: "Parent Child"
-        name: "parent-child"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/workshops/parent-child"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#9DD6D9"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      
-      - file: "src/pages/workshops-en/kids-afterschool/index.md"
-        label: "Kids Afterschool"
-        name: "kids-afterschool"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/workshops/kids-afterschool"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#60BDC1"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      
-      - file: "src/pages/workshops-en/preschool-wednesdays/index.md"
-        label: "Preschool Fun Wednesday"
-        name: "preschool-wednesdays"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/workshops/preschool-wednesdays"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#60BDC1"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      
-      - file: "src/pages/workshops-en/preschool-arts-and-crafts/index.md"
-        label: "Preschool Art & Craft"
-        name: "preschool-arts-and-crafts"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/workshops/preschool-arts-and-crafts"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#60BDC1"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'blog-post',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Meta Description', name: 'metaDescription', widget: 'string' }
+      - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
 
-      - file: "src/pages/workshops-en/kids-theatre-in-english/index.md"
-        label: "Kids Theatre in English"
-        name: "kids-theatre-in-english"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/workshops/kids-theatre-in-english"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#47888B"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      
-      - file: "src/pages/workshops-en/kids-wednesdays/index.md"
-        label: "Kids Wednesday"
-        name: "kids-wednesdays"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/workshops/kids-wednesdays"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#47888B"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      
-      - file: "src/pages/workshops-en/afterschool-fridays/index.md"
-        label: "Afterschool Friday"
-        name: "afterschool-fridays"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/workshops/afterschool-fridays"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#47888B"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-    
-      - file: "src/pages/workshops-en/kids-arts-and-crafts/index.md"
-        label: "Kids Art & Craft"
-        name: "kids-arts-and-crafts"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/workshops/kids-arts-and-crafts"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#47888B"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "nosateliers"
-    label: "Nos ateliers"
+  - name: 'workshops'
+    label: 'Workshops'
     files:
-      - file: "src/pages/workshops-fr/parents-enfants/index.md"
-        label: "Parents enfants"
-        name: "parents-enfants"
+      - file: 'src/pages/workshops-en/parent-child/index.md'
+        label: 'Parent Child'
+        name: 'parent-child'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/nosateliers/parents-enfants"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#9DD6D9"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      
-      - file: "src/pages/workshops-fr/apreslecole/index.md"
-        label: "Apreslecole"
-        name: "apreslecole"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/nosateliers/apreslecole"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#60BDC1"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-    
-      - file: "src/pages/workshops-fr/maternelle-mercredi/index.md"
-        label: "Maternelle mercredi"
-        name: "maternelle-mercredi"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/nosateliers/maternelle-mercredi"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#60BDC1"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      
-      - file: "src/pages/workshops-fr/maternelle-arts-plastiques/index.md"
-        label: "Maternelle Arts plastiques"
-        name: "maternelle-arts-plastiques"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/nosateliers/maternelle-arts-plastiques"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#60BDC1"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      
-      - file: "src/pages/workshops-fr/enfants-theatre/index.md"
-        label: "Enfants Theatre"
-        name: "enfants-theatre"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/nosateliers/enfants-theatre"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#47888B"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      
-      - file: "src/pages/workshops-fr/primaire-mercredi/index.md"
-        label: "Primaire Mercredi"
-        name: "primaire-mercredi"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/nosateliers/primaire-mercredi"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#47888B"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-    
-      - file: "src/pages/workshops-fr/primaire-vendredi/index.md"
-        label: "Primaire vendredi"
-        name: "primaire-vendredi"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/nosateliers/primaire-vendredi"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#47888B"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      
-      - file: "src/pages/workshops-fr/primaire-arts-plastiques/index.md"
-        label: "Primaire arts plastiquest"
-        name: "primaire-arts-plastiques"
-        fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/nosateliers/primaire-arts-plastiques"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop-single"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#47888B"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Gallery ID", name: "gallery", widget: string}
-          - {label: "Age", name: "age", widget: string}
-          - {label: "When", name: "when", widget: string}
-          - {label: "Where", name: "where", widget: string}
-          - {label: "Price", name: "price", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/workshops/parent-child',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#9DD6D9',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: "pages"
-    label: "Pages"
+      - file: 'src/pages/workshops-en/kids-afterschool/index.md'
+        label: 'Kids Afterschool'
+        name: 'kids-afterschool'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/workshops/kids-afterschool',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#60BDC1',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-en/preschool-wednesdays/index.md'
+        label: 'Preschool Fun Wednesday'
+        name: 'preschool-wednesdays'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/workshops/preschool-wednesdays',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#60BDC1',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-en/preschool-arts-and-crafts/index.md'
+        label: 'Preschool Art & Craft'
+        name: 'preschool-arts-and-crafts'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/workshops/preschool-arts-and-crafts',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#60BDC1',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-en/kids-theatre-in-english/index.md'
+        label: 'Kids Theatre in English'
+        name: 'kids-theatre-in-english'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/workshops/kids-theatre-in-english',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#47888B',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-en/kids-wednesdays/index.md'
+        label: 'Kids Wednesday'
+        name: 'kids-wednesdays'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/workshops/kids-wednesdays',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#47888B',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-en/afterschool-fridays/index.md'
+        label: 'Afterschool Friday'
+        name: 'afterschool-fridays'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/workshops/afterschool-fridays',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#47888B',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-en/kids-arts-and-crafts/index.md'
+        label: 'Kids Art & Craft'
+        name: 'kids-arts-and-crafts'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/workshops/kids-arts-and-crafts',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#47888B',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'nosateliers'
+    label: 'Nos ateliers'
     files:
-      - file: "src/pages/en/workshop/index.md"
-        label: "Workshop [EN]"
-        name: "en-workshop"
+      - file: 'src/pages/workshops-fr/parents-enfants/index.md'
+        label: 'Parents enfants'
+        name: 'parents-enfants'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/workshop"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#fff"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Sub Title", name: "subTitle", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/workshop/index.md"
-        label: "Atelier [FR]"
-        name: "fr-workshop"
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/nosateliers/parents-enfants',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#9DD6D9',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-fr/apreslecole/index.md'
+        label: 'Apreslecole'
+        name: 'apreslecole'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/workshop"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-workshop"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "fr"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#fff"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Description", name: "metaDescription", widget: "string"}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Sub Title", name: "subTitle", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/contact/index.md"
-        label: "Contact Page [FR]"
-        name: "fr-contact"
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/nosateliers/apreslecole',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#60BDC1',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-fr/maternelle-mercredi/index.md'
+        label: 'Maternelle mercredi'
+        name: 'maternelle-mercredi'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/contact"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-contact"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "fr"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#fff"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: Title, name: title, widget: string}
-          - {label: Meta Description, name: metaDescription, widget: string}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Sub Title", name: "subTitle", widget: string}
-          - {label: Contact Box Title, name: contactBoxTitle, widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/en/contact-us/index.md"
-        label: "Contact Page [EN]"
-        name: "en-contact"
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/nosateliers/maternelle-mercredi',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#60BDC1',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-fr/maternelle-arts-plastiques/index.md'
+        label: 'Maternelle Arts plastiques'
+        name: 'maternelle-arts-plastiques'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/contact-us"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-contact"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#fff"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: Title, name: title, widget: string}
-          - {label: Meta Description, name: metaDescription, widget: string}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Sub Title", name: "subTitle", widget: string}
-          - {label: Contact Box Title, name: contactBoxTitle, widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/en/holidays/index.md"
-        label: "Holidays Page [EN]"
-        name: "en-holidays"
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/nosateliers/maternelle-arts-plastiques',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#60BDC1',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-fr/enfants-theatre/index.md'
+        label: 'Enfants Theatre'
+        name: 'enfants-theatre'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/holidays-nantes"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-holiday"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#fff"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: Title, name: title, widget: string}
-          - {label: Meta Description, name: metaDescription, widget: string}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Sub Title", name: "subTitle", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/holidays/index.md"
-        label: "Vacances Page [FR]"
-        name: "fr-holidays"
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/nosateliers/enfants-theatre',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#47888B',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-fr/primaire-mercredi/index.md'
+        label: 'Primaire Mercredi'
+        name: 'primaire-mercredi'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/ateliers-vacances-nantes"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-holiday"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "fr"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#fff"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: Title, name: title, widget: string}
-          - {label: Meta Description, name: metaDescription, widget: string}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Sub Title", name: "subTitle", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/team/index.md"
-        label: "L’équipe Page [FR]"
-        name: "fr-team"
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/nosateliers/primaire-mercredi',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#47888B',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-fr/primaire-vendredi/index.md'
+        label: 'Primaire vendredi'
+        name: 'primaire-vendredi'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/lequipe"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-team"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "fr"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#fff"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: Title, name: title, widget: string}
-          - {label: Meta Description, name: metaDescription, widget: string}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Sub Title", name: "subTitle", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/en/team/index.md"
-        label: "Team Page [EN]"
-        name: "en-team"
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/nosateliers/primaire-vendredi',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#47888B',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - file: 'src/pages/workshops-fr/primaire-arts-plastiques/index.md'
+        label: 'Primaire arts plastiquest'
+        name: 'primaire-arts-plastiques'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/team"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-team"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "en"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#fff"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: Title, name: title, widget: string}
-          - {label: Meta Description, name: metaDescription, widget: string}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Sub Title", name: "subTitle", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/pedagogy/index.md"
-        label: "Pédagogie [FR]"
-        name: "fr-pedagogy"
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/nosateliers/primaire-arts-plastiques',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop-single',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - {
+              label: 'Color',
+              name: 'color',
+              widget: 'hidden',
+              default: '#47888B',
+            }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: 'Age', name: 'age', widget: string }
+          - { label: 'When', name: 'when', widget: string }
+          - { label: 'Where', name: 'where', widget: string }
+          - { label: 'Price', name: 'price', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - file: 'src/pages/en/workshop/index.md'
+        label: 'Workshop [EN]'
+        name: 'en-workshop'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/pedagogie"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-pedagogy"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "fr"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#fff"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: Title, name: title, widget: string}
-          - {label: Meta Description, name: metaDescription, widget: string}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Sub Title", name: "subTitle", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/en/pedagogy/index.md"
-        label: "Pedagogy [EN]"
-        name: "en-pedagogy"
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/workshop',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - { label: 'Color', name: 'color', widget: 'hidden', default: '#fff' }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - { label: 'Sub Title', name: 'subTitle', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/workshop/index.md'
+        label: 'Atelier [FR]'
+        name: 'fr-workshop'
         fields:
-          - {label: "Path", name: "path", widget: "hidden", default: "/en/pedagogy"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page-pedagogy"}
-          - {label: "Date", name: "date", widget: "hidden", default: "2018-04-27"}
-          - {label: "Language", name: "lng", widget: "hidden", default: "fr"}
-          - {label: "Color", name: "color", widget: "hidden", default: "#fff"}
-          - {label: "Secondary Color", name: "secondaryColor", widget: "hidden", default: "#fff"}
-          - {label: Title, name: title, widget: string}
-          - {label: Meta Description, name: metaDescription, widget: string}
-          - {label: "Content Title", name: "contentTitle", widget: "string"}
-          - {label: "Sub Title", name: "subTitle", widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/workshop',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-workshop',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'fr' }
+          - { label: 'Color', name: 'color', widget: 'hidden', default: '#fff' }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: 'Meta Description',
+              name: 'metaDescription',
+              widget: 'string',
+            }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - { label: 'Sub Title', name: 'subTitle', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/contact/index.md'
+        label: 'Contact Page [FR]'
+        name: 'fr-contact'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/contact',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-contact',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'fr' }
+          - { label: 'Color', name: 'color', widget: 'hidden', default: '#fff' }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Meta Description, name: metaDescription, widget: string }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - { label: 'Sub Title', name: 'subTitle', widget: string }
+          - { label: Contact Box Title, name: contactBoxTitle, widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/en/contact-us/index.md'
+        label: 'Contact Page [EN]'
+        name: 'en-contact'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/contact-us',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-contact',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - { label: 'Color', name: 'color', widget: 'hidden', default: '#fff' }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Meta Description, name: metaDescription, widget: string }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - { label: 'Sub Title', name: 'subTitle', widget: string }
+          - { label: Contact Box Title, name: contactBoxTitle, widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/en/holidays/index.md'
+        label: 'Holidays Page [EN]'
+        name: 'en-holidays'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/holidays-nantes',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-holiday',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - { label: 'Color', name: 'color', widget: 'hidden', default: '#fff' }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: Title, name: title, widget: string }
+          - { label: Meta Description, name: metaDescription, widget: string }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - { label: 'Sub Title', name: 'subTitle', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/holidays/index.md'
+        label: 'Vacances Page [FR]'
+        name: 'fr-holidays'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/ateliers-vacances-nantes',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-holiday',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'fr' }
+          - { label: 'Color', name: 'color', widget: 'hidden', default: '#fff' }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - label: Page Gallery
+            name: 'pageGallery'
+            widget: 'list'
+            fields:
+              - { label: Image, name: image, widget: image }
+          - { label: Title, name: title, widget: string }
+          - { label: Meta Description, name: metaDescription, widget: string }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - { label: 'Sub Title', name: 'subTitle', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/team/index.md'
+        label: 'L’équipe Page [FR]'
+        name: 'fr-team'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/lequipe',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-team',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'fr' }
+          - { label: 'Color', name: 'color', widget: 'hidden', default: '#fff' }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Meta Description, name: metaDescription, widget: string }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - { label: 'Sub Title', name: 'subTitle', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/en/team/index.md'
+        label: 'Team Page [EN]'
+        name: 'en-team'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/team',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-team',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'en' }
+          - { label: 'Color', name: 'color', widget: 'hidden', default: '#fff' }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Meta Description, name: metaDescription, widget: string }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - { label: 'Sub Title', name: 'subTitle', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/pedagogy/index.md'
+        label: 'Pédagogie [FR]'
+        name: 'fr-pedagogy'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/pedagogie',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-pedagogy',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'fr' }
+          - { label: 'Color', name: 'color', widget: 'hidden', default: '#fff' }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Meta Description, name: metaDescription, widget: string }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - { label: 'Sub Title', name: 'subTitle', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/en/pedagogy/index.md'
+        label: 'Pedagogy [EN]'
+        name: 'en-pedagogy'
+        fields:
+          - {
+              label: 'Path',
+              name: 'path',
+              widget: 'hidden',
+              default: '/en/pedagogy',
+            }
+          - {
+              label: 'Layout',
+              name: 'layout',
+              widget: 'hidden',
+              default: 'page-pedagogy',
+            }
+          - {
+              label: 'Date',
+              name: 'date',
+              widget: 'hidden',
+              default: '2018-04-27',
+            }
+          - { label: 'Language', name: 'lng', widget: 'hidden', default: 'fr' }
+          - { label: 'Color', name: 'color', widget: 'hidden', default: '#fff' }
+          - {
+              label: 'Secondary Color',
+              name: 'secondaryColor',
+              widget: 'hidden',
+              default: '#fff',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Meta Description, name: metaDescription, widget: string }
+          - { label: 'Content Title', name: 'contentTitle', widget: 'string' }
+          - { label: 'Sub Title', name: 'subTitle', widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }

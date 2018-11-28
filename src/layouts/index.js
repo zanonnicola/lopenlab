@@ -24,6 +24,7 @@ const Layout = ({ children, data, location }) => {
   if (location.pathname === '/' || location.pathname === '/en' || location.pathname === '/en/') {
     isHomePage = true;
   }
+  // test
   //const reg = new RegExp("/workshops|nosateliers/[a-z]", 'g');
 
   for (let index = 0; index < data.allMarkdownRemark.edges.length; index++) {
