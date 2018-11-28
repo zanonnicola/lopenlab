@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "lopenlab",
+  "description": "L'Open Lab for Kids",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nicola Zanon <nicola.zanon86@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.273",
     "gatsby-link": "^1.6.45",
