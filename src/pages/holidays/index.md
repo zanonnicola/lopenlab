@@ -5,14 +5,10 @@ date: '2018-04-27'
 lng: fr
 color: '#FC6681'
 pageGallery:
-  - description: ''
-    image: /assets/ateliers-vacances-by-l-open-lab-for-kids.jpg
-  - description: ''
-    image: /assets/fall-fun-week_playdough-by-l-open-lab-for-kids.jpg
-  - description: ''
-    image: /assets/l-open-lab-for-kids_halloween.jpg
-  - description: ''
-    image: /assets/origami-ateliers-vacances-l-open-lab-for-kids.jpg
+  - image: /assets/ateliers-vacances-by-l-open-lab-for-kids.jpg
+  - image: /assets/fall-fun-week_playdough-by-l-open-lab-for-kids.jpg
+  - image: /assets/l-open-lab-for-kids_halloween.jpg
+  - image: /assets/origami-ateliers-vacances-l-open-lab-for-kids.jpg
 title: Vacances
 metaDescription: >-
   A chaque période de vacances scolaires, nous organisons une semaine de stage
