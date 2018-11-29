@@ -7,19 +7,20 @@
 }
 .hero__h1 {
     color: #fff;
-    font-size: 42px;
+    font-size: 38px;
     line-height: 1.4;
     margin: 0 0 25px 0;
     position: relative;
+    max-width: 900px;
     text-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 .hero__h2 {
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4;
     margin: 0;
     font-weight: 400;
-    max-width: 766px;
+    max-width: 700px;
     position: relative;
     text-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
