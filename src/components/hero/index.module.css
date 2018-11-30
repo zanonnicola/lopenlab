@@ -68,7 +68,7 @@
 @media screen and (max-width: 700px) {
     .hero {
         padding-top: 45px;
-        min-height: 60vh;
+        min-height: 64vh;
     }
     .hero__h1 {
         font-size: 25px;
