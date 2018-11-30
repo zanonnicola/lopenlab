@@ -67,7 +67,7 @@ const Layout = ({ children, data, location }) => {
       heroTitle =
         'Les prochains ateliers-vacances ont lieu du 2 au 4 janvier 2019.'
       heroSubtitle =
-        'Arts plastiques, théâtre, musique, cuisine... le tout en anglais.'
+        'Pour les 3-11 ans : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
       color = '#fff'
       secondaryColor = '#fff'
       break
