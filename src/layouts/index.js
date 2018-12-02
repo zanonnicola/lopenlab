@@ -1,72 +1,81 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import { withPrefix } from "gatsby-link";
-import Hero from '../components/hero';
-import Naviagtion from '../components/navigation';
-import { lightenDarkenColor } from '../helpers';
-import './flexboxgrid.css';
-import './index.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import { withPrefix } from 'gatsby-link'
+import Hero from '../components/hero'
+import Naviagtion from '../components/navigation'
+import { lightenDarkenColor } from '../helpers'
+import './flexboxgrid.css'
+import './index.css'
 
 const Layout = ({ children, data, location }) => {
-  let lng = 'fr';
-  let title = data.site.siteMetadata.title_fr;
-  let description = data.site.siteMetadata.description_fr;
+  let lng = 'fr'
+  let title = data.site.siteMetadata.title_fr
+  let description = data.site.siteMetadata.description_fr
   if (location.pathname.startsWith('/en')) {
-    title = data.site.siteMetadata.title_en;
-    description = data.site.siteMetadata.description_en;
-    lng = 'en';
+    title = data.site.siteMetadata.title_en
+    description = data.site.siteMetadata.description_en
+    lng = 'en'
   }
 
-  let isHomePage = false;
-  let tag = null;
+  let isHomePage = false
+  let tag = null
 
-  if (location.pathname === '/' || location.pathname === '/en' || location.pathname === '/en/') {
-    isHomePage = true;
+  if (
+    location.pathname === '/' ||
+    location.pathname === '/en' ||
+    location.pathname === '/en/'
+  ) {
+    isHomePage = true
   }
   // test
   //const reg = new RegExp("/workshops|nosateliers/[a-z]", 'g');
 
   for (let index = 0; index < data.allMarkdownRemark.edges.length; index++) {
-    const { node } = data.allMarkdownRemark.edges[index];
+    const { node } = data.allMarkdownRemark.edges[index]
     if (node.frontmatter.path === location.pathname) {
-      tag = node.frontmatter.age;
-      break;
+      tag = node.frontmatter.age
+      break
     }
   }
 
-  let heroTitle;
-  let heroSubtitle;
-  let color;
-  let secondaryColor;
-
+  let heroTitle
+  let heroSubtitle
+  let color
+  let secondaryColor
 
   for (let index = 0; index < data.allMarkdownRemark.edges.length; index++) {
-    const { node } = data.allMarkdownRemark.edges[index];
+    const { node } = data.allMarkdownRemark.edges[index]
     // Always remove trailing slashes
     if (node.frontmatter.path === location.pathname.replace(/\/$/, '')) {
-      heroTitle = node.frontmatter.title;
-      heroSubtitle = node.frontmatter.subTitle;
-      color = node.frontmatter.color;
-      secondaryColor = node.frontmatter.secondaryColor || lightenDarkenColor(node.frontmatter.color, 44);
-      break;
+      heroTitle = node.frontmatter.title
+      heroSubtitle = node.frontmatter.subTitle
+      color = node.frontmatter.color
+      secondaryColor =
+        node.frontmatter.secondaryColor ||
+        lightenDarkenColor(node.frontmatter.color, 44)
+      break
     } else if (location.pathname === '/en') {
-      heroTitle = 'Learning, creating, having fun!';
-      heroSubtitle = 'Fun and enriching activities adapted to children from 1 to 11 years old.';
-      color = '#fff';
-      secondaryColor = '#fff';
-      break;
+      heroTitle =
+        'The next holiday workshops take place from 2nd to 4th Januay 2019.'
+      heroSubtitle =
+        'For kids aged from 3 to 11: fine arts, theatre, music, cooking, yoga...'
+      color = '#fff'
+      secondaryColor = '#fff'
+      break
     } else if (location.pathname === '/') {
-      heroTitle = 'Apprendre, créer, s’amuser, tout en anglais !';
-      heroSubtitle = 'Des activités épanouissantes et adaptées pour les enfants de 1 à 11 ans.';
-      color = '#fff';
-      secondaryColor = '#fff';
-      break;
+      heroTitle =
+        'Les prochains ateliers-vacances ont lieu du 2 au 4 janvier 2019.'
+      heroSubtitle =
+        'Pour les 3-11 ans : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
+      color = '#fff'
+      secondaryColor = '#fff'
+      break
     } else {
-      heroTitle = '';
-      heroSubtitle = '';
-      color = '#60BDC1';
-      secondaryColor = '#95CEC7';
+      heroTitle = ''
+      heroSubtitle = ''
+      color = '#60BDC1'
+      secondaryColor = '#95CEC7'
     }
   }
 
@@ -80,30 +89,61 @@ const Layout = ({ children, data, location }) => {
     pedagogie: '#0E4658',
     lequipe: '#FCC817',
     vacances: '#FC6681',
-  };
+  }
 
   return (
     <div>
       <Helmet
         title={title}
-        meta={[
-          { name: 'description', content: `${description}` }
-        ]}
+        meta={[{ name: 'description', content: `${description}` }]}
       >
-        <meta name="google-site-verification" content="uVknAbcTUdiYPuPcXjt00iSmnv-YDRH2H-Rqdz6xy4g" />
-        <link rel="preload" href={withPrefix('/assets/merriweather-v19-latin-700.woff2')} as="font" type="font/woff2" crossOrigin />
-        <link rel="preload" href={withPrefix('/assets/muli-v11-latin-regular.woff2')} as="font" type="font/woff2" crossOrigin />
-        <link rel="apple-touch-icon" sizes="180x180" href={withPrefix('/assets/apple-touch-icon.png')} />
-        <link rel="icon" type="image/png" sizes="32x32" href={withPrefix('/assets/favicon-32x32.png')} />
-        <link rel="icon" type="image/png" sizes="16x16" href={withPrefix('/assets/favicon-16x16.png')} />
-        <link rel="icon" href={withPrefix('/assets/favicon.ico')} type="image/x-icon" />
+        <meta
+          name="google-site-verification"
+          content="uVknAbcTUdiYPuPcXjt00iSmnv-YDRH2H-Rqdz6xy4g"
+        />
+        <link
+          rel="preload"
+          href={withPrefix('/assets/merriweather-v19-latin-700.woff2')}
+          as="font"
+          type="font/woff2"
+          crossOrigin
+        />
+        <link
+          rel="preload"
+          href={withPrefix('/assets/muli-v11-latin-regular.woff2')}
+          as="font"
+          type="font/woff2"
+          crossOrigin
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href={withPrefix('/assets/apple-touch-icon.png')}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href={withPrefix('/assets/favicon-32x32.png')}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href={withPrefix('/assets/favicon-16x16.png')}
+        />
+        <link
+          rel="icon"
+          href={withPrefix('/assets/favicon.ico')}
+          type="image/x-icon"
+        />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Helmet>
       <Hero
         title={heroTitle}
         subtitle={heroSubtitle}
-        image={withPrefix('/assets/openlab.jpg')}
+        image={withPrefix('/assets/website_banner.jpg')}
         color={color}
         secondaryColor={secondaryColor}
         isHomePage={isHomePage}
@@ -118,7 +158,7 @@ const Layout = ({ children, data, location }) => {
 Layout.propTypes = {
   children: PropTypes.func,
   data: PropTypes.any,
-  location: PropTypes.any
+  location: PropTypes.any,
 }
 
 export default Layout
@@ -133,7 +173,10 @@ export const query = graphql`
         description_en
       }
     }
-    allMarkdownRemark(limit: 100, filter: {frontmatter: {path: {regex: "/^(?!/blog/)/"}}}) {
+    allMarkdownRemark(
+      limit: 100
+      filter: { frontmatter: { path: { regex: "/^(?!/blog/)/" } } }
+    ) {
       edges {
         node {
           frontmatter {

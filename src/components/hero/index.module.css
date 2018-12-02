@@ -7,19 +7,20 @@
 }
 .hero__h1 {
     color: #fff;
-    font-size: 42px;
+    font-size: 38px;
     line-height: 1.4;
     margin: 0 0 25px 0;
     position: relative;
+    max-width: 900px;
     text-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 .hero__h2 {
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4;
     margin: 0;
     font-weight: 400;
-    max-width: 766px;
+    max-width: 674px;
     position: relative;
     text-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
@@ -49,13 +50,12 @@
     left: 0;
     bottom: 0;
     min-height: 100%;
-    min-width: 1024px;
+    min-width: 1440px;
     /* Set up proportionate scaling */
     width: 100%;
     height: auto;
-    /* Set up positioning */
-    position: fixed;
-    top: -100px;
+
+    top: -50px;
     left: 0;
     transform: translate3d(0, 0, 0);
 }
@@ -68,12 +68,12 @@
 @media screen and (max-width: 700px) {
     .hero {
         padding-top: 45px;
-        min-height: 60vh;
+        min-height: 64vh;
     }
     .hero__h1 {
-        font-size: 28px;
+        font-size: 25px;
     }
     .hero__h2 {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
