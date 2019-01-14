@@ -4,6 +4,8 @@ layout: page-holidays
 date: '2018-04-27'
 lng: en
 color: '#FC6681'
+pageGallery:
+  - image: /assets/ateliers-vacances-by-l-open-lab-for-kids.jpg
 title: Holidays
 metaDescription: >-
   Every school holiday, we run a holiday programme for children from 3 to 11
@@ -13,8 +15,7 @@ subTitle: >-
   A dedicated holiday programme full of fun and creative things to do for
   children, while practising English.
 ---
-
-The next holiday workshop takes place **from Wednesday, 2nd to Friday, 4th January**. It is open to children from 3 onwards and takes place either in the morning (from 9am to 12pm) or in the afternoon (from 2 to 5pm).
+The next holiday workshop takes place **from Monday, 18th to Friday, 22nd February**. It is open to children from 3 onwards and takes place either in the morning (from 9am to 12pm) or in the afternoon (from 2 to 5pm).
 
 Our holiday workshops are an opportunity for children to take a break, have fun, discover and explore new things, while learning and practising English. Our activities are all focused on developing creativity and fostering speaking skills. Our objectives are to help children develop or maintain a taste for speaking English, develop confidence in their ability to speak and understand the language, while developing new skills and... having fun!
 
