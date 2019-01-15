@@ -57,17 +57,17 @@ const Layout = ({ children, data, location }) => {
       break
     } else if (location.pathname === '/en') {
       heroTitle =
-        'The next holiday workshops take place from 2nd to 4th Januay 2019.'
+        'The next holiday workshops take place from 18th to 22nd February.'
       heroSubtitle =
-        'For kids aged from 3 to 11: fine arts, theatre, music, cooking, yoga...'
+        'For kids aged from 3 to 14: fine arts, theatre, music, cooking, yoga...'
       color = '#fff'
       secondaryColor = '#fff'
       break
     } else if (location.pathname === '/') {
       heroTitle =
-        'Les prochains ateliers-vacances ont lieu du 2 au 4 janvier 2019.'
+        'Les prochains ateliers-vacances ont lieu du 18 au 22 février.'
       heroSubtitle =
-        'Pour les 3-11 ans : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
+        'Pour les 3-14 ans : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
       color = '#fff'
       secondaryColor = '#fff'
       break
