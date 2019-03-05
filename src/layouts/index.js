@@ -143,7 +143,7 @@ const Layout = ({ children, data, location }) => {
       <Hero
         title={heroTitle}
         subtitle={heroSubtitle}
-        image={withPrefix('/assets/website_banner.jpg')}
+        image={withPrefix('/assets/website_banner-2.jpg')}
         color={color}
         secondaryColor={secondaryColor}
         isHomePage={isHomePage}
