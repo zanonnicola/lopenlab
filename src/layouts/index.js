@@ -65,9 +65,9 @@ const Layout = ({ children, data, location }) => {
       break
     } else if (location.pathname === '/') {
       heroTitle =
-        'Les prochains ateliers-vacances ont lieu du 18 au 22 février.'
+        'Apprendre l’anglais en s’amusant'
       heroSubtitle =
-        'Pour les 3-14 ans : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
+        'Des activités enrichissantes et adaptées pour les enfants : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
       color = '#fff'
       secondaryColor = '#fff'
       break
