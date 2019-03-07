@@ -57,9 +57,9 @@ const Layout = ({ children, data, location }) => {
       break
     } else if (location.pathname === '/en') {
       heroTitle =
-        'Learning and practicing English, while having fun – simply!'
+        'The next holiday workshops take place from 2nd to 4th Januay 2019.'
       heroSubtitle =
-        'Enriching activities adapted to children’s ages and interests: arts, theatre, music, cooking, yoga, all in English.'
+        'For kids aged from 3 to 11: fine arts, theatre, music, cooking, yoga...'
       color = '#fff'
       secondaryColor = '#fff'
       break
