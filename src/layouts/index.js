@@ -65,9 +65,9 @@ const Layout = ({ children, data, location }) => {
       break
     } else if (location.pathname === '/') {
       heroTitle =
-        'Les prochains ateliers-vacances ont lieu du 18 au 22 février.'
+        'Les prochains ateliers-vacances ont lieu du 2 au 4 janvier 2019.'
       heroSubtitle =
-        'Pour les 3-14 ans : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
+        'Pour les 3-11 ans : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
       color = '#fff'
       secondaryColor = '#fff'
       break
