@@ -57,17 +57,17 @@ const Layout = ({ children, data, location }) => {
       break
     } else if (location.pathname === '/en') {
       heroTitle =
-        'The next holiday workshops take place from 2nd to 4th Januay 2019.'
+        'Learning and practicing English, while having fun – simply!'
       heroSubtitle =
-        'For kids aged from 3 to 11: fine arts, theatre, music, cooking, yoga...'
+        'Enriching activities adapted to children’s ages and interests: arts, theatre, music, cooking, yoga, all in English.'
       color = '#fff'
       secondaryColor = '#fff'
       break
     } else if (location.pathname === '/') {
       heroTitle =
-        'Les prochains ateliers-vacances ont lieu du 2 au 4 janvier 2019.'
+        'Apprendre l’anglais en s’amusant'
       heroSubtitle =
-        'Pour les 3-11 ans : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
+        'Des activités enrichissantes et adaptées pour les enfants : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
       color = '#fff'
       secondaryColor = '#fff'
       break
@@ -143,7 +143,7 @@ const Layout = ({ children, data, location }) => {
       <Hero
         title={heroTitle}
         subtitle={heroSubtitle}
-        image={withPrefix('/assets/website_banner.jpg')}
+        image={withPrefix('/assets/openlab-2.jpg')}
         color={color}
         secondaryColor={secondaryColor}
         isHomePage={isHomePage}
