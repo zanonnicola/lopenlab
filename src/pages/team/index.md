@@ -13,7 +13,7 @@ metaDescription: >-
 contentTitle: L'équipe
 subTitle: >-
   A l’image de L’Open LAB for Kids, l’équipe est internationale et
-  multiculturelle : anglaise, irlandaise, américaine, brésilienne et française.
+  multiculturelle : anglaise, irlandaise, américaine et française.
 ---
 L’équipe de L’Open LAB for Kids est composée de professeurs d’anglais natifs ou parfaitement bilingues et d’intervenants spécialisés dans leur discipline. 
 
