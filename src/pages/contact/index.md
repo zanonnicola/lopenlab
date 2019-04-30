@@ -12,7 +12,7 @@ metaDescription: >-
   accueillons les enfants âgés de 1 à 11 ans. 
 contentTitle: Nous contacter
 subTitle: >-
-  Les inscriptions pour la rentrée 2019-2010 ont commencé ; contactez-nous dès
+  Les inscriptions pour la rentrée 2019-2020 ont commencé ; contactez-nous dès
   maintenant pour obtenir plus d'informations et inscrire votre(vos) enfant(s). 
 contactBoxTitle: Nous contacter
 ---
