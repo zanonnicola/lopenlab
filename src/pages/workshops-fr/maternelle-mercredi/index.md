@@ -10,7 +10,7 @@ metaDescription: >-
   expérimentant de nouvelles disciplines (musique, art, bricolage, danse,
   jardinage…) tout en apprenant l’anglais. Les enfants évoluent dans un cadre
   vert et protégé, au cœur d’un jardin. 
-contentTitle: Le mercredi
+contentTitle: Le mercredi (1h30)
 pageGallery:
   - image: /assets/20190416_160133-1-.jpg
   - image: /assets/20190419_112531.jpg
