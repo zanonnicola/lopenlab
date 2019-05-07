@@ -11,9 +11,13 @@ metaDescription: >-
   jardinage…) tout en apprenant l’anglais. Les enfants évoluent dans un cadre
   vert et protégé, au cœur d’un jardin. 
 contentTitle: Le mercredi
-gallery: a
+pageGallery:
+  - image: /assets/20190416_160133-1-.jpg
+  - image: /assets/20190419_112531.jpg
+  - image: /assets/musique-en-anglais_l-open-lab-for-kids.jpg
+  - image: /assets/atelier-musique-en-anglais.jpg
 age: 3-6
-when: 'Les mercredis, de 14h à 15h30 ou de 16h à 17h30 '
+when: 'Les mercredis, de 16h30 à 18h'
 where: 77 rue de la Tullaye<br />44300 Nantes
 price: '540€ pour l''année scolaire<br />Règlement annuel, trimestriel ou mensuel'
 ---
