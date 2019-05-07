@@ -10,11 +10,12 @@ metaDescription: >-
   apprentissage de l’anglais. Ces ateliers permettent aux enfants de développer
   confiance en eux, de collaborer à travers le jeu tout en parlant anglais. 
 contentTitle: 'Théâtre en anglais '
-gallery: a
+pageGallery:
+  - image: /assets/openlab-2.jpg
 age: 6-11
-when: 'Le mardi, de 17h à 18h'
+when: 'Le mardi, de 17h à 18h30'
 where: 77 rue de la Tullaye<br />44300 Nantes
-price: '520€ pour l''année scolaire<br />Règlement annuel, trimestriel ou mensuel'
+price: '550€ pour l''année scolaire<br />Règlement annuel, trimestriel ou mensuel'
 ---
 Apprendre une langue, pour nous, c'est avant tout la vivre, parler et échanger, tout naturellement. A travers des scènes de la vie de tous les jours, des scènes de théâtre, de cinéma ou encore des jeux de rôles et d’improvisation, l’apprentissage de l’anglais fait tout simplement partie du jeu. Les enfants prennent plaisir à s’exprimer en anglais, développent confiance en eux, apprenent à travailler en équipe tout en acceptant et respectant l’autre. 
 
