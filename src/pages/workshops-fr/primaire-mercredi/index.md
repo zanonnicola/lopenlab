@@ -4,7 +4,7 @@ layout: page-workshop-single
 date: '2018-04-27'
 lng: fr
 color: '#47888B'
-title: Fun Wednesday
+title: Fun Wednesday (2h)
 metaDescription: >-
   Le mercredi, nous proposons aux enfants de faire une pause créative et ludique
   dans la semaine et d’apprendre l’anglais. Les ateliers ont lieu dans un cadre
