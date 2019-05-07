@@ -13,7 +13,7 @@ contentTitle: 'Théâtre en anglais '
 pageGallery:
   - image: /assets/openlab-2.jpg
 age: 6-11
-when: 'Le mardi, de 17h à 18h30'
+when: 'Les mardis, de 17h à 18h30'
 where: 77 rue de la Tullaye<br />44300 Nantes
 price: '615€ pour l''année scolaire<br />Règlement annuel, trimestriel ou mensuel'
 ---
