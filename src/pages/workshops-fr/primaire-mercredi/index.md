@@ -10,13 +10,14 @@ metaDescription: >-
   dans la semaine et d’apprendre l’anglais. Les ateliers ont lieu dans un cadre
   magique, un jardin privatif, à Nantes. 
 contentTitle: Le mercredi
-gallery: a
+pageGallery:
+  - image: /assets/fun-wednesday-by-l-open-lab-for-kids.jpg
+  - image: /assets/team-work_l-open-lab-for-kids.jpg
+  - image: /assets/atelier-fun-wednesday-matin.jpg
 age: 6-11
-when: 'Le mercredi matin, de 9h30 à 11h30 ou mercredi après-midi, de 14h à 15h30'
+when: 'Le mercredi matin, de 9h30 à 11h30 ou mercredi après-midi, de 14h à 16h'
 where: 77 rue de la Tullaye<br />44300 Nantes
-price: >-
-  225€ par trimestre pour 2 heures hebdomadaires<br />180€ par trimestre pour
-  1h30 par semaine
+price: 225€ par trimestre pour 2 heures hebdomadaires
 ---
 Le mercredi matin, de 9h30 à 11h30, les enfants se retrouvent pour deux heures de « fun » au Lab. C’est l’occasion pour les enfants de pratiquer l’anglais à travers différentes activités créatives tout en faisant un vrai « break » dans la semaine : S.T.E.M, arts plastiques, jardinage, cuisine... Nous ne manquons pas d’idées éducatives ! Les ateliers ont lieu dans un jardin privatif, un cadre protégé et magique pour les enfants. Les ateliers sont répartis en tranches d’âges homogènes, les projets déterminés en fonction des intérêts et des capacités des enfants.
 
