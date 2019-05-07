@@ -15,7 +15,7 @@ pageGallery:
   - image: /assets/mother-s-day.jpg
   - image: /assets/dsc_0829.jpg
   - image: /assets/musique-en-anglais_l-open-lab-for-kids.jpg
-age: 2-3
+age: 1-3
 when: 'Le samedi, de 9h30 à 10h15 '
 where: 'Happy Place by Vacouva<br />43 quai de Malakoff, 44000 Nantes'
 price: >-
