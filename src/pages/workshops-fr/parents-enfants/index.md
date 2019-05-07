@@ -10,11 +10,13 @@ metaDescription: >-
   Accompagnés d’un adulte, les enfants découvrent l’anglais à travers des
   activités d’éveil adaptées.
 contentTitle: Atelier parents-enfants
-gallery: a
+pageGallery:
+  - image: /assets/ice-painting.jpg
+  - image: /assets/mother-s-day.jpg
+  - image: /assets/dsc_0829.jpg
+  - image: /assets/musique-en-anglais_l-open-lab-for-kids.jpg
 age: 1-3
-when: >-
-  Le vendredi de 10h à 10h45<br />Le samedi, de 9h30 à 10h15 (12-24 mois) et de
-  10h30 à 11h15 (24-36 mois) 
+when: 'Le samedi, de 9h30 à 10h15 (24-36 mois) '
 where: 'Happy Place by Vacouva<br />43 quai de Malakoff, 44000 Nantes'
 price: >-
   480€ pour l'année scolaire<br />Règlement annuel ou trimestriel<br />Un
