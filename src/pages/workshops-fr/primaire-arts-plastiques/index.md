@@ -20,7 +20,7 @@ pageGallery:
 age: 3-6
 when: 'Le samedi matin, de 10h30 à 11h30'
 where: Happy Place by Vacouva<br />43 quai de Malakoff 44000 Nantes
-price: '550€ pour l''année scolaire<br />Règlement annuel, trimestriel ou mensuel'
+price: 520€ pour l'année scolaire<br />Possibilité de paiement en plusieurs fois
 ---
 Pendant ces ateliers, les enfants découvrent et pratiquent l'anglais de manière ludique tout en se développant sur le plan global. Au programme : peinture, confection d'objets variés, musique et comptines, yoga, activités sensorielles… Les ateliers ont lieu le samedi matin, en plein coeur de Nantes (quartier gare Sud).
 
