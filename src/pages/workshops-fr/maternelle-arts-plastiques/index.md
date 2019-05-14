@@ -21,7 +21,7 @@ price: 750€ pour l'année scolaire<br />Possibilité de paiement en plusieurs 
 ---
 Le mercredi matin, les enfants viennent faire un break au Lab. Au programme : arts plastiques, bricolage, musique et comptines, cuisine, jeux de rôles, activités sensorielles et extérieures, le tout en anglais. Notre objectif : permettre aux enfants de développer un goût pour l'anglais tout en se développant sur le plan global. 
 
-> Inscriptions 2019-2020 : nous travaillons en petit effectif, ne tardez donc pas à nous contacter à <mailto:hello@lopenlab.com> ou par téléphone au 06.86.02.22.50 pour inscrire votre(vos) enfants. 
+> Inscriptions 2019-2020 : nous travaillons en petit effectif, ne tardez pas à nous contacter à <mailto:hello@lopenlab.com> ou par téléphone au 06.86.02.22.50 pour inscrire votre(vos) enfants. 
 
 [Plus d'infos sur notre approche](/pedagogie)
 
