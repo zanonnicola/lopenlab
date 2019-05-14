@@ -13,7 +13,7 @@ contentTitle: Theatre in English workshop
 pageGallery:
   - image: /assets/openlab-2.jpg
 age: 6-11
-when: 'Tuesdays, from 5pm to 6pm'
+when: 'Tuesdays, from 5pm to 6.30pm'
 where: 77 rue de la Tullaye<br />44300 Nantes
 price: '615€ for the school year<br />Yearly, quarterly or monthly plans available'
 ---
