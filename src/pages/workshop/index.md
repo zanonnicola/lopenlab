@@ -21,4 +21,4 @@ Nos ateliers sont adaptés aux bébés, petits et enfants âgés de 2 à 11 ans.
 
 Nos ateliers sont entièrement en anglais. Ils s’adressent aussi bien aux enfants bilingues qu’aux enfants et parents n’ayant aucune ou peu de connaissance de l’anglais. Notre équipe de professionnels comprend le français et est parfaitement formée pour familiariser les enfants à la pratique d’une langue étrangère.
 
-**Le planning des ateliers 2019-2020 est disponible ci-dessous. Pour toute question, n'hésitez pas à nous **[**contacter directement**](https://kids.lopenlab.com/contact)**. **
+**Le planning des ateliers 2019-2020 est disponible ci-dessous. Pour toute question, n'hésitez pas à nous contacter directement par mail à hello@lopenlab.com ou par téléphone au 06.86.02.22.50. **
