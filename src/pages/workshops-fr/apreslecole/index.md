@@ -6,13 +6,14 @@ lng: fr
 color: '#60BDC1'
 title: Afterschool Lab
 metaDescription: >-
-  Nous accueillons les enfants de 3 à 6 ans pour un atelier d’anglais de 2
-  heures sur le temps périscolaire. Chaque atelier est basé sur une approche
-  créative et ludique et dans le respect du rythme de l’enfant.  
+  Nous accueillons les enfants pour un atelier d’anglais sur le temps
+  périscolaire. Chaque atelier est basé sur une approche créative et ludique et
+  dans le respect du rythme de l’enfant.  
 contentTitle: Après l'école
-gallery: a
+pageGallery:
+  - image: /assets/fun-wednesday-by-l-open-lab-for-kids.jpg
 age: 3-6
-when: 'Les lundis et jeudis, à partir de 16h30 et jusqu''à 18h45'
+when: 'Les lundis, jeudis et vendredis'
 where: 77 rue de la Tullaye<br />44300 Nantes
 price: >-
   310€ par trimestre<br />Sortie d'école dans le quartier Rond-point de Paris et
