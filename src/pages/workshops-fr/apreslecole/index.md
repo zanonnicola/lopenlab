@@ -13,8 +13,10 @@ contentTitle: Après l'école
 pageGallery:
   - image: /assets/fun-wednesday-by-l-open-lab-for-kids.jpg
 age: 3-6
-when: 'Les lundis, jeudis et vendredis'
-where: 77 rue de la Tullaye<br />44300 Nantes
+when: 'Les lundis, mardis, jeudis et vendredis'
+where: >-
+  Le LAB<br />77 rue de la Tullaye<br />44300 Nantes<br />Ateliers à domicile
+  sur demande, avec un groupe à partir de 4 enfants
 price: >-
   310€ par trimestre<br />Sortie d'école dans le quartier Rond-point de Paris et
   goûter équilibré compris
