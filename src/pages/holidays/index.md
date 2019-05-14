@@ -32,4 +32,4 @@ Les matinées sont généralement réservées aux enfants entre 3 et 6 ans, les 
 
 Le tarif de l’atelier-vacances pour 5 jours est de 189 euros.
 
-[Contactez-nous](hello@lopenlab.com) dès maintenant pour réserver une place pour votre(vos) enfant(s). A très vite !
+[Contactez-nous](mailto:hello@lopenlab.com) dès maintenant pour réserver une place pour votre(vos) enfant(s). A très vite !
