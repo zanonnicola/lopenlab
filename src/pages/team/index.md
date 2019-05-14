@@ -17,4 +17,4 @@ subTitle: >-
 ---
 L’équipe de L’Open LAB for Kids est composée de professeurs d’anglais natifs ou parfaitement bilingues et d’intervenants spécialisés dans leur discipline. 
 
-Nous sommes tous diplômés, parents, avec un savoir-faire reconnu auprès des bébés et des enfants jusqu’à 11 ans. A chacun son expertise, des professionnels de nationalité anglaise, irlandaise, américaine et française animent des activités ludiques et enrichissantes pour les enfants, entièrement en anglais.  Nous voici ici.
+Nous sommes tous diplômés, parents, avec un savoir-faire reconnu auprès des bébés et des enfants jusqu’à 11 ans. A chacun son expertise, des professionnels de nationalité anglaise, irlandaise, américaine et française animent des activités ludiques et enrichissantes pour les enfants, entièrement en anglais.  Vous découvrirez bientôt l'ensemble de notre équipe ci-dessous.
