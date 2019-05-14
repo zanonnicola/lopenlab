@@ -16,7 +16,7 @@ age: 3-6
 when: 'Les lundis, mardis, jeudis et vendredis'
 where: >-
   Le LAB<br />77 rue de la Tullaye<br />44300 Nantes<br />Ateliers à domicile
-  sur demande, avec un groupe à partir de 4 enfants
+  sur demande lorsqu'un groupe d'au moins 4 enfants est constitué
 price: >-
   310€ par trimestre<br />Sortie d'école dans le quartier Rond-point de Paris et
   goûter équilibré compris
