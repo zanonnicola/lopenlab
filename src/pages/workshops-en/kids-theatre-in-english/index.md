@@ -10,11 +10,12 @@ metaDescription: >-
   Children get to develop confidence in themselves, learn how to collaborate
   with others, while expanding their vocabulary in English. 
 contentTitle: Theatre in English workshop
-gallery: a
+pageGallery:
+  - image: /assets/openlab-2.jpg
 age: 6-11
 when: 'Tuesdays, from 5pm to 6pm'
 where: 77 rue de la Tullaye<br />44300 Nantes
-price: '520€ for the school year<br />Yearly, quarterly or monthly plans available'
+price: '615€ for the school year<br />Yearly, quarterly or monthly plans available'
 ---
 Learning a language is about living it and speaking it with other people… simply! With theatre, learning English is part of the play: kids act out daily life situations, theatre sketches and cinema plays that they know or can relate to or do role plays or some improv. Children enjoy speaking English, while developing confidence in themselves, accepting and respecting others and learning how to work as part of a team. 
 
