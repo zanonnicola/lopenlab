@@ -21,4 +21,4 @@ Nos ateliers sont adaptés aux bébés, petits et enfants âgés de 1 à 11 ans.
 
 Nos ateliers sont entièrement en anglais. Ils s’adressent aussi bien aux enfants bilingues qu’aux enfants et parents n’ayant aucune ou peu de connaissance de l’anglais. Notre équipe de professionnels comprend le français et est parfaitement formée pour familiariser les enfants à la pratique d’une langue étrangère.
 
-**Les inscriptions pour la rentrée scolaire 2019-2020 sont ouvertes : le planning est disponible ci-dessous. Pour plus d'informations, n'hésitez pas à nous **[**contacter**](mailto:hello@lopenlab.com)** directement. **
+**Les inscriptions pour la rentrée scolaire 2019-2020 sont ouvertes : le planning est disponible ci-dessous. N'hésitez pas à nous **[**contacter **](mailto:hello@lopenlab.com)**directement pour toute question.**
