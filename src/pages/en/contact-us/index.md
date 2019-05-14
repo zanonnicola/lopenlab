@@ -8,7 +8,7 @@ secondaryColor: '#a9ebff'
 title: Contact
 metaDescription: >-
   L’Open LAB for Kids is an English language school for babies, toddlers and
-  children aged from 1 to 11. We are open Mondays, Tuesdays, Thursdays and
+  children aged from 2 to 11. We are open Mondays, Tuesdays, Thursdays and
   Fridays in the morning and after school and all day Wednesdays and Saturdays. 
 contentTitle: Contact us
 subTitle: >-
