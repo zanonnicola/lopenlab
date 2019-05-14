@@ -11,8 +11,8 @@ metaDescription: >-
 contentTitle: 'Apprendre, créer, s’amuser, tout en anglais !'
 subTitle: >-
   Pour se familiariser avec l’anglais dès le plus jeune âge à travers des
-  activités épanouissantes et ludiques : consultez notre planning d'ateliers
-  209-2020.
+  activités épanouissantes et ludiques : consultez dès maintenant notre planning
+  d'ateliers 2019-2020.
 ---
 Notre objectif est de donner du sens à l’apprentissage à travers des activités créatives et ludiques, de favoriser la pratique naturelle d’une langue étrangère et plus globalement de proposer un contenu éducatif riche qui contribue au développement des enfants.
 
