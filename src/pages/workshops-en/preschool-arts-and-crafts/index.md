@@ -11,8 +11,8 @@ metaDescription: >-
   of fun with other kids of similar age. 
 contentTitle: Arts & Crafts workshop
 pageGallery:
-  - image: /assets/ateliers-vacances-by-l-open-lab-for-kids.jpg
-  - image: /assets/fall-fun-week_playdough-by-l-open-lab-for-kids.jpg
+  - image: /assets/atelier-créatif-en-anglais-vacances.jpg
+  - image: /assets/my-family_lea.jpg
 age: 3-6
 when: 'Saturdays, from 10.30 am to 11.30am'
 where: 'Happy Place by Vacouva<br />43 quai de Malakoff, 44000 Nantes'
