@@ -4,13 +4,13 @@ layout: page-workshop-single
 date: '2018-04-27'
 lng: fr
 color: '#60BDC1'
-title: 'Fun Wednesday '
+title: Fun Wednesday (1h30)
 metaDescription: >-
   Le mercredi, les enfants peuvent faire une pause dans la semaine en
   expérimentant de nouvelles disciplines (musique, art, bricolage, danse,
   jardinage…) tout en apprenant l’anglais. Les enfants évoluent dans un cadre
   vert et protégé, au cœur d’un jardin. 
-contentTitle: Le mercredi (1h30)
+contentTitle: Le mercredi après-midi
 pageGallery:
   - image: /assets/20190416_160133-1-.jpg
   - image: /assets/20190419_112531.jpg
