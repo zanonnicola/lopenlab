@@ -30,5 +30,5 @@ Les ateliers se déroulent en petits groupes organisés par tranches d’âges h
 
 ### Un programme pédagogique réfléchi et adapté
 
-Notre méthode d’apprentissage est construite en lien avec le programme européen des langues. Nous suivons une progression cohérente et rigoureuse, adaptée aux enfants âgés de 1 à 11 ans. Nous utilisons des supports pédagogiques variés (flashcards, albums de jeunesse, cahiers d’activité…) et du matériel Montessori adapté.
+Notre méthode d’apprentissage est construite en lien avec le programme européen des langues. Nous suivons une progression cohérente et rigoureuse, adaptée aux enfants âgés de 2 à 11 ans. Nous utilisons des supports pédagogiques variés (flashcards, albums de jeunesse, cahiers d’activité…) et du matériel Montessori adapté.
 Les enfants découvrent différentes thématiques qui sont approfondies et revues au cours de plusieurs ateliers tout au long de l’année. Les objectifs pédagogiques sont clairement définis, le contenu des ateliers et le vocabulaire enseigné sont partagés régulièrement avec les parents afin de les aider à accompagner leurs enfants dans une pratique quotidienne de la langue.  Notre objectif est que les enfants prennent plaisir à échanger en anglais, acquièrent un vocabulaire de tous les jours, développent confiance en eux et en leurs capacités.
