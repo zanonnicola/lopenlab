@@ -9,7 +9,7 @@ title: Contact
 metaDescription: >-
   L’Open LAB for Kids est une école de langues enseignant l’anglais de manière
   ludique en matinée, pendant les temps périscolaire et extrascolaire. Nous
-  accueillons les enfants âgés de 1 à 11 ans. 
+  accueillons les enfants âgés de 2 à 11 ans. 
 contentTitle: Nous contacter
 subTitle: >-
   Les inscriptions pour la rentrée 2019-2020 ont commencé ; contactez-nous dès
@@ -18,9 +18,9 @@ contactBoxTitle: Nous contacter
 ---
 L’Open LAB for Kids, c’est une méthode d’apprentissage de l’anglais innovante, basée sur la découverte et la pratique de la langue anglaise, à travers des activités épanouissantes, créatives et ludiques.
 
-Nous accueillons les bébés et les petits accompagnés de leurs parents, les enfants dès la maternelle et jusqu'à la fin de l'école primaire. Les ateliers sont ouverts aussi bien aux enfants bilingues qu’aux enfants qui découvrent l’anglais. Nous organisons également des ateliers parents-enfants ou grands-parents-enfants.
-
 **Les inscriptions pour l’année scolaire 2019-2020 ont commencé ; contactez-nous pour en savoir plus et inscrire vos enfants.**
+
+Nous accueillons les bébés et les petits accompagnés de leurs parents, les enfants dès la maternelle et jusqu'à la fin de l'école primaire. Les ateliers sont ouverts aussi bien aux enfants bilingues qu’aux enfants qui découvrent l’anglais. 
 
 
 
