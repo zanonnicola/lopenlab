@@ -10,9 +10,10 @@ metaDescription: >-
   such as art & craft, theatre, cooking, yoga, gardening and other fun
   activities.
 contentTitle: Afterschool workshop
-gallery: a
+pageGallery:
+  - image: /assets/fun-wednesday-by-l-open-lab-for-kids.jpg
 age: 3-6
-when: 'Mondays or Thursdays from 4.30pm to 6.45pm '
+when: 'Mondays, Tuesdays, Thursdays and Fridays from 4.30pm to 6.30pm '
 where: 77 rue de la Tullaye<br />44300 Nantes
 price: >-
   95€/month<br /> The price includes pick-up from schools located in the
