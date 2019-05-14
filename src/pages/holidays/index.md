@@ -18,12 +18,18 @@ subTitle: >-
   Faire un break, explorer de nouvelles disciplines tout en s'initiant ou se
   perfectionnant à l'anglais.
 ---
-Pendant les vacances de Pâques, nous accueillons les enfants de 3 à 14 ans du **lundi 15 au vendredi 19 avril**, en matinée pour les 3-6 (de 9h à midi) et dans l'après-midi, de 14h à 17h, pour les enfants à partir de 6 ans. 
+Pendant les vacances nous proposons aux enfants de découvrir et de pratiquer l'anglais à travers différentes activités orientées sur le développement de la créativité et ancrées dans la pratique de la langue au quotidien : arts plastiques, bricolage, théâtre, cuisine, premières expériences scientifiques et technologiques (S.T.E.M), yoga, musique et éveil corporel... Nos objectifs : permettre aux enfants de développer un goût pour la pratique de l’anglais, parler sans complexe et sans contrainte à travers des activités qui leur plaisent et dans laquelle ils sont impliqués.
 
-Pendant les vacances nous proposons aux enfants de découvrir et de pratiquer l'anglais à travers différentes activités orientées sur le développement de la créativité et ancrées dans la pratique de la langue au quotidien : arts plastiques, bricolage, théâtre, cuisine, premières expériences scientifiques et technologiques (S.T.E.M), yoga, musique et éveil corporel...
+Les ateliers-vacances durent généralement une semaine, à raison de 3 heures par jour, en matinée (de 9h à midi) ou l'après-midi (de 14h à 17h).
 
-Nos objectifs : permettre aux enfants de développer un goût pour la pratique de l’anglais, parler sans complexe et sans contrainte à travers des activités qui leur plaisent et dans laquelle ils sont impliqués.
+**Dates des prochains ateliers-vacances : **
+
+\- _Back to School Fun Week_, du 26 au 30 août 2019
+
+\- _Fall Fun Weeks_, du 21 au 25 octobre et du 28 au 31 octobre 2019
+
+Les matinées sont généralement réservées aux enfants entre 3 et 6 ans, les après-midis aux enfants à partir de 6 ans. 
 
 Le tarif de l’atelier-vacances pour 5 jours est de 189 euros.
 
-Contactez-nous dès maintenant pour obtenir plus d'informations et pour vous inscrire. A très vite !
+[Contactez-nous](hello@lopenlab.com) dès maintenant pour réserver une place pour votre(vos) enfant(s). A très vite !
