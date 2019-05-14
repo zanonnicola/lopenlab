@@ -11,17 +11,17 @@ metaDescription: >-
   workshops take place in the Rond-point de Paris neighbourhood, a few minutes
   away from Nantes city center. Car park and transport facilities nearby.
 contentTitle: Fun Wednesday workshop
-gallery: a
+pageGallery:
+  - image: /assets/atelier-fun-wednesday-matin.jpg
+  - image: /assets/team-work_l-open-lab-for-kids.jpg
 age: 6-11
-when: Wednesdays from 9.30am to 11.30am or from 2pm to 3.30pm
+when: Wednesdays from 9.30am to 11.30am or from 2pm to 4pm
 where: 77 rue de la Tullaye<br />44300 Nantes
-price: >-
-  225€ per trimester for a two-hour workshop every week<br />180€ per trimester
-  for an hour and a half of activities
+price: 225€ per trimester
 ---
 The Fun Wednesday workshops are first and foremost the opportunity for children to take a break from the week in a warm and welcoming environment, our Lab, located in the heart of a garden and designed specifically for kids. Every Wednesday morning, from 9.30am to 11.30am, we give children the opportunity to practice English, while experiencing a great deal of creative activities: STEM (Science, Technology, Engineering and Mathematics), fine arts, gardening, cooking and much more! Workshops are organized in small groups, with kids of similar ages and are carried out in English only. The topics and projects are set on a quarterly basis, in accordance with the interests and level of development of the children. 
 
-> Interested in the workshop but not available at this time? Please [get in touch with us](/en/contact-us), we're in the process of creating new groups and may be able to open a new workshop on that day or during the week.
+> Interested in the workshop but not available at this time? Please [get in touch with us](/en/contact-us), it's important to us to work out a timetable that works for most families!
 
 [Learn more about our pedagogy](/en/pedagogy)
 
