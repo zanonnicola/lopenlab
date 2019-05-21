@@ -12,7 +12,6 @@ metaDescription: >-
 contentTitle: 'Arts plastiques en anglais '
 pageGallery:
   - image: /assets/team-work_l-open-lab-for-kids.jpg
-  - {}
 age: 6-11
 when: 'Le samedi matin, de 10h30 à midi'
 where: Le LAB<br />77 rue de la Tullaye 44300 Nantes
