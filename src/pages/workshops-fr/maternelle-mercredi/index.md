@@ -10,7 +10,7 @@ metaDescription: >-
   expérimentant de nouvelles disciplines (musique, art, bricolage, danse,
   jardinage…) tout en apprenant l’anglais. Les enfants évoluent dans un cadre
   vert et protégé, au cœur d’un jardin. 
-contentTitle: En matinée (3h) ou l'après-midi (1h30)
+contentTitle: 'En matinée ou l''après-midi '
 pageGallery:
   - image: /assets/20190416_160133-1-.jpg
   - image: /assets/20190419_112531.jpg
