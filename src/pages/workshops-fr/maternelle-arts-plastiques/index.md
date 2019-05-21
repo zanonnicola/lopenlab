@@ -4,11 +4,11 @@ layout: page-workshop-single
 date: '2018-04-27'
 lng: fr
 color: '#60BDC1'
-title: Fun Wednesday (demi-journée)
+title: Arts & Crafts
 metaDescription: >-
-  Les enfants découvrent différentes activités tout en apprenant l’anglais. Les
+  Les enfants découvrent les arts plastiques tout en apprenant l’anglais. Les
   animateurs sont bilingues français-anglais et expérimentés. 
-contentTitle: 'Mercredi matin créatif '
+contentTitle: Eveil à l'art en anglais
 pageGallery:
   - image: /assets/weather-2.jpg
   - image: /assets/atelier-créatif-en-anglais-vacances.jpg
