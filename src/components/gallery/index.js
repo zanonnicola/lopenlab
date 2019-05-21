@@ -5,7 +5,7 @@ import Heading from '../heading'
 const Gallery = ({ galleryData, lng }) => {
   return (
     <React.Fragment>
-      {galleryData !== null || galleryData.length > 0 ? (
+      {galleryData && (
         <section className="global-gallery" id="holiday-gallery">
           <div className="wrapper wrapper--padded">
             <Heading
@@ -34,7 +34,7 @@ const Gallery = ({ galleryData, lng }) => {
             </div>
           </div>
         </section>
-      ) : null}
+      )}
     </React.Fragment>
   )
 }
