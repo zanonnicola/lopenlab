@@ -24,4 +24,4 @@ Aquarelle, linogravure, monotypie... en anglais ! Le samedi matin, nous proposon
 
 [En savoir plus sur notre pédagogie](/pedagogie)
 
-[Découvrir Happy Place by Vacouva en photos](/nosateliers/#vacouva)
+[Découvrir notre Lab en photos](https://kids.lopenlab.com/nosateliers/#lab)
