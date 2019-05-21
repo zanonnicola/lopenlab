@@ -33,7 +33,11 @@ const Layout = ({ children, data, location }) => {
 
   for (let index = 0; index < data.allMarkdownRemark.edges.length; index++) {
     const { node } = data.allMarkdownRemark.edges[index]
-    if (node.frontmatter.path === location.pathname) {
+    if (
+      node.frontmatter.path === location.pathname ||
+      node.frontmatter.path ===
+        location.pathname.substr(0, location.pathname.length - 1)
+    ) {
       tag = node.frontmatter.age
       break
     }
@@ -56,16 +60,14 @@ const Layout = ({ children, data, location }) => {
         lightenDarkenColor(node.frontmatter.color, 44)
       break
     } else if (location.pathname === '/en') {
-      heroTitle =
-        'Learning and practicing English, while having fun – simply!'
+      heroTitle = 'Learning and practicing English, while having fun – simply!'
       heroSubtitle =
         'Enriching activities adapted to children’s ages and interests: arts, theatre, music, cooking, yoga, all in English.'
       color = '#fff'
       secondaryColor = '#fff'
       break
     } else if (location.pathname === '/') {
-      heroTitle =
-        'Apprendre l’anglais en s’amusant'
+      heroTitle = 'Apprendre l’anglais en s’amusant'
       heroSubtitle =
         'Des activités enrichissantes et adaptées pour les enfants : arts plastiques, théâtre, musique, cuisine, yoga, le tout en anglais.'
       color = '#fff'

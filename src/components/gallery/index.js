@@ -5,7 +5,7 @@ import Heading from '../heading'
 const Gallery = ({ galleryData, lng }) => {
   return (
     <React.Fragment>
-      {galleryData && (
+      {galleryData !== null || galleryData.length > 0 ? (
         <section className="global-gallery" id="holiday-gallery">
           <div className="wrapper wrapper--padded">
             <Heading
@@ -14,29 +14,33 @@ const Gallery = ({ galleryData, lng }) => {
               extraStyle={{ marginBottom: '50px' }}
             />
             <div className="global-gallery-photos">
-              {galleryData.map((galleryImage, i) => (
-                <div
-                  key={`${galleryImage.image.childImageSharp.id.substring(
-                    0,
-                    4
-                  )}-${i}`}
-                >
-                  <img
-                    src={galleryImage.image.childImageSharp.sizes.src}
-                    alt="Gallery"
-                  />
-                </div>
-              ))}
+              {galleryData.map((galleryImage, i) => {
+                if (galleryImage.image !== null) {
+                  return (
+                    <div
+                      key={`${galleryImage.image.childImageSharp.id.substring(
+                        0,
+                        4
+                      )}-${i}`}
+                    >
+                      <img
+                        src={galleryImage.image.childImageSharp.sizes.src}
+                        alt="Gallery"
+                      />
+                    </div>
+                  )
+                }
+              })}
             </div>
           </div>
         </section>
-      )}
+      ) : null}
     </React.Fragment>
   )
 }
 
 Gallery.propTypes = {
-  galleryData: PropTypes.object.isRequired,
+  galleryData: PropTypes.array.isRequired,
   lng: PropTypes.string.isRequired,
 }
 
