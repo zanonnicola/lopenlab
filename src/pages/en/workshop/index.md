@@ -23,4 +23,4 @@ Our workshops are adapted to babies, toddlers and children aged between 2 and 11
 
 Workshops are carried out entirely in English. They are not only open to kids who already speak English but are also open to kids and parents who don’t. Our team members are both French and English speaking professionals, with a wealth of experience in making kids feel at ease in speaking a foreign language.
 
-**Enrolment for the new school year 2019-2020 has now started: please get in touch with us on **[**hello@lopenlab.com**](mailto:hello@lopenlab.com)** or on 06.86.02.22.50 for more information. We'd be very happy to answer any of your questions.**
+**Enrolment for the new school year 2019-2020 has now started: please get in touch with us on [hello@lopenlab.com](mailto:hello@lopenlab.com) or on 06.86.02.22.50 for more information. We'd be very happy to answer any of your questions.**
