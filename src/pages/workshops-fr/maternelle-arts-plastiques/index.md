@@ -15,7 +15,7 @@ pageGallery:
   - image: /assets/my-family_lea.jpg
 age: 3-6
 when: 'Le samedi matin, de 10h30 à 11h30'
-where: Happy Place by Vacouva<br />43 quai de Malakoff 44000 Nantes
+where: Le LAB <br />77 rue de la Tullaye 44300 Nantes
 price: 520€ pour l'année scolaire<br />Possibilité de paiement en plusieurs fois
 ---
 Pendant nos ateliers, les enfants découvrent et pratiquent l'anglais de manière ludique tout en se développant sur le plan global. Au programme : peinture, confection d'objets variés, musique et comptines, yoga, activités sensorielles… Les ateliers ont lieu le samedi matin, en plein coeur de Nantes (quartier gare Sud).
@@ -24,4 +24,4 @@ Pendant nos ateliers, les enfants découvrent et pratiquent l'anglais de manièr
 
 [Plus d'infos sur notre approche](/pedagogie)
 
-[Découvrir l'espace Happy Place en photos](https://kids.lopenlab.com/nosateliers/#vacouva)
+[Découvrir notre Lab en photos](https://kids.lopenlab.com/nosateliers/#lab)
