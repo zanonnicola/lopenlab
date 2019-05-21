@@ -15,14 +15,14 @@ pageGallery:
   - image: /assets/l-open-lab-for-kids.jpg
   - image: /assets/our-first-discovery-workshop_l-open-lab-for-kids.jpg
 age: 3-6
-when: 'Le mercredi matin, de 9h à midi'
-where: 'Le LAB<br />77 rue de la Tullaye, 44300 Nantes'
-price: 750€ pour l'année scolaire<br />Possibilité de paiement en plusieurs fois
+when: 'Le samedi matin, de 10h30 à 11h30'
+where: Happy Place by Vacouva<br />43 quai de Malakoff 44000 Nantes
+price: 520€ pour l'année scolaire<br />Possibilité de paiement en plusieurs fois
 ---
-Le mercredi matin, les enfants viennent faire un break au Lab. Au programme : arts plastiques, bricolage, musique et comptines, cuisine, jeux de rôles, activités sensorielles et extérieures, le tout en anglais. Notre objectif : permettre aux enfants de développer un goût pour l'anglais tout en se développant sur le plan global. 
+Pendant nos ateliers, les enfants découvrent et pratiquent l'anglais de manière ludique tout en se développant sur le plan global. Au programme : peinture, confection d'objets variés, musique et comptines, yoga, activités sensorielles… Les ateliers ont lieu le samedi matin, en plein coeur de Nantes (quartier gare Sud).
 
-> Inscriptions 2019-2020 : nous travaillons en petit effectif, ne tardez pas à nous contacter à <mailto:hello@lopenlab.com> ou par téléphone au 06.86.02.22.50 pour inscrire votre(vos) enfants. 
+> Les inscriptions pour l'année scolaire 2019-2020 ont commencé. Contactez-nous dès maintenant par [mail](mailto:hello@lopenlab.com) ou par téléphone au 06.86.02.22.50 pour inscrire votre(vos) enfants ou venir assister à un atelier d'essai.
 
 [Plus d'infos sur notre approche](/pedagogie)
 
-[Découvrir notre Lab en photos](https://kids.lopenlab.com/nosateliers/#lab)
+[Découvrir l'espace Happy Place en photos](https://kids.lopenlab.com/nosateliers/#vacouva)
