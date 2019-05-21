@@ -4,21 +4,23 @@ layout: page-workshop-single
 date: '2018-04-27'
 lng: fr
 color: '#60BDC1'
-title: Fun Wednesday (1h30)
+title: 'Fun Wednesday '
 metaDescription: >-
   Le mercredi, les enfants peuvent faire une pause dans la semaine en
   expérimentant de nouvelles disciplines (musique, art, bricolage, danse,
   jardinage…) tout en apprenant l’anglais. Les enfants évoluent dans un cadre
   vert et protégé, au cœur d’un jardin. 
-contentTitle: Le mercredi après-midi
+contentTitle: En matinée (3h) ou l'après-midi (1h30)
 pageGallery:
   - image: /assets/20190416_160133-1-.jpg
   - image: /assets/20190419_112531.jpg
   - image: /assets/musique-en-anglais_l-open-lab-for-kids.jpg
 age: 3-6
-when: 'Les mercredis, de 16h30 à 18h'
+when: 'Le mercredi matin, de 9h à midi<br />L''après-midi, de 16h30 à 18h'
 where: 77 rue de la Tullaye<br />44300 Nantes
-price: 570€ pour l'année scolaire<br />Possibilité de paiement en plusieurs fois
+price: >-
+  750€ pour 3 heures hebdomadaires<br />570€ pour 1h30<br />Inscription annuelle
+  avec possibilité de paiement en plusieurs fois
 ---
 Le mercredi, les enfants se retrouvent au [Lab](https://www.google.fr/maps?q=77+rue+de+la+tullaye+nantes&rlz=1C1JZAP_enFR710FR711&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiL6Pi9jd_cAhULCxoKHZXoAKEQ_AUICigB), au coeur d'un jardin privatif, pour un moment de découverte et d’expérimentation : arts plastiques, bricolage, premières expériences scientifiques et technologiques, cuisine, jardinage… Le tout en anglais bien sûr ! Pour les enfants, c’est l’occasion de faire une pause dans la semaine, de sortir du cadre scolaire et d'évoluer dans un environnement un peu comme à la maison, s’essayer à de nouvelles disciplines de manière ludique tout en apprenant plein de nouvelles choses. 
 
