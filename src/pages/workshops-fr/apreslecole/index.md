@@ -12,6 +12,7 @@ metaDescription: >-
 contentTitle: Après l'école
 pageGallery:
   - image: /assets/fun-wednesday-by-l-open-lab-for-kids.jpg
+  - image: /assets/egg-treasure-hunt.jpg
 age: 3-6
 when: 'Les lundis, mardis, jeudis et vendredis'
 where: >-
