@@ -4,18 +4,18 @@ layout: page-workshop-single
 date: '2018-04-27'
 lng: fr
 color: '#47888B'
-title: Fun Wednesday (2h)
+title: 'Fun Wednesday '
 metaDescription: >-
   Le mercredi, nous proposons aux enfants de faire une pause créative et ludique
   dans la semaine et d’apprendre l’anglais. Les ateliers ont lieu dans un cadre
   magique, un jardin privatif, à Nantes. 
-contentTitle: Le mercredi
+contentTitle: Le matin ou l'après-midi
 pageGallery:
   - image: /assets/fun-wednesday-by-l-open-lab-for-kids.jpg
   - image: /assets/team-work_l-open-lab-for-kids.jpg
   - image: /assets/atelier-fun-wednesday-matin.jpg
 age: 6-11
-when: 'Le mercredi matin, de 9h30 à 11h30 ou mercredi après-midi, de 14h à 16h'
+when: 'Deux créneaux disponibles :<br />De 9h30 à 11h30 ou de 14h à 16h'
 where: 77 rue de la Tullaye<br />44300 Nantes
 price: 675€ par an<br />Possibilité de paiement en plusieurs fois
 ---
