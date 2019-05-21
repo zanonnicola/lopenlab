@@ -10,10 +10,9 @@ metaDescription: >-
   animateurs sont bilingues français-anglais et expérimentés. 
 contentTitle: Eveil à l'art en anglais
 pageGallery:
-  - image: /assets/weather-2.jpg
-  - image: /assets/atelier-créatif-en-anglais-vacances.jpg
-  - image: /assets/l-open-lab-for-kids.jpg
-  - image: /assets/our-first-discovery-workshop_l-open-lab-for-kids.jpg
+  - image: /assets/img_20190418_202649_123.jpg
+  - image: /assets/20190419_094652.jpg
+  - image: /assets/my-family_lea.jpg
 age: 3-6
 when: 'Le samedi matin, de 10h30 à 11h30'
 where: Happy Place by Vacouva<br />43 quai de Malakoff 44000 Nantes
