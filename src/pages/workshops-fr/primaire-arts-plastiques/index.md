@@ -19,7 +19,7 @@ price: 615€ pour l'année scolaire<br />Possibilité de paiement en plusieurs 
 ---
 Aquarelle, linogravure, monotypie... en anglais ! Le samedi matin, nous proposons aux enfants de découvrir différentes techniques artistiques et créatives tout en apprenant et pratiquant l'anglais. Nos objectifs : donner aux enfants le goût de la pratique de l'anglais tout en se développant sur le plan global et en s'amusant (surtout !).
 
-> Les inscriptions pour l'année scolaire 2019-2020 ont commencé. Contactez-nous dès maintenant [par mail](mailto:hello@lopenlab.com) ou par téléphone au 06.86.02.22.50 pour obtenir plus d'informations et inscrire votre(vos) enfant(s). 
+> Les inscriptions pour l'année scolaire 2019-2020 ont commencé. Contactez-nous dès maintenant [par mail](mailto:hello@lopenlab.com) ou par téléphone au 06.86.02.22.50 pour obtenir plus d'informations, venir visiter le Lab et inscrire votre(vos) enfant(s). 
 
 [En savoir plus sur notre pédagogie](/pedagogie)
 
