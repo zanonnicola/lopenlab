@@ -18,7 +18,7 @@ when: 'Le samedi matin, de 10h30 à 11h30'
 where: Le LAB <br />77 rue de la Tullaye 44300 Nantes
 price: 520€ pour l'année scolaire<br />Possibilité de paiement en plusieurs fois
 ---
-Pendant nos ateliers, les enfants découvrent et pratiquent l'anglais de manière ludique tout en se développant sur le plan global. Au programme : peinture, confection d'objets variés, musique et comptines, yoga, activités sensorielles… Les ateliers ont lieu le samedi matin, en plein coeur de Nantes (quartier gare Sud).
+Pendant nos ateliers, les enfants découvrent et pratiquent l'anglais de manière ludique tout en se développant sur le plan global. Au programme : peinture, confection d'objets variés, musique et comptines, yoga, activités sensorielles… Notre objectif : donner aux enfants le goût de la pratique de l'anglais, et ce dès le plus jeune âge !
 
 > Les inscriptions pour l'année scolaire 2019-2020 ont commencé. Contactez-nous dès maintenant par [mail](mailto:hello@lopenlab.com) ou par téléphone au 06.86.02.22.50 pour inscrire votre(vos) enfants ou venir assister à un atelier d'essai.
 
