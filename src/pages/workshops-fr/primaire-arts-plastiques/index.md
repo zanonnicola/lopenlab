@@ -15,7 +15,7 @@ pageGallery:
   - image: /assets/atelier-monotypie-en-anglais.jpg
 age: 6-11
 when: 'Le samedi matin, de 10h30 à midi'
-where: Le LAB<br />77 rue de la Tullaye 44300 Nantes
+where: Happy Place by Vacouva<br />43 quai de Malakoff 44000 Nantes
 price: 615€ pour l'année scolaire<br />Possibilité de paiement en plusieurs fois
 ---
 Aquarelle, linogravure, monotypie... en anglais ! Le samedi matin, nous proposons aux enfants de découvrir différentes techniques artistiques et créatives tout en apprenant et pratiquant l'anglais. Nos objectifs : donner aux enfants le goût de la pratique de l'anglais tout en se développant sur le plan global et en s'amusant (surtout !).
@@ -24,4 +24,4 @@ Aquarelle, linogravure, monotypie... en anglais ! Le samedi matin, nous proposon
 
 [En savoir plus sur notre pédagogie](/pedagogie)
 
-[Découvrir notre Lab en photos](https://kids.lopenlab.com/nosateliers/#lab)
+[Découvrir Happy Place en photos](https://kids.lopenlab.com/nosateliers#vacouva)
