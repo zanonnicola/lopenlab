@@ -18,7 +18,7 @@ pageGallery:
 age: 1-3
 when: 'Le samedi, de 9h30 à 10h15 '
 where: 'Happy Place by Vacouva<br />43 quai de Malakoff, 44000 Nantes'
-price: '480€ pour l''année scolaire<br />Possibilité de paiement en plusieurs fois '
+price: '485€ pour l''année scolaire<br />Possibilité de paiement en plusieurs fois '
 ---
 Sentir, toucher, confectionner, bouger, chanter… Les petits développent leurs sens à travers des activités ludiques et manuelles réalisées en anglais.
 
