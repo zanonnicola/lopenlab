@@ -19,8 +19,6 @@ Our holiday workshops are an opportunity for children to take a break, have fun,
 
 The dates of the upcoming holiday workshops are as follows:
 
-_Back to School Fun Week_, from August, 26th to August, 30th 2019
-
 _Fall Fun Weeks_, from October, 21st to October, 25th and from October, 28th to October, 31st 2019
 
 Our holiday-workshops are open to children from 3 to 6 years of age in the morning, from 9am to midday, and for children aged from 6 to 14 in the afternoon, from 2pm to 5pm.
