@@ -23,8 +23,6 @@ Les ateliers-vacances durent généralement une semaine, à raison de 3 heures p
 
 **Dates des prochains ateliers-vacances : **
 
-\- _Back to School Fun Week_, du 26 au 30 août 2019
-
 \- _Fall Fun Weeks_, du 21 au 25 octobre et du 28 au 31 octobre 2019
 
 Les matinées sont généralement réservées aux enfants entre 3 et 6 ans, les après-midis aux enfants à partir de 6 ans. 
