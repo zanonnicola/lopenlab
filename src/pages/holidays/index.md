@@ -6,7 +6,6 @@ lng: fr
 color: '#FC6681'
 pageGallery:
   - image: /assets/halloween_anglais_vacances.jpg
-  - image: /assets/img-20191103-wa0019.jpg
   - image: /assets/cuisine_halloween.jpg
   - image: /assets/atelier-automne-anglais_vacances-toussaint-.jpg
 title: Vacances
