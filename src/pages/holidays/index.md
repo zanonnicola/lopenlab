@@ -5,8 +5,10 @@ date: '2018-04-27'
 lng: fr
 color: '#FC6681'
 pageGallery:
-  - image: /assets/ateliers-vacances-by-l-open-lab-for-kids.jpg
-  - image: /assets/team-work_l-open-lab-for-kids.jpg
+  - image: /assets/halloween_anglais_vacances.jpg
+  - image: /assets/img-20191103-wa0019.jpg
+  - image: /assets/cuisine_halloween.jpg
+  - image: /assets/atelier-automne-anglais_vacances-toussaint-.jpg
 title: Vacances
 metaDescription: >-
   A chaque période de vacances scolaires, nous organisons une semaine de stage
@@ -17,16 +19,16 @@ subTitle: >-
   Faire un break, explorer de nouvelles disciplines tout en s'initiant ou se
   perfectionnant à l'anglais.
 ---
-Pendant les vacances nous proposons aux enfants de découvrir et de pratiquer l'anglais à travers différentes activités orientées sur le développement de la créativité et ancrées dans la pratique de la langue au quotidien : arts plastiques, bricolage, théâtre, cuisine, premières expériences scientifiques et technologiques (S.T.E.M), yoga, musique et éveil corporel... Nos objectifs : permettre aux enfants de développer un goût pour la pratique de l’anglais, parler sans complexe et sans contrainte à travers des activités qui leur plaisent et dans laquelle ils sont impliqués.
+Pendant les vacances nous proposons aux enfants de découvrir et de pratiquer l'anglais à travers différentes activités : arts plastiques, bricolage, théâtre, cuisine, premières expériences scientifiques et technologiques (S.T.E.M), danse et yoga. Nos objectifs : favoriser la pratique de la langue de manière naturelle et sans contrainte à travers des activités enrichissantes et ludiques pour les enfants.
 
-Les ateliers-vacances durent généralement une semaine, à raison de 3 heures par jour, en matinée (de 9h à midi) ou l'après-midi (de 14h à 17h).
+**Nouveauté : nous proposons aux enfants de découvrir le hip hop et le jazz pendant les vacances de février 2020. **
+
+Les ateliers-vacances durent une semaine, à raison de 3 heures par jour, en matinée (de 9h à midi) ou l'après-midi (de 14h à 17h).
 
 **Dates des prochains ateliers-vacances : **
 
-\- _Fall Fun Weeks_, du 21 au 25 octobre et du 28 au 31 octobre 2019
+\- _Jazz and Hip Hop Fun Week_, du 17 au 21 février et du 24 au 28 février 2020.
 
-Les matinées sont généralement réservées aux enfants entre 3 et 6 ans, les après-midis aux enfants à partir de 6 ans. 
-
-Le tarif de l’atelier-vacances pour 5 jours est de 189 euros.
+Le tarif de l’atelier-vacances est de 189 euros.
 
 [Contactez-nous](mailto:hello@lopenlab.com) dès maintenant pour réserver une place pour votre(vos) enfant(s) ou envoyez-nous un message via le formulaire ci-dessous. A très vite !
