@@ -28,6 +28,6 @@ Les ateliers-vacances durent une semaine, à raison de 3 heures par jour, en mat
 
 \- _Jazz and Hip Hop Fun Week_, du 17 au 21 février et du 24 au 28 février 2020.
 
-Le tarif de l’atelier-vacances est de 189 euros.
+Le tarif de l’atelier-vacances est de 199 euros.
 
 [Contactez-nous](mailto:hello@lopenlab.com) dès maintenant pour réserver une place pour votre(vos) enfant(s) ou envoyez-nous un message via le formulaire ci-dessous. A très vite !
