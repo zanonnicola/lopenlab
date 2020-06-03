@@ -9,7 +9,7 @@ metaDescription: >-
   Nous proposons des ateliers parents-enfants pour les enfants de 12 à 36 mois.
   Accompagnés d’un adulte, les enfants découvrent l’anglais à travers des
   activités d’éveil adaptées.
-contentTitle: Atelier parents-enfants
+contentTitle: Ateliers parents-enfants
 pageGallery:
   - image: /assets/ice-painting.jpg
   - image: /assets/mother-s-day.jpg
@@ -17,7 +17,7 @@ pageGallery:
   - image: /assets/musique-en-anglais_l-open-lab-for-kids.jpg
 age: 1-3
 when: 'Ateliers occasionnels '
-where: 77 rue de la Tullaye<br />44300 Nantes
+where: Le LAB<br />77 rue de la Tullaye<br />44300 Nantes
 price: A partir de 18€ par atelier
 ---
 Sentir, toucher, confectionner, bouger, chanter… Les petits développent leurs sens à travers des activités ludiques et manuelles réalisées en anglais.
