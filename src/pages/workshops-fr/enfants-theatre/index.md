@@ -13,9 +13,11 @@ contentTitle: 'Théâtre en anglais '
 pageGallery:
   - image: /assets/openlab-2.jpg
 age: 6-11
-when: 'Les mardis, de 17h à 18h30'
-where: 77 rue de la Tullaye<br />44300 Nantes
-price: 615€ pour l'année scolaire<br />Possibilité de paiement en plusieurs fois
+when: 'Ateliers occasionnels '
+where: Le LAB<br />77 rue de la Tullaye<br />44300 Nantes
+price: >-
+  Tarifs variables en fonction de la durée de l'atelier et du nombre de
+  participants
 ---
 Apprendre une langue, pour nous, c'est avant tout la vivre, parler et échanger, tout naturellement. A travers des scènes de la vie de tous les jours, des scènes de théâtre, de cinéma ou encore des jeux de rôles et d’improvisation, l’apprentissage de l’anglais fait tout simplement partie du jeu. Les enfants prennent plaisir à s’exprimer en anglais, développent confiance en eux, apprenent à travailler en équipe tout en acceptant et respectant l’autre. 
 
