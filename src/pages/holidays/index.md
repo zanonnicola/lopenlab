@@ -20,13 +20,13 @@ subTitle: >-
 ---
 Pendant les vacances nous proposons aux enfants de découvrir et de pratiquer l'anglais à travers différentes activités : arts plastiques, bricolage, théâtre, cuisine, premières expériences scientifiques et technologiques (S.T.E.M), danse et yoga. Nos objectifs : favoriser la pratique de la langue de manière naturelle et sans contrainte à travers des activités enrichissantes et ludiques pour les enfants.
 
-**Nouveauté : nous proposons aux enfants de découvrir le hip hop et le jazz pendant les vacances de février 2020. **
+**Nouveauté : nous proposons aux enfants de découvrir la danse pendant les grandes vacances. **
 
 Les ateliers-vacances durent une semaine, à raison de 3 heures par jour, en matinée (de 9h à midi) ou l'après-midi (de 14h à 17h).
 
 **Dates des prochains ateliers-vacances : **
 
-\- _Jazz and Hip Hop Fun Week_, du 17 au 21 février et du 24 au 28 février 2020.
+\- _Back to School Fun Week_, du 24 au 28 août 2020.
 
 Le tarif de l’atelier-vacances est de 199 euros.
 
