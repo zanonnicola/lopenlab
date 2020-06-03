@@ -7,7 +7,7 @@ color: '#FC6681'
 pageGallery:
   - image: /assets/halloween_anglais_vacances.jpg
   - image: /assets/cuisine_halloween.jpg
-  - image: /assets/atelier-automne-anglais_vacances-toussaint-.jpg
+  - image: /assets/summer-fun_back-to-school-.jpg
 title: Vacances
 metaDescription: >-
   A chaque période de vacances scolaires, nous organisons une semaine de stage
