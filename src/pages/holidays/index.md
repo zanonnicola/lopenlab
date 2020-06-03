@@ -6,7 +6,6 @@ lng: fr
 color: '#FC6681'
 pageGallery:
   - image: /assets/halloween_anglais_vacances.jpg
-  - image: /assets/cuisine_halloween.jpg
   - image: /assets/summer-fun_back-to-school-.jpg
 title: Vacances
 metaDescription: >-
