@@ -7,6 +7,7 @@ color: '#FC6681'
 pageGallery:
   - image: /assets/halloween_anglais_vacances.jpg
   - image: /assets/cuisine_halloween.jpg
+  - image: /assets/summer-fun_back-to-school-.jpg
 title: Holidays
 metaDescription: >-
   Every school holiday, we run a holiday programme for children from 3 to 11
@@ -18,9 +19,9 @@ subTitle: >-
 ---
 Our holiday workshops are an opportunity for children to take a break, have fun, discover and explore new things, while learning and practising English. Our activities are all focused on developing creativity, motor skills and fostering speaking skills. Our objectives are to help children develop or maintain a taste for speaking English, develop confidence in their ability to speak and understand the language, while developing new skills and... having fun!
 
-**\*\*NEW: Jazz & Hip Hop\*\***
+**\*\*NEW: DANCE WORKSHOPS\*\***
 
-_Jazz and Hip Hop Fun Weeks_, from February, 17th to February, 21st and from February, 24th to February, 28th.
+_Back to School Fun Week_, from August, 24th to August, 28th 2020.
 
 Our holiday-workshops are open to children from 3 onwards. Workshops take place in the morning, from 9am to midday or in the afternoon, from 2pm to 5pm.
 
