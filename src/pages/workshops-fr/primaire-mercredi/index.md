@@ -12,7 +12,7 @@ metaDescription: >-
 contentTitle: En début d'après-midi
 pageGallery:
   - image: /assets/fun-wednesday-by-l-open-lab-for-kids.jpg
-  - image: /assets/team-work_l-open-lab-for-kids.jpg
+  - image: /assets/atelier-fun-wednesday-matin.jpg
 age: 6-11
 when: De 14h à 16h
 where: Le LAB<br />77 rue de la Tullaye<br />44300 Nantes
